@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionQuit"/>
+   </widget>
+   <widget class="QMenu" name="menuCalculator">
+    <property name="title">
+     <string>Calculator</string>
+    </property>
+    <addaction name="actionSimple"/>
+    <addaction name="actionEngr_Calculator"/>
+    <addaction name="actionHP_11C_Calculator"/>
+   </widget>
+   <widget class="QMenu" name="menuUtilities">
+    <property name="title">
+     <string>Utilities</string>
+    </property>
+    <addaction name="actionGrouping"/>
+    <addaction name="actionGraphics_Viewer"/>
+   </widget>
+   <widget class="QMenu" name="menuDesign">
+    <property name="title">
+     <string>Design</string>
+    </property>
+    <addaction name="actionSpur_Gear_Width"/>
+   </widget>
+   <widget class="QMenu" name="menuWeb">
+    <property name="title">
+     <string>Web</string>
+    </property>
+    <addaction name="actionCMSimfly"/>
+    <addaction name="actionPyGrouf"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuCalculator"/>
+   <addaction name="menuUtilities"/>
+   <addaction name="menuDesign"/>
+   <addaction name="menuWeb"/>
+  </widget>
+  <action name="actionSimple">
+   <property name="text">
+    <string>Simple Calculator</string>
+   </property>
+  </action>
+  <action name="actionQuit">
+   <property name="text">
+    <string>Quit</string>
+   </property>
+  </action>
+  <action name="actionEngr_Calculator">
+   <property name="text">
+    <string>Engr Calculator</string>
+   </property>
+  </action>
+  <action name="actionGrouping">
+   <property name="text">
+    <string>Grouping</string>
+   </property>
+  </action>
+  <action name="actionHP_11C_Calculator">
+   <property name="text">
+    <string>HP 11C Calculator</string>
+   </property>
+  </action>
+  <action name="actionSpur_Gear_Width">
+   <property name="text">
+    <string>Spur Gear Width</string>
+   </property>
+  </action>
+  <action name="actionCMSimfly">
+   <property name="text">
+    <string>CMSimfly</string>
+   </property>
+  </action>
+  <action name="actionPyGrouf">
+   <property name="text">
+    <string>PyGrouf</string>
+   </property>
+  </action>
+  <action name="actionGraphics_Viewer">
+   <property name="text">
+    <string>Graphics Viewer</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
