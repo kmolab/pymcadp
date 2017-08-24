@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+<head>
+<title>index</title>
+</head>
+
+<style>
+
+.body
+{
+    border: 1px soild black;
+    background-color : #708090 ;
+}
+table,tr,
+{
+    border: 1px solid black;
+    size :  ;
+}
+.screen
+{
+    width: 330px;
+    height: 65px;
+    font-size : 30px ;
+    background-color : #FFFAD2 ;
+}
+.button
+{
+    height: 50px;
+    width: 62px;
+    font-size: 13px;
+    font-weight : bold ;
+    background-color: Coral;
+    
+}
+.button4
+{
+    height: 50px;
+    width: 62px;
+    font-size: 13px;
+    font-weight : bold ;
+    background-color: Coral;
+    
+}
+.button0
+{
+    height: 50px;
+    width: 62px;
+    font-size: 13px;
+    font-weight : bold ;
+    background-color: HotPink;
+}
+.button1
+{
+    height: 50px;
+    width: 62px;
+    font-size: 13px;
+    font-weight : bold ;
+    background-color: Turquoise;
+}
+.button2
+{
+    height: 50px;
+    width: 62px;
+    font-size: 13px;
+    font-weight : bold ;
+    background-color: LightGreen;
+}
+.button3
+{
+    height: 50px;
+    width: 62px;
+    font-size: 13px;
+    font-weight : bold ;
+    background-color: Khaki;
+}
+.buttoni
+{
+    background-color: #DCDCDC;
+    font-size: 13px;
+    height : 44px  ;
+    width : 61px ;
+}
+.buttonj
+{
+    background-color: #4682B4;
+    font-size: 13px;
+    height : 44px  ;
+    width : 65px ;
+}
+.buttonj1
+{
+    background-color: #DCDCDC;
+    font-size: 13px;
+    height : 44px  ;
+    width : 65px ;
+}
+.buttonx
+{
+    height: 37px;
+    width : 45px;
+    font-size: 8px;
+}
+.buttonx1
+{
+    height: 37px;
+    width : 68px;
+    font-size: 8px;
+}
+.prog
+{
+    height: 52px;
+    width: 62px;
+    font-size: 13px;
+    font-weight : bold;
+}
+    
+</style>
+
+<body>
+
+<meta name='viewport' content='width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0'></meta>
+<meta name='viewport1' content='height=device-height,initial-scale=1,maximum-scale=1,user-scalable=0'></meta>
+
+<form name="calc">
+
+<table class="body">
+<td>
+
+<table id="screen">
+
+<td>
+
+<tr><input type="text" size="44" id="screen" name="screen" class="screen" readonly></tr>
+</td>
+</table>
+
+<table id="advanced">
+<tr>
+<td><input type="button" id="prog" class="button3" value="   nCr   " onclick="calc.screen.value+='C';resize();cresize();getans()"></td>
+<td><input type="button" id="prog" class="button3" value="   nPr   " onclick="calc.screen.value+='P';resize();cresize();getans()"></td>
+<td><input type="button" id="trigh1" class="button4" value="  sinh   " onclick="calc.screen.value=sinh1(calc.screen.value);resize();cresize();getans()"></td>
+<td><input type="button" id="trigh2" class="button4" value="  cosh " onclick="calc.screen.value=cosh1(calc.screen.value);resize();cresize();getans()"></td>
+<td><input type="button" id="trigh3" class="button4" value=" tanh  " onclick="calc.screen.value=tanh1(calc.screen.value);resize();cresize();getans()"></td>
+</tr>
+<tr>
+<td><input type="button" id="prog" class="prog" value="   hex   " onclick="calc.screen.value=hex(calc.screen.value);resize();cresize()"></td>
+<td><input type="button" id="prog" class="prog" value="   oct   " onclick="calc.screen.value=oct(calc.screen.value);resize();cresize()"></td>
+<td><input type="button" id="prog" class="prog" value="  bin   " onclick="calc.screen.value=bin(calc.screen.value);resize();cresize()"></td>
+<td><input type="button" id="prog" class="prog" value=" dec" onclick="calc.screen.value=dec(calc.screen.value);resize();cresize()"></td>
+<td><input type="button" id="prog1" class="button3" value="Qud" onclick="calc.screen.value=quad(calc.screen.value)"></td>
+</tr>
+<tr>
+<td><input type="button" id="trig1" class="button" value="   sin    " onclick="calc.screen.value=sin1(calc.screen.value);resize();cresize();getans()"></td>
+<td><input type="button" id="trig2" class="button" value="   cos   " onclick="calc.screen.value=cos1(calc.screen.value);cresize();resize();getans()"></td>
+<td><input type="button" id="trig3" class="button" value="   tan    " onclick="calc.screen.value=tan1(calc.screen.value);cresize();resize();getans()"></td>
+<td><input type="button" id="gen" class="button2" value="   log  " onclick="calc.screen.value=Math.log(calc.screen.value)/Math.LN10;resize();cresize();getans()"></td>
+<td><input type="button" id="gen" class="button2" value="   ln   " onclick="calc.screen.value=Math.log(calc.screen.value);resize();cresize();getans()"></td>
+</tr>
+
+<tr>
+<td><input type="button" class="button2" id="gen" value="    ^2    " onclick="calc.screen.value=Math.pow(calc.screen.value,2);cresize();resize();getans()"></td>
+<td><input type="button" class="button2" id="gen" value="    ^n    " onclick="calc.screen.value+='^';cresize();resize();getans()"></td>
+<td><input type="button" class="button2" id="gen" value="   ^0.5   " onclick="calc.screen.value=Math.pow(calc.screen.value,0.5);cresize();resize();getans()"></td>
+<td><input type="button" class="button2" id="gen" value="    +/-   " onclick="calc.screen.value=eval((calc.screen.value)*(-1));cresize();resize();getans()"></td>
+<td><input type="button" class="button2" id="gen" value="   1/x  " onclick="calc.screen.value=(1/(calc.screen.value));getans();resize();cresize();"></td>
+</tr>
+
+</table>
+
+<table id="basic">
+
+<tr>
+<td><input type="button" class="button3" id="gen" value="      !     " onclick="cresize();calc.screen.value=factorial(calc.screen.value);resize();getans()"></td>
+<td><input type="button" class="button3" id="gen" value="      (     " onclick="calc.screen.value+='(';resize();cresize()"></td>
+<td><input type="button" class="button3" id="gen" value="      )     " onclick="calc.screen.value+=')';resize();cresize()"></td>
+<td><input type="button" class="button0" id="gen" value="     C     " onclick="calc.screen.value=calc.screen.value.slice(0,((calc.screen.value.length)-1));cresize();resize();"></td>
+<td><input type="button" class="button0" id="gen" value="   AC      " onclick="calc.screen.value='';restore()"></td>
+</tr>
+
+<tr>
+<td><input type="button" class="button1" id="gen" value="     7     " onclick="calc.screen.value+='7';resize()"></td>
+<td><input type="button" class="button1" id="gen" value="     8     " onclick="calc.screen.value+='8';resize();"></td>
+<td><input type="button" class="button1" id="gen" value="     9     " onclick="calc.screen.value+='9';resize()"></td>
+<td><input type="button" class="button2" id="gen" value="   e^x   " onclick="calc.screen.value=Math.exp(calc.screen.value);resize();cresize();getans()"></td>
+<td><input type="button" class="button3" id="gen" value="    /     " onclick="calc.screen.value+='/';resize();cresize()"></td>
+</tr>
+
+<tr>
+<td><input type="button" class="button1" id="gen" value="     4     " onclick="calc.screen.value+='4';resize()"></td>
+<td><input type="button" class="button1" id="gen" value="     5     " onclick="calc.screen.value+='5';resize()"></td>
+<td><input type="button" class="button1" id="gen" value="     6     " onclick="calc.screen.value+='6';resize();getans()"></td>
+<td><input type="button" class="button2" id="gen" value="  10^x   " onclick="calc.screen.value=Math.pow(10,calc.screen.value);cresize();resize();getans()"></td>
+<td><input type="button" class="button3" id="gen" value="     *     " onclick="calc.screen.value+='*';cresize()"></td>
+</tr>
+
+<tr>
+<td><input type="button" class="button1" id="gen" value="     1     " onclick="calc.screen.value+='1';resize()"></td>
+<td><input type="button" class="button1" id="gen" value="     2     " onclick="calc.screen.value+='2';resize()"></td>
+<td><input type="button" class="button1" id="gen" value="     3     " onclick="calc.screen.value+='3';resize()"></td>
+<td><input type="button" class="button2" id="gen" value="    Pi    " onclick="calc.screen.value+=Math.PI;resize();cresize()"></td>
+<td><input type="button" class="button3" id="gen" value="     -     " onclick="calc.screen.value+='-';resize()"></td>
+</tr>
+
+<tr>
+<td><input type="button" class="button1" id="gen" value="     0     " onclick="calc.screen.value+='0';resize();cresize()"></td>
+<td><input type="button" class="button3" id="gen" value="      .     " onclick="calc.screen.value+='.';cresize();resize()"></td>
+<td><input type="button" id="equal" class="button0" value="     =     " onclick="calc.screen.value=calculate(calc.screen.value);cresize();resize();getans()"></td>
+<td><input type="button" id="ans" class="button0" value="  ANS  " onclick="calc.screen.value+=printans();resize();cresize()"></td>
+<td><input type="button" class="button3" id="gen" value="     +     " onclick="calc.screen.value+='+';resize();cresize()"></td>
+</tr>
+</table>
+
+<table id="Specification">
+<tr>
+<td>
+<input type="button" id="b4" class="buttoni" value="Inverse" onclick="inverse()">  
+<input type="button" id="deg" class="buttonj"  value="degrees" onclick="deg1()">
+<input type="button" id="rad" class="buttonj1"  value="radians" onclick="rad1()"> 
+<input type="button" id="about" class="buttonx" value="About" onclick=alert("1.26")>
+<input type="button" class="buttonx1" value="My Secrets" onclick="calc.screen.value='I Too Had A Love Story'">
+</td>
+</tr>
+</table>
+
+</td>
+</table>
+
+</form>
+
+<script>
+
+function factorial(x)
+{
+    if(x==0)
+        return 1;
+    else
+        return x*factorial(x-1);
+};
+
+function gcd(x,y)
+{
+	while(y>0)
+	{
+		x%=y;
+		x^=y;
+		y^=x;
+		x^=y;
+	}
+	return(x);
+}
+
+var prog=0;
+var i=2;
+var y=0;
+var a=0;
+var j=0; 
+var z1=document.getElementById("trig1");
+var z2=document.getElementById("trig2");
+var z3=document.getElementById("trig3");
+
+function inverse()
+{
+    
+    var x=document.getElementById("b4");
+    
+    if(i%2==0)
+    {
+        x.style.backgroundColor="#FFA500";
+        i++;
+        y=1;
+        z1.value="arcsin ";
+        z2.value="arccos ";
+        z3.value="arctan ";
+        
+    }
+    else
+    {
+        x.style.backgroundColor="#DCDCDC";
+        i--;
+        y=0;
+        z1.value="   sin    ";
+        z2.value="   cos   ";
+        z3.value="    tan   ";
+        
+    }
+    
+};
+
+function deg1()
+{
+    var x1=document.getElementById("deg");
+    var x2=document.getElementById("rad");
+
+    
+    x1.style.backgroundColor="#4682B4";//degree mode
+    x2.style.backgroundColor="#DCDCDC";
+    j=0;
+};
+function rad1()
+{
+    var x1=document.getElementById("deg");
+    var x2=document.getElementById("rad");
+    
+    x2.style.backgroundColor="#4682B4";//radian mode
+    x1.style.backgroundColor="#DCDCDC";
+    j=1;
+};
+function sinh1(x)
+{
+    var x1=x;
+    var y1;
+    
+    
+    {
+        if(j==0)
+        {
+            y1=(Math.exp(x1)-Math.exp(-x1))*0.5;
+            return(y1);
+        }
+        else
+        {
+            y1=(Math.exp(x1)-Math.exp(-x1))*0.5;
+            return(y1);
+        }
+    }
+    
+};
+function cosh1(x)
+{
+    var x1=x;
+    var y1;
+    
+    
+    {
+        if(j==0)
+        {
+            y1=(Math.exp(x1)+Math.exp(-x1))*0.5;
+            return(y1);
+        }
+        else
+        {
+            y1=(Math.exp(x1)+Math.exp(-x1))*0.5;
+            return(y1);
+        }
+    }
+    
+};
+function tanh1(x)
+{
+    var x1=x;
+    var y1;
+    
+    
+    {
+        if(j==0)
+        {
+            y1=sinh1(x1)/cosh1(x1);
+            return(y1);
+        }
+        else
+        {
+            y1=sinh1(x1)/cosh1(x1);
+            return(y1);
+        }
+    }
+    
+};
+function sin1(x)
+{
+    var x1=x;
+    var y1;
+    
+    if(y==0)
+    {
+        if(j==0)
+        {
+            x1=(x1*Math.PI)/180;
+            y1=Math.sin(x1);
+            return(y1);
+        }
+        else
+        {
+            y1=Math.sin(x1);
+            return(y1);
+        }
+    }
+    
+    else
+    {
+        if(1>=x1 && -1<=x1)
+        {
+            if(j==0)
+            {
+                y1=((Math.asin(x1))*180)/(Math.PI);
+                return(y1);
+            }
+            else
+            {
+                y1=Math.asin(x1);
+                return(y1);
+            }
+        }
+    }
+};
+
+function cos1(x)
+{
+    var x1=x;
+    var y1;
+    
+    if(y==0)
+    {
+        if(j==0)
+        {
+            x1=(x1*Math.PI)/180;
+            y1=Math.cos(x1);
+            return(y1);
+        }
+        else
+        {
+            y1=Math.cos(x1);
+            return(y1);
+        }
+    }
+    
+    else
+    {
+        if(1>=x1 && -1<=x1)
+        {
+            if(j==0)
+            {
+                y1=((Math.acos(x1))*180)/(Math.PI);
+                return(y1);
+            }
+            else
+            {
+                y1=Math.acos(x1);
+                return(y1);
+            }
+        }
+    }
+};
+
+function tan1(x)
+{
+    var x1=x;
+    var y1;
+    
+    if(y==0)
+    {
+        if(j==0)
+        {
+            x1=(x1*Math.PI)/180;
+            y1=Math.tan(x1);
+            return(y1);
+        }
+        else
+        {
+            y1=Math.tan(x1);
+            return(y1);
+        }
+    }
+    
+    else
+    {
+        
+        if(j==0)
+        {
+            y1=((Math.atan(x1))*180)/(Math.PI);
+            return(y1);
+        }
+        else
+        {
+            y1=Math.atan(x1);
+            return(y1);
+        }
+        
+    }
+};
+
+function calculate(x)
+{
+    var x1=x;
+    var y4=x1.indexOf("^");
+    var c1=x1.indexOf("C");
+    var c11=x1.indexOf("P");
+    if(y4 >= 0)
+    {
+    
+        var y5=parseFloat(eval(x1.slice(0,(y4))));
+        var y6=parseFloat(eval(x1.slice((y4+1),(x1.length))));
+        var y7=Math.pow(y5,y6);
+        return(y7);
+    }
+    if(c1>0)	//nCr
+    {
+        var c2=parseInt(x1.slice(0,c1));
+        var c3=parseInt(x1.slice((c1+1),(x1.length)));
+       	var c4=Math.max(c3,(c2-c3));
+       	var c5=Math.min(c3,(c2-c3));
+       	var c6=1,c7;
+       	for(var i=c2;i>c4;i--)
+       	{
+       		c6=c6*i;
+       		while(c6%c5==0 && c5>1)
+       		{
+       			c6=c6/c5;
+       			c5--;
+       		}
+       	}
+        return(c6);
+    }
+    if(c11>0)	//nPr
+    {
+        var c2=parseInt(x1.slice(0,c11));
+        var c3=parseInt(x1.slice((c11+1),(x1.length)));
+        var i,c5=1;
+        for(i=c2;i>(c2-c3);i--)
+        	c5=c5*i;
+        return(c5);
+    }
+        
+    else
+    {
+    
+        var y2=1;
+        var y3;
+        y3=eval(x);
+    
+        if(y2==1)
+        {
+            a=y3;
+            y2=0;
+        }
+        return(y3);
+    }
+};
+    
+function hex(x)
+{
+    var y1=parseInt(eval(x)).toString(16).toUpperCase();
+    prog=1;
+    return(y1);
+}
+
+function oct(x)
+{
+    var y1=parseInt(eval(x)).toString(8);
+    prog=2;
+    return(y1);
+}
+
+function bin(x)
+{
+    var y1=parseInt(eval(x)).toString(2);
+    prog=3;
+    return(y1);
+}
+
+function dec(x)
+{
+    var y1;
+    if(prog==0)
+        y1=eval(x);
+    if(prog==1)
+        y1=parseInt(x,16);
+    if(prog==2)
+        y1=parseInt(x,8);
+    if(prog==3)
+        y1=parseInt(x,2);
+    prog=0;
+    return(y1);
+}
+var strans;
+function getans()
+{
+    var xans=document.getElementById("screen").value;
+    strans=xans;
+}
+
+function printans()
+{
+    return strans;
+}
+
+function quad(x)
+{
+    var x1=x;
+    var c1=x1.indexOf(".");
+    var c2=x1.lastIndexOf(".");
+    var c3=parseFloat(x1.slice(0,c1));
+    var c4=parseFloat(x1.slice((c1+1),c2));
+    var c5=parseFloat(x1.slice((c2+1),x1.length));
+    var c6=0.5*(-c4+Math.sqrt(c4*c4-4*c3*c5));
+    var c7=0.5*(-c4-Math.sqrt(c4*c4-4*c3*c5));
+    c6=c6.toFixed(6);
+    c7=c7.toFixed(6);
+    var c8=c6+" , "+c7;
+    return (c8);
+}
+var flen=20;
+var req=false;
+var f1=0;
+function resize()
+{
+    var s=document.getElementById("screen");
+    var len=s.value.length;
+    var sz=window.getComputedStyle(s,null).getPropertyValue('font-size');
+    sz=parseFloat(sz);
+    if(len>=flen)
+    {
+        s.style.fontSize= (sz/2)+"px";
+        req=true;
+        flen*=2;
+        f1++;
+    }
+}
+function restore()
+{
+    var s=document.getElementById("screen");
+    var sz=window.getComputedStyle(s,null).getPropertyValue('font-size');
+    sz=parseFloat(sz);
+    if(req)
+    {
+        s.style.fontSize=(sz*(1<<f1))+"px";
+        flen=20;
+        f1=0;
+        req=false;
+    }
+}
+
+function cresize()
+{
+    var s=document.getElementById("screen");
+    var sz=window.getComputedStyle(s,null).getPropertyValue('font-size');
+    sz=parseFloat(sz);
+    var len=s.value.length;
+    if(len<flen/2 && flen>20 && f1>0)
+    {
+        s.style.fontSize=(sz*(2))+"px";
+        f1--;
+        flen=flen/2;
+    }
+}
+</script>
+</body>
+</html>

@@ -13,12 +13,12 @@
 <v t="leo.20170812235814.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="leo.20170812235814.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
-<v t="leo.20170814225220.1" a="E"><vh>機械設計相關</vh>
+<v t="leo.20170814225220.1"><vh>機械設計相關</vh>
 <v t="leo.20170815093019.1"><vh>calculator 功能</vh></v>
 <v t="leo.20170815093104.1"><vh>utilities 功能</vh></v>
 <v t="leo.20170815225935.1"><vh>design</vh></v>
 <v t="leo.20170815093208.1"><vh>flask web app 功能</vh></v>
-<v t="leo.20170815093846.1" a="E"><vh>CAD and CAE</vh>
+<v t="leo.20170815093846.1"><vh>CAD and CAE</vh>
 <v t="leo.20170815093353.1"><vh>2d graphics</vh></v>
 <v t="leo.20170815093714.1"><vh>3d graphics</vh></v>
 </v>
@@ -26,7 +26,9 @@
 </v>
 <v t="leo.20170815100901.1"><vh>Decorator 相關</vh></v>
 <v t="leo.20170815100548.1"><vh>打包相關</vh></v>
-<v t="leo.20170813232538.1" a="E"><vh>Qt 相關</vh>
+<v t="leo.20170816215859.1"><vh>Git 相關</vh></v>
+<v t="leo.20170816233858.1"><vh>Python 相關</vh></v>
+<v t="leo.20170813232538.1"><vh>Qt 相關</vh>
 <v t="leo.20170816104159.1"><vh>exec() and show()</vh></v>
 <v t="leo.20170815100046.1"><vh>QThread</vh></v>
 <v t="leo.20170815103206.1"><vh>QPainter</vh></v>
@@ -35,6 +37,7 @@
 <v t="leo.20170815022249.1"><vh>QtWebEngineWidget</vh></v>
 <v t="leo.20170814001948.1"><vh>CAD 相關</vh></v>
 <v t="leo.20170814001340.1"><vh>CAE 相關</vh></v>
+<v t="leo.20170816213117.1"><vh>Odoo 相關</vh></v>
 </vnodes>
 <tnodes>
 <t tx="leo.20170812235814.1"></t>
@@ -181,7 +184,11 @@ Three types of mechanical design:
 
 修改
 
-創新</t>
+創新
+
+https://pomax.github.io/bezierinfo/
+
+https://pythonprogramming.net/opengl-rotating-cube-example-pyopengl-tutorial/</t>
 <t tx="leo.20170814225220.1">所謂機械設計, 就是歷經詳細思慮考量, 完成互動元件間之精巧配置, 使其展現特定功能之具體規劃表達.
 
 其中, 詳細思慮考量, 就是"計"的字義, 而精巧配置互動元件, 就是"機"的字義, 展現特定功能, 就是"械"的字義, 最後, 必須完成具體規劃表達則是"設"的字義.
@@ -213,7 +220,11 @@ http://pyqt.sourceforge.net/Docs/PyQt5/QtWebEngineWidgets.html
 
  In Qt Designer, just add a QWidget to your form and promote it to QWebEngineView (base class: QWidget, header: QWebEngineView). Don't forget to add webenginewidgets to your project file.
  
- Note that the generated code (in the ui_*.py files) should never be hand-edited because any changes will be overwritten the next time pyuic4 is run</t>
+ Note that the generated code (in the ui_*.py files) should never be hand-edited because any changes will be overwritten the next time pyuic4 is run
+ 
+ 客製化 Qt Designer widgets
+ 
+ https://wiki.python.org/moin/PyQt/Using_Python_Custom_Widgets_in_Qt_Designer</t>
 <t tx="leo.20170815022249.1">#!/usr/bin/env python3
 
 import sys
@@ -401,5 +412,60 @@ if __name__ == "__main__":
     w = W1()
     w.show()
     sys.exit(app.exec_())</t>
+<t tx="leo.20170816213117.1">https://github.com/odoo/odoo
+
+https://sourceforge.net/projects/greenopenerp/
+
+https://github.com/micktseng/greenodoo</t>
+<t tx="leo.20170816215859.1">Welcome to the 2016fallcpa wiki!
+
+2016fallcpa 為 2016Fall CP 計算機程式課程甲班的分組評量倉儲, 各分組的倉儲按照組序, 分別以 g1, g2, g3... 作為代號, 納入作為 submodules.
+
+其中 g100 有兩名成員 scrum-1 與 scrum-2, 主要用來測試與示範相關功能之用.
+
+在 2016fallcpa 倉儲中設定 g100 子模組的流程:
+
+1. git clone 2016fallcpa 倉儲到近端
+
+2. 已知 g100 的組長為 scrum-1, 且 scrum-1 已經配合課程評分規劃, 在其帳號下建立 https://github.com/scrum-1/2016fallcp_ag100 分組倉儲
+
+3. 2016fallcpa 的擁有者在近端 git clone 2016fallcpa 倉儲後, 更換目錄進入 2016fallcpa, 利用 git branch gh-pages 建立分支, 然後以 git checkout gh-pages 簽出分支版本資料 (或稱切換分支), 然後執行 git submodule add -b gh-pages https://github.com/scrum-1/2016fallcp_ag100 g100 (表示要追蹤子模組的 gh-pages branch, 且之前已經將 2016fallcpa 倉儲的 default branch 設為 gh-pages, 因此 git clone 後 default 就是 gh-pages 分支).
+
+如此, 就可以將 ag100 倉儲納入 g100 子目錄中, 且新增 .gitmodules 模組設定檔, 而且在 .git/config 與 .git/modules 目錄中新增子模組相關設定資料.
+
+4. 假如任何人希望 git clone 帶有子模組的倉儲, 則必須在 git clone 後執行 git submodule init, 啟始子模組, 然後利用 git submodule update 取下子模組的對應版本資料 (對應版本紀錄在 .git/modules/g100/refs/heads/master 檔案中).
+
+5. 假如帶有子模組的倉儲管理者, 希望更新某一子模組的對應版本, 則必須先確定倉儲分支, 然後 cd 到子模組目錄中, 利用 git pull 後, 然後回到上層倉儲進行版本的提交推送. 假如希望拉回所有子模組的對應版本內容, 則使用 git pull origin gh-pages --recurse-submodules, 當然若想拉回 master 分支, 則使用 git pull origin master --recurse-submodules
+
+6. 假如希望將所有子模組的對應版本更新到目前最新提交, 使用 git submodule foreach "(git checkout gh-pages; git pull)&amp;"
+
+7. 當利用上述指令完成更新子模組的對應版本之後, 必須進行提交推送, 將改版資料送到遠端, 之後則透過 git submodule update --init --recursive 將此對應版本的子模組取到近端, 其中因為子模組中還有子模組, 而此更新對這些新加入的子子模組並沒有 --init, 因此下子模組更新時, 要納入 --init
+
+計算機程式甲班分組評量網頁: https://mdecourse.github.io/2016fallcpa/
+
+在近端, 取下某一倉儲的所有資料, 包括子模組與子模組下的子子模組等:
+
+git clone repos-url
+
+cd repos_dir
+
+git submodule update --init --recursive
+
+或者直接
+
+git clone --recursive repos-url</t>
+<t tx="leo.20170816233858.1">初學 Python
+
+https://realpython.com/learn/python-first-steps/
+
+http://blog.techbridge.cc/2016/12/17/python101-tutorial/
+
+開始學 Python
+
+https://www.learnpython.org/
+
+Graphics
+
+http://people.duke.edu/~ccc14/sta-663-2016/03B_Graphics.html</t>
 </tnodes>
 </leo_file>

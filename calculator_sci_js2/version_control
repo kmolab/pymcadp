@@ -1,0 +1,13 @@
+
+// will document earlier changes here
+
+Version 1.22: 07/02/2015
+  Major Revision : Size of digits automatically shrinks when you perform calculations with large numbers.
+Version 1.23: 07/02/2015
+  Fixed the minor issuse regarding resizing on spam clicking AC button
+Version 1.24: 08/02/2015
+  Fixed resizing issuse
+Version 1.25: 08/02/2015
+  Major Revision : Dynamic changing of text in screen. Most prominent effect visible in 'C' button
+Version 1.26: 10/02/2015
+  Finally, all major performance issuses fixed. Answer button fixed. Dynamic resizing error fixed.
