@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'Y:\tmp\test\menu_dialog\main\main.ui'
+# Form implementation generated from reading ui file 'E:\project\github\pymcadp\main\main.ui'
 #
 # Created by: PyQt5 UI code generator 5.9
 #
@@ -47,6 +47,10 @@ class Ui_MainWindow(object):
         self.actionPyGrouf.setObjectName("actionPyGrouf")
         self.actionGraphics_Viewer = QtWidgets.QAction(MainWindow)
         self.actionGraphics_Viewer.setObjectName("actionGraphics_Viewer")
+        self.action2D_cad = QtWidgets.QAction(MainWindow)
+        self.action2D_cad.setObjectName("action2D_cad")
+        self.actionPaint = QtWidgets.QAction(MainWindow)
+        self.actionPaint.setObjectName("actionPaint")
         self.menuFile.addAction(self.actionQuit)
         self.menuCalculator.addAction(self.actionSimple)
         self.menuCalculator.addAction(self.actionEngr_Calculator)
@@ -54,6 +58,8 @@ class Ui_MainWindow(object):
         self.menuUtilities.addAction(self.actionGrouping)
         self.menuUtilities.addAction(self.actionGraphics_Viewer)
         self.menuDesign.addAction(self.actionSpur_Gear_Width)
+        self.menuDesign.addAction(self.action2D_cad)
+        self.menuDesign.addAction(self.actionPaint)
         self.menuWeb.addAction(self.actionCMSimfly)
         self.menuWeb.addAction(self.actionPyGrouf)
         self.menuBar.addAction(self.menuFile.menuAction())
@@ -82,6 +88,8 @@ class Ui_MainWindow(object):
         self.actionCMSimfly.setText(_translate("MainWindow", "CMSimfly"))
         self.actionPyGrouf.setText(_translate("MainWindow", "PyGrouf"))
         self.actionGraphics_Viewer.setText(_translate("MainWindow", "Graphics Viewer"))
+        self.action2D_cad.setText(_translate("MainWindow", "2D cad"))
+        self.actionPaint.setText(_translate("MainWindow", "Paint"))
 
 
 if __name__ == "__main__":

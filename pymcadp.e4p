@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-5.1.dtd">
-<!-- eric project file for project menu_dialog -->
-<!-- Saved: 2017-08-16, 09:21:34 -->
+<!-- eric project file for project pymcadp -->
+<!-- Saved: 2017-08-29, 00:00:06 -->
 <!-- Copyright (C) 2017 ,  -->
 <Project version="5.1">
   <Language>en_US</Language>
@@ -14,6 +14,8 @@
   <Eol index="0"/>
   <Sources>
     <Source>__init__.py</Source>
+    <Source>cad_2d/Ui_cad_2d.py</Source>
+    <Source>cad_2d/cad_2d.py</Source>
     <Source>calculator/Ui_engr_calculator.py</Source>
     <Source>calculator/Ui_simple_calculator.py</Source>
     <Source>calculator/engr_calculator.py</Source>
@@ -22,6 +24,8 @@
     <Source>design/spur_gear_width.py</Source>
     <Source>main/Ui_main.py</Source>
     <Source>main/main.py</Source>
+    <Source>paint/Ui_paint.py</Source>
+    <Source>paint/paint.py</Source>
     <Source>run.py</Source>
     <Source>utilities/Ui_graphics_viewer.py</Source>
     <Source>utilities/Ui_grouping.py</Source>
@@ -29,10 +33,12 @@
     <Source>utilities/grouping.py</Source>
   </Sources>
   <Forms>
+    <Form>cad_2d/cad_2d.ui</Form>
     <Form>calculator/engr_calculator.ui</Form>
     <Form>calculator/simple_calculator.ui</Form>
     <Form>design/spur_gear_width.ui</Form>
     <Form>main/main.ui</Form>
+    <Form>paint/paint.ui</Form>
     <Form>utilities/graphics_viewer.ui</Form>
     <Form>utilities/grouping.ui</Form>
   </Forms>
@@ -42,7 +48,107 @@
   <Others/>
   <MainScript>run.py</MainScript>
   <Vcs>
-    <VcsType>None</VcsType>
+    <VcsType>Git</VcsType>
+    <VcsOptions>
+      <dict>
+        <key>
+          <string>add</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>checkout</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>commit</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>diff</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>export</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>global</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>history</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>log</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>remove</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>status</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>tag</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>update</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+      </dict>
+    </VcsOptions>
   </Vcs>
   <FiletypeAssociations>
     <FiletypeAssociation pattern="*.e4p" type="OTHERS"/>

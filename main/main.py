@@ -14,6 +14,10 @@ from utilities.grouping import Grouping
 from utilities.graphics_viewer import graphicsViewer
 # 呼叫 design 目錄下的模組
 from design.spur_gear_width import gearWidth
+# 導入 cad_2d 目錄下的模組
+from cad_2d.cad_2d import Cad2dMainWindow
+# 導入 print 目錄下的模組
+from paint.paint import Paint
 
 #呼叫本身目錄下的模組
 from .Ui_main import Ui_MainWindow
@@ -102,3 +106,26 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         #raise NotImplementedError
         gearwidth = gearWidth()
         gearwidth.exec()
+    
+    @pyqtSlot()
+    def on_action2D_cad_triggered(self):
+        """
+        Slot documentation goes here.
+        """
+        # TODO: not implemented yet
+        #raise NotImplementedError
+        # 若無 self, show() 會閃退, 
+        # 成員變數案例, 使用 show() 為獨立物件
+        # show() 後控制權即刻返還給呼叫的主物件, 因此成為獨立運作物件
+        self.cad2dwin = Cad2dMainWindow()
+        self.cad2dwin.show()
+    
+    @pyqtSlot()
+    def on_actionPaint_triggered(self):
+        """
+        Slot documentation goes here.
+        """
+        # TODO: not implemented yet
+        #raise NotImplementedError
+        self.paint = Paint()
+        self.paint.show()

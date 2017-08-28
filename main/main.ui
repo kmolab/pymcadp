@@ -49,6 +49,8 @@
      <string>Design</string>
     </property>
     <addaction name="actionSpur_Gear_Width"/>
+    <addaction name="action2D_cad"/>
+    <addaction name="actionPaint"/>
    </widget>
    <widget class="QMenu" name="menuWeb">
     <property name="title">
@@ -106,6 +108,16 @@
   <action name="actionGraphics_Viewer">
    <property name="text">
     <string>Graphics Viewer</string>
+   </property>
+  </action>
+  <action name="action2D_cad">
+   <property name="text">
+    <string>2D cad</string>
+   </property>
+  </action>
+  <action name="actionPaint">
+   <property name="text">
+    <string>Paint</string>
    </property>
   </action>
  </widget>
