@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-5.1.dtd">
 <!-- eric project file for project pymcadp -->
-<!-- Saved: 2017-08-29, 00:00:06 -->
+<!-- Saved: 2017-09-07, 21:13:34 -->
 <!-- Copyright (C) 2017 ,  -->
 <Project version="5.1">
   <Language>en_US</Language>
@@ -18,6 +18,7 @@
     <Source>cad_2d/cad_2d.py</Source>
     <Source>calculator/Ui_engr_calculator.py</Source>
     <Source>calculator/Ui_simple_calculator.py</Source>
+    <Source>calculator/cal_ex1.py</Source>
     <Source>calculator/engr_calculator.py</Source>
     <Source>calculator/simple_calculator.py</Source>
     <Source>design/Ui_spur_gear_width.py</Source>

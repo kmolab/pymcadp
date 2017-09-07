@@ -36,6 +36,7 @@
     <addaction name="actionSimple"/>
     <addaction name="actionEngr_Calculator"/>
     <addaction name="actionHP_11C_Calculator"/>
+    <addaction name="actioncal_ex1"/>
    </widget>
    <widget class="QMenu" name="menuUtilities">
     <property name="title">
@@ -118,6 +119,11 @@
   <action name="actionPaint">
    <property name="text">
     <string>Paint</string>
+   </property>
+  </action>
+  <action name="actioncal_ex1">
+   <property name="text">
+    <string>cal_ex1</string>
    </property>
   </action>
  </widget>

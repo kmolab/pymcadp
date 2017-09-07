@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'E:\project\github\pymcadp\main\main.ui'
+# Form implementation generated from reading ui file 'Y:\tmp\fossil\wd\pymcadp\main\main.ui'
 #
 # Created by: PyQt5 UI code generator 5.9
 #
@@ -51,10 +51,13 @@ class Ui_MainWindow(object):
         self.action2D_cad.setObjectName("action2D_cad")
         self.actionPaint = QtWidgets.QAction(MainWindow)
         self.actionPaint.setObjectName("actionPaint")
+        self.actioncal_ex1 = QtWidgets.QAction(MainWindow)
+        self.actioncal_ex1.setObjectName("actioncal_ex1")
         self.menuFile.addAction(self.actionQuit)
         self.menuCalculator.addAction(self.actionSimple)
         self.menuCalculator.addAction(self.actionEngr_Calculator)
         self.menuCalculator.addAction(self.actionHP_11C_Calculator)
+        self.menuCalculator.addAction(self.actioncal_ex1)
         self.menuUtilities.addAction(self.actionGrouping)
         self.menuUtilities.addAction(self.actionGraphics_Viewer)
         self.menuDesign.addAction(self.actionSpur_Gear_Width)
@@ -90,6 +93,7 @@ class Ui_MainWindow(object):
         self.actionGraphics_Viewer.setText(_translate("MainWindow", "Graphics Viewer"))
         self.action2D_cad.setText(_translate("MainWindow", "2D cad"))
         self.actionPaint.setText(_translate("MainWindow", "Paint"))
+        self.actioncal_ex1.setText(_translate("MainWindow", "cal_ex1"))
 
 
 if __name__ == "__main__":

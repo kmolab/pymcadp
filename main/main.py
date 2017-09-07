@@ -18,6 +18,8 @@ from design.spur_gear_width import gearWidth
 from cad_2d.cad_2d import Cad2dMainWindow
 # 導入 print 目錄下的模組
 from paint.paint import Paint
+# 導入 calculator 目錄中 cal_ex1.py 中的 Calculator
+from calculator.cal_ex1 import Calculator
 
 #呼叫本身目錄下的模組
 from .Ui_main import Ui_MainWindow
@@ -129,3 +131,13 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         #raise NotImplementedError
         self.paint = Paint()
         self.paint.show()
+    
+    @pyqtSlot()
+    def on_actioncal_ex1_triggered(self):
+        """
+        Slot documentation goes here.
+        """
+        # TODO: not implemented yet
+        #raise NotImplementedError
+        self.cal_ex1 = Calculator()
+        self.cal_ex1.show()

@@ -32,7 +32,9 @@
 <v t="leo.20170816104159.1"><vh>exec() and show()</vh></v>
 <v t="leo.20170815100046.1"><vh>QThread</vh></v>
 <v t="leo.20170815103206.1"><vh>QPainter</vh></v>
-<v t="leo.20170828130540.1"><vh>PyQt event driven</vh></v>
+<v t="leo.20170828130540.1" a="E"><vh>PyQt event driven</vh>
+<v t="leo.20170907211559.1"><vh>QWidget and QDialog</vh></v>
+</v>
 </v>
 <v t="leo.20170815003014.1" a="E"><vh>Qt Designer</vh>
 <v t="leo.20170828111351.1"><vh>QGraphicsView and QGraphicsScene</vh></v>
@@ -644,5 +646,29 @@ if __name__ == "__main__":
 <t tx="leo.20170828234256.1">https://blog.manash.me/quick-pyqt5-1-signal-and-slot-example-in-pyqt5-bf502ccaf11d
 
 http://zetcode.com/gui/pyqt5/</t>
+<t tx="leo.20170907211559.1">QWidget 只有 show() 沒有 exec()
+Dialog 有 show() 與 exec() 方法(?)
+
+void QWidget::show()
+
+Shows the widget and its child widgets.
+
+This is equivalent to calling showFullScreen(), showMaximized(), or setVisible(true), depending on the platform's default behavior for the window flags.
+
+int QDialog::exec()
+
+Shows the dialog as a modal dialog, blocking until the user closes it. The function returns a DialogCode result.
+
+If the dialog is application modal, users cannot interact with any other window in the same application until they close the dialog. If the dialog is window modal, only interaction with the parent window is blocked while the dialog is open. By default, the dialog is application modal.
+
+Modal Dialogs
+
+A modal dialog is a dialog that blocks input to other visible windows in the same application. Dialogs that are used to request a file name from the user or that are used to set application preferences are usually modal. Dialogs can be application modal (the default) or window modal.
+
+When an application modal dialog is opened, the user must finish interacting with the dialog and close it before they can access any other window in the application. Window modal dialogs only block access to the window associated with the dialog, allowing the user to continue to use other windows in an application.
+
+The most common way to display a modal dialog is to call its exec() function. When the user closes the dialog, exec() will provide a useful return value. Typically, to get the dialog to close and return the appropriate value, we connect a default button, e.g. OK, to the accept() slot and a Cancel button to the reject() slot. Alternatively you can call the done() slot with Accepted or Rejected.
+
+Unlike exec(), show() returns control to the caller immediately. </t>
 </tnodes>
 </leo_file>
