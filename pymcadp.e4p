@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-5.1.dtd">
 <!-- eric project file for project pymcadp -->
-<!-- Saved: 2017-09-07, 21:13:34 -->
+<!-- Saved: 2017-09-08, 21:27:27 -->
 <!-- Copyright (C) 2017 ,  -->
 <Project version="5.1">
   <Language>en_US</Language>
@@ -16,6 +16,7 @@
     <Source>__init__.py</Source>
     <Source>cad_2d/Ui_cad_2d.py</Source>
     <Source>cad_2d/cad_2d.py</Source>
+    <Source>cad_2d/tetris.py</Source>
     <Source>calculator/Ui_engr_calculator.py</Source>
     <Source>calculator/Ui_simple_calculator.py</Source>
     <Source>calculator/cal_ex1.py</Source>

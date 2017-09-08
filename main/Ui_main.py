@@ -53,6 +53,8 @@ class Ui_MainWindow(object):
         self.actionPaint.setObjectName("actionPaint")
         self.actioncal_ex1 = QtWidgets.QAction(MainWindow)
         self.actioncal_ex1.setObjectName("actioncal_ex1")
+        self.actionTetris = QtWidgets.QAction(MainWindow)
+        self.actionTetris.setObjectName("actionTetris")
         self.menuFile.addAction(self.actionQuit)
         self.menuCalculator.addAction(self.actionSimple)
         self.menuCalculator.addAction(self.actionEngr_Calculator)
@@ -63,6 +65,7 @@ class Ui_MainWindow(object):
         self.menuDesign.addAction(self.actionSpur_Gear_Width)
         self.menuDesign.addAction(self.action2D_cad)
         self.menuDesign.addAction(self.actionPaint)
+        self.menuDesign.addAction(self.actionTetris)
         self.menuWeb.addAction(self.actionCMSimfly)
         self.menuWeb.addAction(self.actionPyGrouf)
         self.menuBar.addAction(self.menuFile.menuAction())
@@ -94,6 +97,7 @@ class Ui_MainWindow(object):
         self.action2D_cad.setText(_translate("MainWindow", "2D cad"))
         self.actionPaint.setText(_translate("MainWindow", "Paint"))
         self.actioncal_ex1.setText(_translate("MainWindow", "cal_ex1"))
+        self.actionTetris.setText(_translate("MainWindow", "Tetris"))
 
 
 if __name__ == "__main__":

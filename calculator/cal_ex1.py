@@ -8,8 +8,13 @@ from PyQt5.QtWidgets import (QApplication, QGridLayout, QLayout, QLineEdit,
 
 
 class Button(QToolButton):
+    '''
     def __init__(self, text, parent=None):
         super(Button, self).__init__(parent)
+    '''
+    # for Python 3
+    def __init__(self, text):
+        super().__init__()
 
         self.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Preferred)
         self.setText(text)
@@ -24,8 +29,12 @@ class Button(QToolButton):
 class Calculator(QWidget):
     NumDigitButtons = 10
     
+    '''    
     def __init__(self, parent=None):
         super(Calculator, self).__init__(parent)
+    '''
+    def __init__(self):
+        super().__init__()
 
         self.pendingAdditiveOperator = ''
         self.pendingMultiplicativeOperator = ''

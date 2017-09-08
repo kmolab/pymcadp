@@ -52,6 +52,7 @@
     <addaction name="actionSpur_Gear_Width"/>
     <addaction name="action2D_cad"/>
     <addaction name="actionPaint"/>
+    <addaction name="actionTetris"/>
    </widget>
    <widget class="QMenu" name="menuWeb">
     <property name="title">
@@ -124,6 +125,11 @@
   <action name="actioncal_ex1">
    <property name="text">
     <string>cal_ex1</string>
+   </property>
+  </action>
+  <action name="actionTetris">
+   <property name="text">
+    <string>Tetris</string>
    </property>
   </action>
  </widget>

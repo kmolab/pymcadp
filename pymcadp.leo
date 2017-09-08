@@ -34,6 +34,7 @@
 <v t="leo.20170815103206.1"><vh>QPainter</vh></v>
 <v t="leo.20170828130540.1" a="E"><vh>PyQt event driven</vh>
 <v t="leo.20170907211559.1"><vh>QWidget and QDialog</vh></v>
+<v t="leo.20170908092816.1"><vh>有關 self</vh></v>
 </v>
 </v>
 <v t="leo.20170815003014.1" a="E"><vh>Qt Designer</vh>
@@ -670,5 +671,34 @@ When an application modal dialog is opened, the user must finish interacting wit
 The most common way to display a modal dialog is to call its exec() function. When the user closes the dialog, exec() will provide a useful return value. Typically, to get the dialog to close and return the appropriate value, we connect a default button, e.g. OK, to the accept() slot and a Cancel button to the reject() slot. Alternatively you can call the done() slot with Accepted or Rejected.
 
 Unlike exec(), show() returns control to the caller immediately. </t>
+<t tx="leo.20170908092816.1">Let's say you have a class ClassA which contains a method methodA defined as:
+
+def methodA(self, arg1, arg2):
+    # do something
+and ObjectA is an instance of this class.
+
+Now when ObjectA.methodA(arg1, arg2) is called, python internally converts it for you as:
+
+ClassA.methodA(ObjectA, arg1, arg2)
+The self variable refers to the object itself.
+
+另一個解釋範例:
+
+class A: 
+    foo = []
+a, b = A(), A()
+a.foo.append(5)
+b.foo
+ans: [5]
+
+class A: 
+    def __init__(self): 
+        self.foo = []
+a, b = A(), A()
+a.foo.append(5)
+b.foo
+ans: []
+
+so vars without self is simply static vars of the class, like in java</t>
 </tnodes>
 </leo_file>

@@ -16,6 +16,8 @@ from utilities.graphics_viewer import graphicsViewer
 from design.spur_gear_width import gearWidth
 # 導入 cad_2d 目錄下的模組
 from cad_2d.cad_2d import Cad2dMainWindow
+# 導入 tetris
+from cad_2d.tetris import Tetris
 # 導入 print 目錄下的模組
 from paint.paint import Paint
 # 導入 calculator 目錄中 cal_ex1.py 中的 Calculator
@@ -141,3 +143,13 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         #raise NotImplementedError
         self.cal_ex1 = Calculator()
         self.cal_ex1.show()
+    
+    @pyqtSlot()
+    def on_actionTetris_triggered(self):
+        """
+        Slot documentation goes here.
+        """
+        # TODO: not implemented yet
+        #raise NotImplementedError
+        self.tetris = Tetris()
+        self.tetris.show()
