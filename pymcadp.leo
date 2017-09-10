@@ -28,7 +28,7 @@
 <v t="leo.20170815100548.1"><vh>打包相關</vh></v>
 <v t="leo.20170816215859.1"><vh>Git 相關</vh></v>
 <v t="leo.20170816233858.1"><vh>Python 相關</vh></v>
-<v t="leo.20170813232538.1" a="E"><vh>Qt 相關</vh>
+<v t="leo.20170813232538.1"><vh>Qt 相關</vh>
 <v t="leo.20170816104159.1"><vh>exec() and show()</vh></v>
 <v t="leo.20170815100046.1"><vh>QThread</vh></v>
 <v t="leo.20170815103206.1"><vh>QPainter</vh></v>
@@ -42,6 +42,7 @@
 </v>
 <v t="leo.20170815022249.1"><vh>QtWebEngineWidget</vh></v>
 <v t="leo.20170814001948.1" a="E"><vh>CAD 相關</vh>
+<v t="leo.20170908231831.1"><vh>solvespace</vh></v>
 <v t="leo.20170828230349.1"><vh>PyQt5 clock</vh></v>
 <v t="leo.20170828234256.1"><vh>Tutorial</vh></v>
 </v>
@@ -700,5 +701,37 @@ b.foo
 ans: []
 
 so vars without self is simply static vars of the class, like in java</t>
+<t tx="leo.20170908231831.1">取 solvespace 原始碼
+
+在 Ubuntu 16.04 電腦中, 
+
+git clone https://github.com/solvespace/solvespace
+cd solvespace
+git submodule init
+git submodule update
+
+sudo apt-get install git build-essential cmake mingw-w64
+
+mkdir build
+cd build
+cmake .. -DCMAKE_TOOLCHAIN_FILE=../cmake/Toolchain-mingw64.cmake \
+         -DCMAKE_BUILD_TYPE=Release
+make
+
+The graphical interface is built as build/bin/solvespace.exe, and the command-line interface is built as build/bin/solvespace-cli.exe.
+
+Compile for Ubuntu 16.04:
+
+sudo apt install cmake zlib1g-dev libpng-dev libcairo2-dev libfreetype6-dev sudo apt install libjson-c-dev libfontconfig1-dev libgtkmm-3.0-dev libpangomm-1.4-dev libgl-dev libglu-dev libspnav-dev
+
+git clone -b ranged_constraints https://github.com/Evil-Spirit/solvespace-master.git
+cd solvespace-master
+git submodule update --init extlib/libdxfrw
+
+mkdir build
+cd build
+cmake .. -DCMAKE_BUILD_TYPE=Release
+make
+sudo make install</t>
 </tnodes>
 </leo_file>
