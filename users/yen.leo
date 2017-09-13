@@ -19,7 +19,13 @@
 <v t="yen.20170108171733.3"><vh>@edit README.md</vh></v>
 <v t="yen.20170108171733.4"><vh>@edit .gitignore</vh></v>
 <v t="yen.20170108171733.5" a="E"><vh>Pelican 設定</vh>
+<v t="leo.20170912144639.1" a="E"><vh>近端設定檔案</vh>
 <v t="yen.20170108171733.6"><vh>@edit local_publishconf.py</vh></v>
+</v>
+<v t="leo.20170912144842.1" a="E"><vh>遠端設定檔案</vh>
+<v t="leo.20170912144852.1"><vh>@edit publishconf.py</vh></v>
+</v>
+<v t="leo.20170912144808.1"><vh>共同設定檔案</vh></v>
 <v t="yen.20170108171733.7"><vh>@edit pelicanconf.py</vh></v>
 </v>
 <v t="yen.20170224232341.1" a="E"><vh>編輯 template</vh>
@@ -81,6 +87,9 @@
 <t tx="leo.20170831164503.1">fossil settings ignore-glob "*/.git/*, */__pycache__/*" --global
 
 */.git/*, */__pycache__/*, *.pyc</t>
+<t tx="leo.20170912144639.1"></t>
+<t tx="leo.20170912144808.1"></t>
+<t tx="leo.20170912144842.1"></t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
