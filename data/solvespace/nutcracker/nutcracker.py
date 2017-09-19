@@ -9,6 +9,7 @@ vrep.simxFinish(-1)
 clientID = vrep.simxStart('127.0.0.1', 19997, True, True, 5000, 5)
 
 #啟動模擬
+vrep.simxSynchronous(clientID,1)
 vrep.simxStartSimulation(clientID, vrep.simx_opmode_oneshot_wait)
  
 if clientID!= -1:
@@ -29,11 +30,11 @@ deg = math.pi/180
 
 def setJointPosition(incAngle, steps):
     for i  in range(steps):
-        
-        errorCode=vrep.simxSetJointPosition(clientID, Revolute_joint_handle, i*incAngle*deg, vrep.simx_opmode_oneshot_wait)
+        errorCode=vrep.simxSetJointPosition(clientID, Revolute_joint_handle, i*incAngle*deg, vrep.simx_opmode_oneshot)
+        vrep.simxSynchronousTrigger(clientID)
         
 # 每步 10 度, 轉兩圈
-setJointPosition(10, 30)
+setJointPosition(1, 60)
 # 每步 1 度, 轉兩圈
 #setJointPosition(1, 720)
 # 每步 0.1  度, 轉720 步
