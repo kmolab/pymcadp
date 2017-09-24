@@ -1,17 +1,44 @@
 # -*- coding: utf-8 -*-
 
 """
-Module implementing Cad2dMainWindow.
+Module implementing cad2d.
 """
 
 from PyQt5.QtCore import pyqtSlot, QRectF, QLineF, QPointF,  Qt
-from PyQt5.QtWidgets import QMainWindow,  QGraphicsScene, QGraphicsLineItem
+from PyQt5.QtWidgets import QDialog,  QGraphicsScene,  QGraphicsLineItem
 from PyQt5 import QtGui
 
-from .Ui_cad_2d import Ui_MainWindow
+from .Ui_cad_2d import Ui_cad2d
 
+# 繼承 QGraphicsScene 物件, 自行建立 cadscene
+class cadscene(QGraphicsScene):
+    def __init__(self, parent=None):
+        # Python3 的語法, 執行 parent 的 __init__
+        super().__init__()
 
-class Cad2dMainWindow(QMainWindow, Ui_MainWindow):
+    def mousePressEvent(self, event):
+        # 滑鼠按下後存入內部變數 _start
+        self._start = event.scenePos()
+        # 印出線段起點座標
+        point = self._start
+        text = self.addSimpleText(
+            '(%d, %d)' % (point.x(), point.y()))
+        text.setBrush(Qt.red)
+        text.setPos(point)
+    
+    def mouseReleaseEvent(self,  event):
+        start = QPointF(self._start)
+        end = QPointF(event.scenePos())
+        self.addItem(
+            QGraphicsLineItem(QLineF(start, end)))
+        # 印出線段終點座標
+        point = end
+        text = self.addSimpleText(
+            '(%d, %d)' % (point.x(), point.y()))
+        text.setBrush(Qt.red)
+        text.setPos(point)
+
+class cad2d(QDialog, Ui_cad2d):
     """
     Class documentation goes here.
     """
@@ -22,30 +49,22 @@ class Cad2dMainWindow(QMainWindow, Ui_MainWindow):
         @param parent reference to the parent widget
         @type QWidget
         """
-        super(Cad2dMainWindow, self).__init__(parent)
+        super(cad2d, self).__init__(parent)
         self.setupUi(self)
-        # 透過繼承 ui_MainWindow 物件, 已經擁有 self.graphicsView 成員物件
-        self.scene = QGraphicsScene()
-        # 在 scene 中加入繪圖元件
-        # 字串
-        '''
-        self.scene.addText("Hello, world!")
-        # 矩形
-        self.scene.addRect(QRectF(0, 0, 100, 100))
-        # 畫直線
-        self.scene.addItem(
-            QGraphicsLineItem(QLineF(100,  100,  200,  300)))
-        '''
-        # 將畫面設定在視圖中
+        #self.scene = QGraphicsScene()
+        self.scene = cadscene()
         self.graphicsView.setScene(self.scene)
-
+        self.graphicsView.setSceneRect(QRectF(self.graphicsView.viewport().rect()))
+        # 建立 clearview 按鈕對應的 signal 與 slot 
+        self.clearview.clicked.connect(self.clearView)
+    '''
     def mousePressEvent(self, event):
         self._start = event.pos()
         self.update()
         if event.button()==Qt.LeftButton:
             point=QPointF(event.pos().x(), event.pos().y())
-            self.scene.addText(str(event.pos().x())+","+str(event.pos().y())).setPos(point)
-        super(Cad2dMainWindow, self).mousePressEvent(event)
-        
-    def mouseReleaseEvent(self, event):
-        print("mouse release event")
+            self.scene.addText(str(event.pos().x())+","+str(event.pos().y())).setPos(event.pos())
+        super(cad2d, self).mousePressEvent(event)
+    '''
+    def clearView(self):
+        self.scene.clear()
