@@ -18,7 +18,7 @@ commThreadCycleInMs: Specifies how often there has to be exchange of data packet
 '''
 
 #啟動模擬
-vrep.simxStartSimulation(clientID, vrep.simx_opmode_oneshot)
+vrep.simxStartSimulation(clientID, vrep.simx_opmode_oneshot_wait)
  
 if clientID!= -1:
     print("Connected to remote server")
@@ -27,6 +27,8 @@ else:
     sys.exit('Could not connect')
  
 errorCode,Revolute_joint_handle=vrep.simxGetObjectHandle(clientID,'right_hinge_base_joint',vrep.simx_opmode_blocking)
+ 
+errorCode0,Revolute_joint_handle0=vrep.simxGetObjectHandle(clientID,'Revolute_joint0',vrep.simx_opmode_oneshot_wait)
  
 errorCode0,Revolute_joint_handle0=vrep.simxGetObjectHandle(clientID,'Revolute_joint0',vrep.simx_opmode_oneshot_wait)
  
@@ -64,12 +66,6 @@ simxSetJointPosition(clientID,joint3Handle,joint3Value,simx_opmode_oneshot);
 simxPauseCommunication(clientID,0);
 '''
 
-        
-
-
-
- 
-#vrep.simxStartSimulation(clientID, vrep.simx_opmode_oneshot)
  
 for i in range(360):
     vrep.simxSynchronous(clientID,True)
