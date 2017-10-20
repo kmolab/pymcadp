@@ -15,13 +15,15 @@ from utilities.graphics_viewer import graphicsViewer
 # 呼叫 design 目錄下的模組
 from design.spur_gear_width import gearWidth
 # 導入 cad_2d 目錄下的模組
-from cad_2d.cad_2d import Cad2dMainWindow
+from cad_2d.cad_2d import cad2d
 # 導入 tetris
 from cad_2d.tetris import Tetris
 # 導入 print 目錄下的模組
 from paint.paint import Paint
 # 導入 calculator 目錄中 cal_ex1.py 中的 Calculator
 from calculator.cal_ex1 import Calculator
+# 導入 fossil creator
+from utilities.fossil_creator import fossilCreator
 
 #呼叫本身目錄下的模組
 from .Ui_main import Ui_MainWindow
@@ -121,7 +123,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         # 若無 self, show() 會閃退, 
         # 成員變數案例, 使用 show() 為獨立物件
         # show() 後控制權即刻返還給呼叫的主物件, 因此成為獨立運作物件
-        self.cad2dwin = Cad2dMainWindow()
+        self.cad2dwin = cad2d()
         self.cad2dwin.show()
     
     @pyqtSlot()
@@ -153,3 +155,13 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         #raise NotImplementedError
         self.tetris = Tetris()
         self.tetris.show()
+    
+    @pyqtSlot()
+    def on_actionFossil_Creator_triggered(self):
+        """
+        Slot documentation goes here.
+        """
+        # TODO: not implemented yet
+        #raise NotImplementedError
+        fossil = fossilCreator()
+        fossil.exec()

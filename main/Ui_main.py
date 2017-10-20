@@ -16,7 +16,7 @@ class Ui_MainWindow(object):
         self.centralWidget.setObjectName("centralWidget")
         MainWindow.setCentralWidget(self.centralWidget)
         self.menuBar = QtWidgets.QMenuBar(MainWindow)
-        self.menuBar.setGeometry(QtCore.QRect(0, 0, 800, 22))
+        self.menuBar.setGeometry(QtCore.QRect(0, 0, 800, 21))
         self.menuBar.setObjectName("menuBar")
         self.menuFile = QtWidgets.QMenu(self.menuBar)
         self.menuFile.setObjectName("menuFile")
@@ -55,6 +55,8 @@ class Ui_MainWindow(object):
         self.actioncal_ex1.setObjectName("actioncal_ex1")
         self.actionTetris = QtWidgets.QAction(MainWindow)
         self.actionTetris.setObjectName("actionTetris")
+        self.actionFossil_Creator = QtWidgets.QAction(MainWindow)
+        self.actionFossil_Creator.setObjectName("actionFossil_Creator")
         self.menuFile.addAction(self.actionQuit)
         self.menuCalculator.addAction(self.actionSimple)
         self.menuCalculator.addAction(self.actionEngr_Calculator)
@@ -62,6 +64,7 @@ class Ui_MainWindow(object):
         self.menuCalculator.addAction(self.actioncal_ex1)
         self.menuUtilities.addAction(self.actionGrouping)
         self.menuUtilities.addAction(self.actionGraphics_Viewer)
+        self.menuUtilities.addAction(self.actionFossil_Creator)
         self.menuDesign.addAction(self.actionSpur_Gear_Width)
         self.menuDesign.addAction(self.action2D_cad)
         self.menuDesign.addAction(self.actionPaint)
@@ -98,6 +101,7 @@ class Ui_MainWindow(object):
         self.actionPaint.setText(_translate("MainWindow", "Paint"))
         self.actioncal_ex1.setText(_translate("MainWindow", "cal_ex1"))
         self.actionTetris.setText(_translate("MainWindow", "Tetris"))
+        self.actionFossil_Creator.setText(_translate("MainWindow", "Fossil Creator"))
 
 
 if __name__ == "__main__":

@@ -45,6 +45,7 @@
 <v t="leo.20170908231831.1"><vh>solvespace</vh></v>
 <v t="leo.20170828230349.1"><vh>PyQt5 clock</vh></v>
 <v t="leo.20170828234256.1"><vh>Tutorial</vh></v>
+<v t="leo.20170924164948.1"><vh>cad 2d</vh></v>
 </v>
 <v t="leo.20170814001340.1"><vh>CAE 相關</vh></v>
 <v t="leo.20170816213117.1"><vh>Odoo 相關</vh></v>
@@ -733,5 +734,48 @@ cd build
 cmake .. -DCMAKE_BUILD_TYPE=Release
 make
 sudo make install</t>
+<t tx="leo.20170924164948.1">from PyQt5 import QtGui, QtCore, QtWidgets
+
+class Window(QtWidgets.QWidget):
+    def __init__(self):
+        super().__init__()    
+        self.view = View(self)
+        self.button = QtWidgets.QPushButton('Clear View', self)
+        self.button.clicked.connect(self.handleClearView)
+        layout = QtWidgets.QVBoxLayout(self)
+        layout.addWidget(self.view)
+        layout.addWidget(self.button)
+
+    def handleClearView(self):
+        self.view.scene().clear()
+
+class View(QtWidgets.QGraphicsView):
+    def __init__(self, parent):
+        QtWidgets.QGraphicsView.__init__(self, parent)
+        self.setScene(QtWidgets.QGraphicsScene(self))
+        self.setSceneRect(QtCore.QRectF(self.viewport().rect()))
+
+    def mousePressEvent(self, event):
+        self._start = event.pos()
+
+    def mouseReleaseEvent(self, event):
+        start = QtCore.QPointF(self.mapToScene(self._start))
+        end = QtCore.QPointF(self.mapToScene(event.pos()))
+        self.scene().addItem(
+            QtWidgets.QGraphicsLineItem(QtCore.QLineF(start, end)))
+        for point in (start, end):
+            text = self.scene().addSimpleText(
+                '(%d, %d)' % (point.x(), point.y()))
+            text.setBrush(QtCore.Qt.red)
+            text.setPos(point)
+
+if __name__ == '__main__':
+
+    import sys
+    app = QtWidgets.QApplication(sys.argv)
+    window = Window()
+    window.resize(640, 480)
+    window.show()
+    sys.exit(app.exec_())</t>
 </tnodes>
 </leo_file>

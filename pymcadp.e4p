@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-5.1.dtd">
 <!-- eric project file for project pymcadp -->
-<!-- Saved: 2017-09-08, 21:27:27 -->
+<!-- Saved: 2017-09-24, 16:35:55 -->
 <!-- Copyright (C) 2017 ,  -->
 <Project version="5.1">
   <Language>en_US</Language>
@@ -29,8 +29,10 @@
     <Source>paint/Ui_paint.py</Source>
     <Source>paint/paint.py</Source>
     <Source>run.py</Source>
+    <Source>utilities/Ui_fossil_creator.py</Source>
     <Source>utilities/Ui_graphics_viewer.py</Source>
     <Source>utilities/Ui_grouping.py</Source>
+    <Source>utilities/fossil_creator.py</Source>
     <Source>utilities/graphics_viewer.py</Source>
     <Source>utilities/grouping.py</Source>
   </Sources>
@@ -41,6 +43,7 @@
     <Form>design/spur_gear_width.ui</Form>
     <Form>main/main.ui</Form>
     <Form>paint/paint.ui</Form>
+    <Form>utilities/fossil_creator.ui</Form>
     <Form>utilities/graphics_viewer.ui</Form>
     <Form>utilities/grouping.ui</Form>
   </Forms>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Tasks SYSTEM "Tasks-6.0.dtd">
+<!-- eric6 tasks file for project pymcadp -->
+<!-- Saved: 2017-10-12, 17:26:10 -->
+<Tasks version="6.0">
+  <ProjectScanFilter></ProjectScanFilter>
+  <Task priority="1" completed="False" type="1" uid="{058bf99a-ef06-4de3-91ca-2b882f5fa024}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2017-10-12, 10:51:38</Created>
+    <Resource>
+      <Filename>main/main.py</Filename>
+      <Linenumber>52</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{a4d7e2ef-b26e-4b1f-98e2-8b7891d2af68}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2017-10-12, 10:51:38</Created>
+    <Resource>
+      <Filename>main/main.py</Filename>
+      <Linenumber>71</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{c848344f-0443-4b5b-bbbe-ed090a948d24}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2017-10-12, 10:51:38</Created>
+    <Resource>
+      <Filename>main/main.py</Filename>
+      <Linenumber>81</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{8ec3b8f7-bb2a-4f1b-8e04-ee793fe3344e}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2017-10-12, 10:51:38</Created>
+    <Resource>
+      <Filename>main/main.py</Filename>
+      <Linenumber>91</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{8dd102e2-ee48-4078-9034-d05cfd79c5a0}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2017-10-12, 10:51:38</Created>
+    <Resource>
+      <Filename>main/main.py</Filename>
+      <Linenumber>101</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{e150a90b-f03f-4e44-b113-908b2b2bf90c}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2017-10-12, 10:51:38</Created>
+    <Resource>
+      <Filename>main/main.py</Filename>
+      <Linenumber>111</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{925aaada-7923-463e-a14e-11b3086b54f1}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2017-10-12, 10:51:38</Created>
+    <Resource>
+      <Filename>main/main.py</Filename>
+      <Linenumber>121</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{c26db838-9c63-4c89-a713-539f3e01841d}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2017-10-12, 10:51:38</Created>
+    <Resource>
+      <Filename>main/main.py</Filename>
+      <Linenumber>134</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{3121e064-2555-4ee1-bb62-f4f9a54143c0}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2017-10-12, 10:51:38</Created>
+    <Resource>
+      <Filename>main/main.py</Filename>
+      <Linenumber>144</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{ecf206af-8523-4ac9-b2c3-ea74eb49d827}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2017-10-12, 10:51:38</Created>
+    <Resource>
+      <Filename>main/main.py</Filename>
+      <Linenumber>154</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{7107e88e-2c81-47e6-9cae-78fb7cb1ae76}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2017-10-12, 10:51:38</Created>
+    <Resource>
+      <Filename>main/main.py</Filename>
+      <Linenumber>164</Linenumber>
+    </Resource>
+  </Task>
+</Tasks>
