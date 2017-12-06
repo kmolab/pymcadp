@@ -4,10 +4,11 @@
 Module implementing Dialog.
 """
 
-from PyQt5.QtCore import pyqtSlot
+#from PyQt5.QtCore import pyqtSlot
 from PyQt5.QtWidgets import QDialog
 
 from .Ui_Dialog import Ui_Dialog
+import math
 
 
 # Dialog 類別同時繼承 QDialog 與 Ui_Dialog 類別
@@ -32,20 +33,42 @@ class Dialog(QDialog, Ui_Dialog):
         num_button = [self.one,  self.two,  \
         self.three,  self.four,  self.five,  self.six,  self.seven,  self.eight,  self.nine,  self.zero]
         # 用於產生加號與減號 signals 與 slots 用的數列
-        plus_minus = [self.plus,  self.minus]
+        plus_minus = [self.plusButton,  self.minusButton]
         # 用於產生乘號與除號 signals 與 slots 用的數列
-        multiply_divide = [self.multiply,  self.divide]
+        multiply_divide = [self.timesButton,  self.divisionButton]
         #self.one.clicked.connect(self.number)
         # 數字按鍵的 signals 與 slots 設定
         for i in num_button:
-            i.clicked.connect(self.number)
+            i.clicked.connect(self.digitClicked)
         
         # 加減鍵的 signals 與 slogts 設定
         for i in plus_minus:
             i.clicked.connect(self.additiveOperatorClicked)
         
         # 等於按鍵的 signal 與 slot 設定
-        self.equal.clicked.connect(self.equalClicked)
+        self.equalButton.clicked.connect(self.equalClicked)
+        # 清除
+        self.clearButton.clicked.connect(self.clear)
+        # 全部清除
+        self.clearAllButton.clicked.connect(self.clearAll)
+        # 清除記憶
+        self.clearMemoryButton.clicked.connect(self.clearMemory)
+        # 讀取記憶
+        self.readMemoryButton.clicked.connect(self.readMemory)
+        # 設定記憶
+        self.setMemoryButton.clicked.connect(self.setMemory)
+        # 按下小數點
+        self.pointButton.clicked.connect(self.pointClicked)
+        # 按下變號
+        self.changeSignButton.clicked.connect(self.changeSignClicked)
+        # 按下上一步
+        self.backspaceButton.clicked.connect(self.backspaceClicked)
+        # 加入記憶體
+        self.addToMemoryButton.clicked.connect(self.addToMemory)
+        # 單一運算子
+        unaryOperator = [self.squareRootButton, self.powerButton,  self.reciprocalButton ]
+        for i in unaryOperator:
+            i.clicked.connect(self.unaryOperatorClicked)
         
         # 乘與除按建的 signals 與 slots 設定
         for i in multiply_divide:
@@ -68,7 +91,7 @@ class Dialog(QDialog, Ui_Dialog):
         # 等待運算的乘或除
         self.pendingMultiplicativeOperator = ''
 
-    def number(self):
+    def digitClicked(self):
         # sender() 為使用者點擊按鈕時送出的按鈕指標類別, 在此利用此按鍵類別建立案例
         # 所建立的 clickedButton 即為當下使用者所按下的按鈕物件
         clickedButton = self.sender()
@@ -147,7 +170,30 @@ class Dialog(QDialog, Ui_Dialog):
         # 能夠重複按下乘或除, 以目前的運算數值執行重複運算
         self.pendingMultiplicativeOperator = clickedOperator
         self.waitingForOperand = True
-    
+
+    def unaryOperatorClicked(self):
+        clickedButton = self.sender()
+        clickedOperator = clickedButton.text()
+        operand = float(self.display.text())
+
+        if clickedOperator == "Sqrt":
+            if operand < 0.0:
+                self.abortOperation()
+                return
+
+            result = math.sqrt(operand)
+        elif clickedOperator == "X^2":
+            result = math.pow(operand, 2.0)
+        elif clickedOperator == "1/x":
+            if operand == 0.0:
+                self.abortOperation()
+                return
+
+            result = 1.0 / operand
+
+        self.display.setText(str(result))
+        self.waitingForOperand = True
+        
     def equalClicked(self):
         # 從 display 取的運算數值
         operand = float(self.display.text())
@@ -181,11 +227,13 @@ class Dialog(QDialog, Ui_Dialog):
         # 進入計算流程時, 用目前輸入的運算數值與 self.sumSoFar 執行計算
         if pendingOperator == "+":
             self.sumSoFar += rightOperand
+            
         elif pendingOperator == "-":
             self.sumSoFar -= rightOperand
 
         elif pendingOperator == "*":
             self.factorSoFar *= rightOperand
+            
         elif pendingOperator == "/":
             if rightOperand == 0.0:
                 return False
@@ -193,3 +241,73 @@ class Dialog(QDialog, Ui_Dialog):
             self.factorSoFar /= rightOperand
 
         return True
+
+
+    def pointClicked(self):
+        if self.waitingForOperand:
+            self.display.setText('0')
+
+        if "." not in self.display.text():
+            self.display.setText(self.display.text() + ".")
+
+        self.waitingForOperand = False
+
+    def changeSignClicked(self):
+        text = self.display.text()
+        value = float(text)
+
+        if value > 0.0:
+            text = "-" + text
+        elif value < 0.0:
+            text = text[1:]
+
+        self.display.setText(text)
+
+    def backspaceClicked(self):
+        if self.waitingForOperand:
+            return
+
+        text = self.display.text()[:-1]
+        if not text:
+            text = '0'
+            self.waitingForOperand = True
+
+        self.display.setText(text)
+
+    # clearButton 按鍵的處理方法
+    def clear(self):
+        # 在等待運算數階段, 直接跳出 slot, 不會清除顯示幕
+        if self.waitingForOperand:
+            return
+
+        self.display.setText('0')
+        # 清除顯示幕後, 重置等待運算數狀態變數
+        self.waitingForOperand = True
+
+    # clearAllButton 按鍵處理方法
+    def clearAll(self):
+        self.sumSoFar = 0.0
+        self.factorSoFar = 0.0
+        self.pendingAdditiveOperator = ''
+        self.pendingMultiplicativeOperator = ''
+        self.display.setText('0')
+        self.waitingForOperand = True
+
+    def clearMemory(self):
+        self.sumInMemory = 0.0
+
+    def readMemory(self):
+        self.display.setText(str(self.sumInMemory))
+        self.waitingForOperand = True
+
+    def setMemory(self):
+        self.equalClicked()
+        self.sumInMemory = float(self.display.text())
+
+    def addToMemory(self):
+        self.equalClicked()
+        self.sumInMemory += float(self.display.text())
+
+    def abortOperation(self):
+        self.clearAll()
+        self.display.setText("####")
