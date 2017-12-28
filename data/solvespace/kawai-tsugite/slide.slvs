@@ -1,0 +1,5507 @@
+±²³SolveSpaceREVa
+
+
+Group.h.v=00000001
+Group.type=5000
+Group.name=#references
+Group.color=ff000000
+Group.skipFirst=0
+Group.predef.swapUV=0
+Group.predef.negateU=0
+Group.predef.negateV=0
+Group.visible=0
+Group.suppress=0
+Group.relaxConstraints=0
+Group.allowRedundant=0
+Group.allDimsReference=0
+Group.remap={
+}
+AddGroup
+
+Group.h.v=00000002
+Group.type=5001
+Group.order=1
+Group.name=sketch-in-plane
+Group.activeWorkplane.v=80020000
+Group.color=ff000000
+Group.subtype=6000
+Group.skipFirst=0
+Group.predef.q.w=1.00000000000000000000
+Group.predef.origin.v=00010001
+Group.predef.swapUV=0
+Group.predef.negateU=0
+Group.predef.negateV=0
+Group.visible=0
+Group.suppress=0
+Group.relaxConstraints=0
+Group.allowRedundant=0
+Group.allDimsReference=0
+Group.remap={
+}
+AddGroup
+
+Group.h.v=00000003
+Group.type=5300
+Group.order=2
+Group.name=jointA
+Group.color=00646464
+Group.skipFirst=0
+Group.meshCombine=2
+Group.predef.swapUV=0
+Group.predef.negateU=0
+Group.predef.negateV=0
+Group.visible=0
+Group.suppress=0
+Group.relaxConstraints=0
+Group.allowRedundant=0
+Group.allDimsReference=0
+Group.scale=1.00000000000000000000
+Group.remap={
+    1 00010000 0
+    2 00010001 0
+    3 00010020 0
+    4 00020000 0
+    5 00020001 0
+    6 00020020 0
+    7 00030000 0
+    8 00030001 0
+    9 00030020 0
+    10 00040000 0
+    11 00040001 0
+    12 00040002 0
+    13 00050000 0
+    14 00050001 0
+    15 00050002 0
+    16 00060000 0
+    17 00060001 0
+    18 00060002 0
+    19 00070000 0
+    20 00070001 0
+    21 00070002 0
+    22 00080000 0
+    23 00080001 0
+    24 00080002 0
+    25 00090000 0
+    26 00090001 0
+    27 00090002 0
+    28 000a0000 0
+    29 000a0001 0
+    30 000a0002 0
+    31 000b0000 0
+    32 000b0001 0
+    33 000b0002 0
+    34 000c0000 0
+    35 000c0001 0
+    36 000c0002 0
+    37 000d0000 0
+    38 000d0001 0
+    39 000d0002 0
+    40 000e0000 0
+    41 000e0001 0
+    42 000e0002 0
+    43 000f0000 0
+    44 000f0001 0
+    45 000f0002 0
+    46 00100000 0
+    47 00100001 0
+    48 00100002 0
+    49 00110000 0
+    50 001e0000 0
+    51 001e0001 0
+    52 001e0002 0
+    53 001f0000 0
+    54 001f0001 0
+    55 001f0002 0
+    56 00200000 0
+    57 00200001 0
+    58 00200002 0
+    59 00210000 0
+    60 00210001 0
+    61 00210002 0
+    62 00220000 0
+    63 00220001 0
+    64 00220002 0
+    65 00230000 0
+    66 00230001 0
+    67 00230002 0
+    68 00240000 0
+    69 00240001 0
+    70 00240002 0
+    71 00250000 0
+    72 00250001 0
+    73 00250002 0
+    74 00260000 0
+    75 00260001 0
+    76 00260002 0
+    77 80020000 0
+    78 80020001 0
+    79 80020002 0
+    80 80030001 0
+    81 80030002 0
+    82 80030003 0
+    83 80030004 0
+    84 80030005 0
+    85 80030006 0
+    86 80030007 0
+    87 80030008 0
+    88 80030009 0
+    89 8003000a 0
+    90 8003000b 0
+    91 8003000c 0
+    92 8003000d 0
+    93 8003000e 0
+    94 8003000f 0
+    95 80030010 0
+    96 80030011 0
+    97 80030012 0
+    98 80030013 0
+    99 80030014 0
+    100 80030015 0
+    101 80030016 0
+    102 80030017 0
+    103 80030018 0
+    104 80030019 0
+    105 8003001a 0
+    106 8003001b 0
+    107 8003001c 0
+    108 8003001d 0
+    109 8003001e 0
+    110 8003001f 0
+    111 80030020 0
+    112 80030021 0
+    113 80030022 0
+    114 80030023 0
+    115 80030024 0
+    116 80030027 0
+    117 80030028 0
+    118 80030029 0
+    119 8003002a 0
+    120 8003002b 0
+    121 8003002c 0
+    122 8003002d 0
+    123 80040000 0
+    124 80040001 0
+    125 80040002 0
+    126 80050001 0
+    127 80050002 0
+    128 80050003 0
+    129 80050004 0
+    130 80050005 0
+    131 80050006 0
+    132 80050007 0
+    133 80050008 0
+    134 80050009 0
+    135 8005000a 0
+    136 8005000b 0
+    137 8005000c 0
+    138 8005000d 0
+    139 8005000e 0
+    140 8005000f 0
+    141 80050010 0
+    142 80050011 0
+    143 80050012 0
+    144 80050013 0
+    145 80050014 0
+    146 80050015 0
+    147 80050016 0
+    148 80050017 0
+    149 80050018 0
+    150 80050019 0
+    151 8005001a 0
+    152 8005001b 0
+    153 8005001e 0
+    154 8005001f 0
+    155 80050020 0
+    156 80050021 0
+    157 80050022 0
+    158 80050023 0
+    159 80050024 0
+    160 80060000 0
+    161 80060001 0
+    162 80060002 0
+    163 80070000 0
+    164 80070001 0
+    165 80070002 0
+    166 8008006f 0
+    167 80080070 0
+    168 80080071 0
+    169 80080072 0
+    170 80080073 0
+    171 80080074 0
+    172 80080075 0
+    173 80080076 0
+    174 80080077 0
+    175 80080078 0
+    176 80080079 0
+    177 8008007a 0
+    178 8008007b 0
+    179 8008007c 0
+    180 8008007d 0
+    181 8008007e 0
+    182 8008007f 0
+    183 80080080 0
+    184 80080081 0
+    185 80080082 0
+    186 80080083 0
+    187 80080084 0
+    188 80080085 0
+    189 80080086 0
+    190 80080087 0
+    191 80080088 0
+    192 80080089 0
+    193 8008008a 0
+    194 8008008b 0
+    195 8008008c 0
+    196 8008008d 0
+    197 8008008e 0
+    198 8008008f 0
+    199 80080090 0
+    200 80080091 0
+    201 80080092 0
+    202 80080093 0
+    203 80080094 0
+    204 80080095 0
+    205 80080096 0
+    206 80080097 0
+    207 80080098 0
+    208 80080099 0
+    209 8008009a 0
+    210 8008009b 0
+    211 8008009c 0
+    212 8008009d 0
+    213 8008009e 0
+    214 8008009f 0
+    215 800800a0 0
+    216 800800a1 0
+    217 800800a2 0
+    218 800800a3 0
+    219 800800a4 0
+    220 800800a5 0
+    221 800800a6 0
+    222 800800a7 0
+    223 800800a8 0
+    224 800800a9 0
+    225 800800aa 0
+    226 800800ab 0
+    227 800800ac 0
+    228 800800ad 0
+    229 800800ae 0
+    230 800800af 0
+    231 800800b0 0
+    232 800800b1 0
+    233 800800b2 0
+    234 800800b3 0
+    235 800800b4 0
+    236 800800b5 0
+    237 800800b6 0
+    238 800800b7 0
+    239 800800b8 0
+    240 800800b9 0
+    241 800800ba 0
+    242 800800bb 0
+    243 800800bc 0
+    244 800800bd 0
+    245 800800be 0
+    246 800800bf 0
+    247 800800c0 0
+    248 800800c1 0
+    249 800800c2 0
+    250 800800c3 0
+    251 800800c4 0
+    252 800800c5 0
+    253 800800c6 0
+}
+Group.impFile=/home/whitequark/kawai_tsugite/jointA.slvs
+Group.impFileRel=jointA.slvs
+AddGroup
+
+Group.h.v=00000004
+Group.type=5300
+Group.order=4
+Group.name=jointB
+Group.color=00646464
+Group.skipFirst=0
+Group.meshCombine=2
+Group.predef.swapUV=0
+Group.predef.negateU=0
+Group.predef.negateV=0
+Group.visible=0
+Group.suppress=0
+Group.relaxConstraints=0
+Group.allowRedundant=0
+Group.allDimsReference=0
+Group.scale=1.00000000000000000000
+Group.remap={
+    1 00010000 0
+    2 00010001 0
+    3 00010020 0
+    4 00020000 0
+    5 00020001 0
+    6 00020020 0
+    7 00030000 0
+    8 00030001 0
+    9 00030020 0
+    10 00040000 0
+    11 00040001 0
+    12 00040002 0
+    13 00050000 0
+    14 00050001 0
+    15 00050002 0
+    16 00060000 0
+    17 00060001 0
+    18 00060002 0
+    19 00070000 0
+    20 00070001 0
+    21 00070002 0
+    22 00080000 0
+    23 00080001 0
+    24 00080002 0
+    25 00090000 0
+    26 00090001 0
+    27 00090002 0
+    28 000a0000 0
+    29 000a0001 0
+    30 000a0002 0
+    31 000b0000 0
+    32 000b0001 0
+    33 000b0002 0
+    34 000c0000 0
+    35 000c0001 0
+    36 000c0002 0
+    37 000d0000 0
+    38 000d0001 0
+    39 000d0002 0
+    40 000e0000 0
+    41 000e0001 0
+    42 000e0002 0
+    43 000f0000 0
+    44 000f0001 0
+    45 000f0002 0
+    46 00100000 0
+    47 00100001 0
+    48 00100002 0
+    49 00110000 0
+    50 001e0000 0
+    51 001e0001 0
+    52 001e0002 0
+    53 001f0000 0
+    54 001f0001 0
+    55 001f0002 0
+    56 00200000 0
+    57 00200001 0
+    58 00200002 0
+    59 00210000 0
+    60 00210001 0
+    61 00210002 0
+    62 00220000 0
+    63 00220001 0
+    64 00220002 0
+    65 00230000 0
+    66 00230001 0
+    67 00230002 0
+    68 00240000 0
+    69 00240001 0
+    70 00240002 0
+    71 00250000 0
+    72 00250001 0
+    73 00250002 0
+    74 00260000 0
+    75 00260001 0
+    76 00260002 0
+    77 80020000 0
+    78 80020001 0
+    79 80020002 0
+    80 80030001 0
+    81 80030002 0
+    82 80030003 0
+    83 80030004 0
+    84 80030005 0
+    85 80030006 0
+    86 80030007 0
+    87 80030008 0
+    88 80030009 0
+    89 8003000a 0
+    90 8003000b 0
+    91 8003000c 0
+    92 8003000d 0
+    93 8003000e 0
+    94 8003000f 0
+    95 80030010 0
+    96 80030011 0
+    97 80030012 0
+    98 80030013 0
+    99 80030014 0
+    100 80030015 0
+    101 80030016 0
+    102 80030017 0
+    103 80030018 0
+    104 80030019 0
+    105 8003001a 0
+    106 8003001b 0
+    107 8003001c 0
+    108 8003001d 0
+    109 8003001e 0
+    110 8003001f 0
+    111 80030020 0
+    112 80030021 0
+    113 80030022 0
+    114 80030023 0
+    115 80030024 0
+    116 80030027 0
+    117 80030028 0
+    118 80030029 0
+    119 8003002a 0
+    120 8003002b 0
+    121 8003002c 0
+    122 8003002d 0
+    123 80040000 0
+    124 80040001 0
+    125 80040002 0
+    126 80050001 0
+    127 80050002 0
+    128 80050003 0
+    129 80050004 0
+    130 80050005 0
+    131 80050006 0
+    132 80050007 0
+    133 80050008 0
+    134 80050009 0
+    135 8005000a 0
+    136 8005000b 0
+    137 8005000c 0
+    138 8005000d 0
+    139 8005000e 0
+    140 8005000f 0
+    141 80050010 0
+    142 80050011 0
+    143 80050012 0
+    144 80050013 0
+    145 80050014 0
+    146 80050015 0
+    147 80050016 0
+    148 80050017 0
+    149 80050018 0
+    150 80050019 0
+    151 8005001a 0
+    152 8005001b 0
+    153 8005001e 0
+    154 8005001f 0
+    155 80050020 0
+    156 80050021 0
+    157 80050022 0
+    158 80050023 0
+    159 80050024 0
+    160 80060000 0
+    161 80060001 0
+    162 80060002 0
+    163 80070000 0
+    164 80070001 0
+    165 80070002 0
+    166 8008006f 0
+    167 80080070 0
+    168 80080071 0
+    169 80080072 0
+    170 80080073 0
+    171 80080074 0
+    172 80080075 0
+    173 80080076 0
+    174 80080077 0
+    175 80080078 0
+    176 80080079 0
+    177 8008007a 0
+    178 8008007b 0
+    179 8008007c 0
+    180 8008007d 0
+    181 8008007e 0
+    182 8008007f 0
+    183 80080080 0
+    184 80080081 0
+    185 80080082 0
+    186 80080083 0
+    187 80080084 0
+    188 80080085 0
+    189 80080086 0
+    190 80080087 0
+    191 80080088 0
+    192 80080089 0
+    193 8008008a 0
+    194 8008008b 0
+    195 8008008c 0
+    196 8008008d 0
+    197 8008008e 0
+    198 8008008f 0
+    199 80080090 0
+    200 80080091 0
+    201 80080092 0
+    202 80080093 0
+    203 80080094 0
+    204 80080095 0
+    205 80080096 0
+    206 80080097 0
+    207 80080098 0
+    208 80080099 0
+    209 8008009a 0
+    210 8008009b 0
+    211 8008009c 0
+    212 8008009d 0
+    213 8008009e 0
+    214 8008009f 0
+    215 800800a0 0
+    216 800800a1 0
+    217 800800a2 0
+    218 800800a3 0
+    219 800800a4 0
+    220 800800a5 0
+    221 800800a6 0
+    222 800800a7 0
+    223 800800a8 0
+    224 800800a9 0
+    225 800800aa 0
+    226 800800ab 0
+    227 800800ac 0
+    228 800800ad 0
+    229 800800ae 0
+    230 800800af 0
+    231 800800b0 0
+    232 800800b1 0
+    233 800800b2 0
+    234 800800b3 0
+    235 800800b4 0
+    236 800800b5 0
+    237 800800b6 0
+    238 800800b7 0
+    239 800800b8 0
+    240 800800b9 0
+    241 800800ba 0
+    242 800800bb 0
+    243 800800bc 0
+    244 800800bd 0
+    245 800800be 0
+    246 800800bf 0
+    247 800800c0 0
+    248 800800c1 0
+    249 800800c2 0
+    250 800800c3 0
+    251 800800c4 0
+    252 800800c5 0
+    253 800800c6 0
+}
+Group.impFile=/home/whitequark/kawai_tsugite/jointB.slvs
+Group.impFileRel=jointB.slvs
+AddGroup
+
+Group.h.v=00000005
+Group.type=5000
+Group.order=3
+Group.name=sketch-in-3d
+Group.color=00646464
+Group.skipFirst=0
+Group.predef.swapUV=0
+Group.predef.negateU=0
+Group.predef.negateV=0
+Group.visible=1
+Group.suppress=0
+Group.relaxConstraints=0
+Group.allowRedundant=0
+Group.allDimsReference=0
+Group.scale=1.00000000000000000000
+Group.remap={
+}
+AddGroup
+
+Param.h.v.=00010010
+AddParam
+
+Param.h.v.=00010011
+AddParam
+
+Param.h.v.=00010012
+AddParam
+
+Param.h.v.=00010020
+Param.val=1.00000000000000000000
+AddParam
+
+Param.h.v.=00010021
+AddParam
+
+Param.h.v.=00010022
+AddParam
+
+Param.h.v.=00010023
+AddParam
+
+Param.h.v.=00020010
+AddParam
+
+Param.h.v.=00020011
+AddParam
+
+Param.h.v.=00020012
+AddParam
+
+Param.h.v.=00020020
+Param.val=0.50000000000000000000
+AddParam
+
+Param.h.v.=00020021
+Param.val=0.50000000000000000000
+AddParam
+
+Param.h.v.=00020022
+Param.val=0.50000000000000000000
+AddParam
+
+Param.h.v.=00020023
+Param.val=0.50000000000000000000
+AddParam
+
+Param.h.v.=00030010
+AddParam
+
+Param.h.v.=00030011
+AddParam
+
+Param.h.v.=00030012
+AddParam
+
+Param.h.v.=00030020
+Param.val=0.50000000000000000000
+AddParam
+
+Param.h.v.=00030021
+Param.val=-0.50000000000000000000
+AddParam
+
+Param.h.v.=00030022
+Param.val=-0.50000000000000000000
+AddParam
+
+Param.h.v.=00030023
+Param.val=-0.50000000000000000000
+AddParam
+
+Param.h.v.=00040010
+AddParam
+
+Param.h.v.=00040011
+AddParam
+
+Param.h.v.=00040012
+AddParam
+
+Param.h.v.=00040013
+Param.val=54.77002791528637715146
+AddParam
+
+Param.h.v.=00040014
+Param.val=54.77002791528637715146
+AddParam
+
+Param.h.v.=00040015
+Param.val=-54.77002791528637715146
+AddParam
+
+Param.h.v.=00050010
+Param.val=65.73337688094976272168
+AddParam
+
+Param.h.v.=00050011
+Param.val=65.73337688094976272168
+AddParam
+
+Param.h.v.=00050012
+Param.val=-65.73337688094974851083
+AddParam
+
+Param.h.v.=80030000
+Param.val=27.38501395764318857573
+AddParam
+
+Param.h.v.=80030001
+Param.val=27.38501395764318857573
+AddParam
+
+Param.h.v.=80030002
+Param.val=-27.38501395764318857573
+AddParam
+
+Param.h.v.=80030003
+Param.val=1.00000000000000000000
+AddParam
+
+Param.h.v.=80030004
+AddParam
+
+Param.h.v.=80030005
+Param.val=-0.00000000000000000000
+AddParam
+
+Param.h.v.=80030006
+Param.val=-0.00000000000000000000
+AddParam
+
+Param.h.v.=80040000
+Param.val=38.34836292330658125138
+AddParam
+
+Param.h.v.=80040001
+Param.val=38.34836292330658125138
+AddParam
+
+Param.h.v.=80040002
+Param.val=-38.34836292330655993510
+AddParam
+
+Param.h.v.=80040003
+Param.val=-0.00000000000000000207
+AddParam
+
+Param.h.v.=80040004
+Param.val=-0.70710678118654746172
+AddParam
+
+Param.h.v.=80040005
+Param.val=0.70710678118654746172
+AddParam
+
+Param.h.v.=80040006
+Param.val=0.00000000000000000121
+AddParam
+
+Request.h.v=00000001
+Request.type=100
+Request.group.v=00000001
+Request.construction=0
+AddRequest
+
+Request.h.v=00000002
+Request.type=100
+Request.group.v=00000001
+Request.construction=0
+AddRequest
+
+Request.h.v=00000003
+Request.type=100
+Request.group.v=00000001
+Request.construction=0
+AddRequest
+
+Request.h.v=00000004
+Request.type=200
+Request.group.v=00000005
+Request.construction=1
+AddRequest
+
+Request.h.v=00000005
+Request.type=101
+Request.group.v=00000005
+Request.construction=0
+AddRequest
+
+Entity.h.v=00010000
+Entity.type=10000
+Entity.construction=0
+Entity.point[0].v=00010001
+Entity.normal.v=00010020
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=00010001
+Entity.type=2000
+Entity.construction=0
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=00010020
+Entity.type=3000
+Entity.construction=0
+Entity.point[0].v=00010001
+Entity.actNormal.w=1.00000000000000000000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00020000
+Entity.type=10000
+Entity.construction=0
+Entity.point[0].v=00020001
+Entity.normal.v=00020020
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=00020001
+Entity.type=2000
+Entity.construction=0
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=00020020
+Entity.type=3000
+Entity.construction=0
+Entity.point[0].v=00020001
+Entity.actNormal.w=0.50000000000000000000
+Entity.actNormal.vx=0.50000000000000000000
+Entity.actNormal.vy=0.50000000000000000000
+Entity.actNormal.vz=0.50000000000000000000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00030000
+Entity.type=10000
+Entity.construction=0
+Entity.point[0].v=00030001
+Entity.normal.v=00030020
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=00030001
+Entity.type=2000
+Entity.construction=0
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=00030020
+Entity.type=3000
+Entity.construction=0
+Entity.point[0].v=00030001
+Entity.actNormal.w=0.50000000000000000000
+Entity.actNormal.vx=-0.50000000000000000000
+Entity.actNormal.vy=-0.50000000000000000000
+Entity.actNormal.vz=-0.50000000000000000000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00040000
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=00040001
+Entity.point[1].v=00040002
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00040001
+Entity.type=2000
+Entity.construction=0
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00040002
+Entity.type=2000
+Entity.construction=0
+Entity.actPoint.x=54.77002791528637715146
+Entity.actPoint.y=54.77002791528637715146
+Entity.actPoint.z=-54.77002791528637715146
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00050000
+Entity.type=2000
+Entity.construction=0
+Entity.actPoint.x=65.73337688094976272168
+Entity.actPoint.y=65.73337688094976272168
+Entity.actPoint.z=-65.73337688094974851083
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80020000
+Entity.type=10000
+Entity.construction=0
+Entity.point[0].v=80020002
+Entity.normal.v=80020001
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80020001
+Entity.type=3010
+Entity.construction=0
+Entity.point[0].v=80020002
+Entity.actNormal.w=1.00000000000000000000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80020002
+Entity.type=2012
+Entity.construction=0
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030002
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=27.38501395764318857573
+Entity.actPoint.y=27.38501395764318857573
+Entity.actPoint.z=-27.38501395764318857573
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030003
+Entity.type=3011
+Entity.construction=0
+Entity.point[0].v=80030002
+Entity.actNormal.w=1.00000000000000000000
+Entity.actNormal.vy=-0.00000000000000000000
+Entity.actNormal.vz=-0.00000000000000000000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030005
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=27.38501395764318857573
+Entity.actPoint.y=27.38501395764318857573
+Entity.actPoint.z=-27.38501395764318857573
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030006
+Entity.type=3011
+Entity.construction=0
+Entity.point[0].v=80030005
+Entity.actNormal.w=0.50000000000000000000
+Entity.actNormal.vx=0.50000000000000000000
+Entity.actNormal.vy=0.50000000000000000000
+Entity.actNormal.vz=0.50000000000000000000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030008
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=27.38501395764318857573
+Entity.actPoint.y=27.38501395764318857573
+Entity.actPoint.z=-27.38501395764318857573
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030009
+Entity.type=3011
+Entity.construction=0
+Entity.point[0].v=80030008
+Entity.actNormal.w=0.50000000000000000000
+Entity.actNormal.vx=-0.50000000000000000000
+Entity.actNormal.vy=-0.50000000000000000000
+Entity.actNormal.vz=-0.50000000000000000000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003000a
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8003000b
+Entity.point[1].v=8003000c
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003000b
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.y=54.77002791528637715146
+Entity.actPoint.z=-27.38501395764318857573
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003000c
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=54.77002791528637715146
+Entity.actPoint.y=54.77002791528637715146
+Entity.actPoint.z=-27.38501395764318857573
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003000d
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8003000e
+Entity.point[1].v=8003000f
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003000e
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=54.77002791528637715146
+Entity.actPoint.y=54.77002791528637715146
+Entity.actPoint.z=-27.38501395764318857573
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003000f
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=54.77002791528637715146
+Entity.actPoint.z=-27.38501395764318857573
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030010
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030011
+Entity.point[1].v=80030012
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030011
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=54.77002791528637715146
+Entity.actPoint.z=-27.38501395764318857573
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030012
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.z=-27.38501395764318857573
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030013
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030014
+Entity.point[1].v=80030015
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030014
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.z=-27.38501395764318857573
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030015
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.y=54.77002791528637715146
+Entity.actPoint.z=-27.38501395764318857573
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030016
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=80030017
+Entity.point[1].v=80030018
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030017
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=54.77002791528637715146
+Entity.actPoint.y=54.77002791528637715146
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030018
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.y=54.77002791528637715146
+Entity.actPoint.z=-54.77002791528637715146
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030019
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=8003001a
+Entity.point[1].v=8003001b
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003001a
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.y=54.77002791528637715146
+Entity.actPoint.z=-54.77002791528637715146
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003001b
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=54.77002791528637715146
+Entity.actPoint.z=-54.77002791528637715146
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003001c
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=8003001d
+Entity.point[1].v=8003001e
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003001d
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=54.77002791528637715146
+Entity.actPoint.z=-54.77002791528637715146
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003001e
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=54.77002791528637715146
+Entity.actPoint.y=54.77002791528637715146
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003001f
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030020
+Entity.point[1].v=80030021
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030020
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=54.77002791528637715146
+Entity.actPoint.y=54.77002791528639136232
+Entity.actPoint.z=0.00000000000001421085
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030021
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=-0.00000000000001421085
+Entity.actPoint.y=54.77002791528638425689
+Entity.actPoint.z=-54.77002791528637004603
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030022
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030023
+Entity.point[1].v=80030024
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030023
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=-0.00000000000001421085
+Entity.actPoint.y=54.77002791528638425689
+Entity.actPoint.z=-54.77002791528637004603
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030024
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=54.77002791528637715146
+Entity.actPoint.z=-54.77002791528637715146
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030025
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030026
+Entity.point[1].v=80030027
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030026
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=54.77002791528637715146
+Entity.actPoint.z=-54.77002791528637715146
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030027
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=54.77002791528637715146
+Entity.actPoint.y=54.77002791528639136232
+Entity.actPoint.z=0.00000000000001421085
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030028
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=80030029
+Entity.point[1].v=8003002a
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030029
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=54.77002791528639136232
+Entity.actPoint.y=36.51335194352425617126
+Entity.actPoint.z=-18.25667597176211387477
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003002a
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=18.25667597176209966392
+Entity.actPoint.y=36.51335194352427038211
+Entity.actPoint.z=-54.77002791528637004603
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003002b
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=8003002c
+Entity.point[1].v=8003002d
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003002c
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=36.51335194352422774955
+Entity.actPoint.y=54.77002791528640557317
+Entity.actPoint.z=-18.25667597176211387477
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003002d
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=36.51335194352425617126
+Entity.actPoint.y=18.25667597176211742749
+Entity.actPoint.z=-54.77002791528637715146
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003002e
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=8003002f
+Entity.point[1].v=80030030
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003002f
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=18.25667597176210676935
+Entity.actPoint.y=54.77002791528640557317
+Entity.actPoint.z=-36.51335194352422774955
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030030
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=54.77002791528637715146
+Entity.actPoint.y=18.25667597176212453292
+Entity.actPoint.z=-36.51335194352425617126
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030031
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=36.51335194352424196040
+Entity.actPoint.y=36.51335194352426327669
+Entity.actPoint.z=-36.51335194352424196040
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030032
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030033
+Entity.point[1].v=80030034
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030033
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=36.51335194352424196040
+Entity.actPoint.y=36.51335194352426327669
+Entity.actPoint.z=-36.51335194352424196040
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030034
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=36.51335194352420643327
+Entity.actPoint.y=73.02670388704852655337
+Entity.actPoint.z=0.00000000000000710543
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030035
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030036
+Entity.point[1].v=80030037
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030036
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=36.51335194352424196040
+Entity.actPoint.y=36.51335194352426327669
+Entity.actPoint.z=-36.51335194352424196040
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030037
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=73.02670388704851234252
+Entity.actPoint.y=36.51335194352424196040
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030038
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030039
+Entity.point[1].v=8003003a
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030039
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=73.02670388704851234252
+Entity.actPoint.y=36.51335194352424196040
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003003a
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=36.51335194352420643327
+Entity.actPoint.y=73.02670388704852655337
+Entity.actPoint.z=0.00000000000000710543
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003003b
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8003003c
+Entity.point[1].v=8003003d
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003003c
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=36.51335194352424196040
+Entity.actPoint.y=36.51335194352426327669
+Entity.actPoint.z=-36.51335194352424196040
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003003d
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=0.00000000000000710543
+Entity.actPoint.y=73.02670388704851234252
+Entity.actPoint.z=-36.51335194352421353869
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003003e
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8003003f
+Entity.point[1].v=80030040
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003003f
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=0.00000000000000710543
+Entity.actPoint.y=73.02670388704851234252
+Entity.actPoint.z=-36.51335194352421353869
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030040
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=-0.00000000000000710543
+Entity.actPoint.y=36.51335194352428459297
+Entity.actPoint.z=-73.02670388704848392081
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030041
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030042
+Entity.point[1].v=80030043
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030042
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=-0.00000000000000710543
+Entity.actPoint.y=36.51335194352428459297
+Entity.actPoint.z=-73.02670388704848392081
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030043
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=36.51335194352424196040
+Entity.actPoint.y=36.51335194352426327669
+Entity.actPoint.z=-36.51335194352424196040
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030044
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030045
+Entity.point[1].v=80030046
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030045
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=36.51335194352424196040
+Entity.actPoint.y=36.51335194352426327669
+Entity.actPoint.z=-36.51335194352424196040
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030046
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=73.02670388704848392081
+Entity.actPoint.z=-36.51335194352427038211
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030047
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030048
+Entity.point[1].v=80030049
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030048
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=73.02670388704848392081
+Entity.actPoint.z=-36.51335194352427038211
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030049
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=36.51335194352427748754
+Entity.actPoint.z=-73.02670388704848392081
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003004a
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8003004b
+Entity.point[1].v=8003004c
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003004b
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=36.51335194352427748754
+Entity.actPoint.z=-73.02670388704848392081
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003004c
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=36.51335194352424196040
+Entity.actPoint.y=36.51335194352426327669
+Entity.actPoint.z=-36.51335194352424196040
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003004e
+Entity.type=3011
+Entity.construction=0
+Entity.point[0].v=8003004f
+Entity.actNormal.w=1.00000000000000000000
+Entity.actNormal.vy=-0.00000000000000000000
+Entity.actNormal.vz=-0.00000000000000000000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003004f
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=27.38501395764318857573
+Entity.actPoint.y=27.38501395764318857573
+Entity.actPoint.z=-27.38501395764318857573
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030050
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030051
+Entity.point[1].v=80030052
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030051
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.y=54.77002791528637715146
+Entity.actPoint.z=-54.77002791528637715146
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030052
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=54.77002791528637715146
+Entity.actPoint.y=54.77002791528637715146
+Entity.actPoint.z=-54.77002791528637715146
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030053
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030054
+Entity.point[1].v=80030055
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030054
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.y=54.77002791528637715146
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030055
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=54.77002791528637715146
+Entity.actPoint.y=54.77002791528637715146
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030056
+Entity.type=5002
+Entity.construction=0
+Entity.actPoint.y=54.77002791528637715146
+Entity.actPoint.z=-27.38501395764318857573
+Entity.actNormal.vx=0.00000000000000000000
+Entity.actNormal.vy=1.00000000000000000000
+Entity.actNormal.vz=0.00000000000000000000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030057
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030054
+Entity.point[1].v=80030051
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030058
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030055
+Entity.point[1].v=80030052
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030059
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8003005a
+Entity.point[1].v=8003005b
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003005a
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=54.77002791528637715146
+Entity.actPoint.y=54.77002791528637715146
+Entity.actPoint.z=-54.77002791528637715146
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003005b
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=54.77002791528637715146
+Entity.actPoint.z=-54.77002791528637715146
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003005c
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8003005d
+Entity.point[1].v=8003005e
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003005d
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=54.77002791528637715146
+Entity.actPoint.y=54.77002791528637715146
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003005e
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=54.77002791528637715146
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003005f
+Entity.type=5002
+Entity.construction=0
+Entity.actPoint.x=54.77002791528637715146
+Entity.actPoint.y=54.77002791528637715146
+Entity.actPoint.z=-27.38501395764318857573
+Entity.actNormal.vx=1.00000000000000000000
+Entity.actNormal.vy=-0.00000000000000000000
+Entity.actNormal.vz=0.00000000000000000000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030060
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8003005d
+Entity.point[1].v=8003005a
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030061
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8003005e
+Entity.point[1].v=8003005b
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030062
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030063
+Entity.point[1].v=80030064
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030063
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=54.77002791528637715146
+Entity.actPoint.z=-54.77002791528637715146
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030064
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.z=-54.77002791528637715146
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030065
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030066
+Entity.point[1].v=80030067
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030066
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=54.77002791528637715146
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030067
+Entity.type=2011
+Entity.construction=0
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030068
+Entity.type=5002
+Entity.construction=0
+Entity.actPoint.x=54.77002791528637715146
+Entity.actPoint.z=-27.38501395764318857573
+Entity.actNormal.vx=-0.00000000000000000000
+Entity.actNormal.vy=-1.00000000000000000000
+Entity.actNormal.vz=-0.00000000000000000000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030069
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030066
+Entity.point[1].v=80030063
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003006a
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030067
+Entity.point[1].v=80030064
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003006b
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8003006c
+Entity.point[1].v=8003006d
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003006c
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.z=-54.77002791528637715146
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003006d
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.y=54.77002791528637715146
+Entity.actPoint.z=-54.77002791528637715146
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003006e
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8003006f
+Entity.point[1].v=80030070
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003006f
+Entity.type=2011
+Entity.construction=0
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030070
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.y=54.77002791528637715146
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030071
+Entity.type=5002
+Entity.construction=0
+Entity.actPoint.z=-27.38501395764318857573
+Entity.actNormal.vx=-1.00000000000000000000
+Entity.actNormal.vy=0.00000000000000000000
+Entity.actNormal.vz=-0.00000000000000000000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030072
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8003006f
+Entity.point[1].v=8003006c
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030073
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030070
+Entity.point[1].v=8003006d
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030074
+Entity.type=3011
+Entity.construction=0
+Entity.point[0].v=80030075
+Entity.actNormal.w=1.00000000000000000000
+Entity.actNormal.vy=-0.00000000000000000000
+Entity.actNormal.vz=-0.00000000000000000000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030075
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=27.38501395764318857573
+Entity.actPoint.y=27.38501395764318857573
+Entity.actPoint.z=-54.77002791528637715146
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030076
+Entity.type=3011
+Entity.construction=0
+Entity.point[0].v=80030077
+Entity.actNormal.w=1.00000000000000000000
+Entity.actNormal.vy=-0.00000000000000000000
+Entity.actNormal.vz=-0.00000000000000000000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030077
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=27.38501395764318857573
+Entity.actPoint.y=27.38501395764318857573
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030078
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030077
+Entity.point[1].v=80030075
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030079
+Entity.type=5002
+Entity.construction=0
+Entity.actPoint.x=27.38501395764318857573
+Entity.actPoint.y=27.38501395764318857573
+Entity.actNormal.vx=0.00000000000000000000
+Entity.actNormal.vy=-0.00000000000000000000
+Entity.actNormal.vz=-1.00000000000000000000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003007a
+Entity.type=5002
+Entity.construction=0
+Entity.actPoint.x=27.38501395764318857573
+Entity.actPoint.y=27.38501395764318857573
+Entity.actPoint.z=-54.77002791528637715146
+Entity.actNormal.vx=0.00000000000000000000
+Entity.actNormal.vy=-0.00000000000000000000
+Entity.actNormal.vz=-1.00000000000000000000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003007c
+Entity.type=3011
+Entity.construction=0
+Entity.point[0].v=8003007d
+Entity.actNormal.w=0.42470820027786687634
+Entity.actNormal.vx=-0.33985114297998741950
+Entity.actNormal.vy=0.82047323857028342520
+Entity.actNormal.vz=0.17591989660616119684
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003007d
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=54.77002791528637715146
+Entity.actPoint.z=-54.77002791528637715146
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003007e
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8003007f
+Entity.point[1].v=80030080
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003007f
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=54.77002791528637715146
+Entity.actPoint.y=54.77002791528639136232
+Entity.actPoint.z=0.00000000000001421085
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030080
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=-0.00000000000001421085
+Entity.actPoint.y=54.77002791528638425689
+Entity.actPoint.z=-54.77002791528637004603
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030081
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030082
+Entity.point[1].v=80030083
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030082
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=75.74840873001686247790
+Entity.actPoint.y=75.74840873001687668875
+Entity.actPoint.z=-20.97838081473047466829
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030083
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=20.97838081473047111558
+Entity.actPoint.y=75.74840873001687668875
+Entity.actPoint.z=-75.74840873001684826704
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030084
+Entity.type=5002
+Entity.construction=0
+Entity.actPoint.x=54.77002791528637715146
+Entity.actPoint.y=54.77002791528639136232
+Entity.actPoint.z=0.00000000000001421085
+Entity.actNormal.vx=-0.40824829046386318376
+Entity.actNormal.vy=0.81649658092772614548
+Entity.actNormal.vz=0.40824829046386307274
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030085
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030082
+Entity.point[1].v=8003007f
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030086
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030083
+Entity.point[1].v=80030080
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030087
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030088
+Entity.point[1].v=80030089
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030088
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=-0.00000000000001421085
+Entity.actPoint.y=54.77002791528638425689
+Entity.actPoint.z=-54.77002791528637004603
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030089
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=54.77002791528637715146
+Entity.actPoint.z=-54.77002791528637715146
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003008a
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8003008b
+Entity.point[1].v=8003008c
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003008b
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=20.97838081473047111558
+Entity.actPoint.y=75.74840873001687668875
+Entity.actPoint.z=-75.74840873001684826704
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003008c
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=75.74840873001686247790
+Entity.actPoint.y=20.97838081473048887915
+Entity.actPoint.z=-75.74840873001687668875
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003008d
+Entity.type=5002
+Entity.construction=0
+Entity.actPoint.x=-0.00000000000001421085
+Entity.actPoint.y=54.77002791528638425689
+Entity.actPoint.z=-54.77002791528637004603
+Entity.actNormal.vx=-0.40824829046386318376
+Entity.actNormal.vy=-0.40824829046386307274
+Entity.actNormal.vz=-0.81649658092772614548
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003008e
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8003008b
+Entity.point[1].v=80030088
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003008f
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8003008c
+Entity.point[1].v=80030089
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030090
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030091
+Entity.point[1].v=80030092
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030091
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=54.77002791528637715146
+Entity.actPoint.z=-54.77002791528637715146
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030092
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=54.77002791528637715146
+Entity.actPoint.y=54.77002791528639136232
+Entity.actPoint.z=0.00000000000001421085
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030093
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030094
+Entity.point[1].v=80030095
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030094
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=75.74840873001686247790
+Entity.actPoint.y=20.97838081473048887915
+Entity.actPoint.z=-75.74840873001687668875
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030095
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=75.74840873001686247790
+Entity.actPoint.y=75.74840873001687668875
+Entity.actPoint.z=-20.97838081473047466829
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030096
+Entity.type=5002
+Entity.construction=0
+Entity.actPoint.x=54.77002791528637715146
+Entity.actPoint.z=-54.77002791528637715146
+Entity.actNormal.vx=0.81649658092772625650
+Entity.actNormal.vy=-0.40824829046386301723
+Entity.actNormal.vz=0.40824829046386301723
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030097
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030094
+Entity.point[1].v=80030091
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030098
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80030095
+Entity.point[1].v=80030092
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80030099
+Entity.type=3011
+Entity.construction=0
+Entity.point[0].v=8003009a
+Entity.actNormal.w=0.42470820027786687634
+Entity.actNormal.vx=-0.33985114297998741950
+Entity.actNormal.vy=0.82047323857028342520
+Entity.actNormal.vz=0.17591989660616119684
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003009a
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=54.77002791528637715146
+Entity.actPoint.z=-54.77002791528637715146
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003009b
+Entity.type=3011
+Entity.construction=0
+Entity.point[0].v=8003009c
+Entity.actNormal.w=0.42470820027786687634
+Entity.actNormal.vx=-0.33985114297998741950
+Entity.actNormal.vy=0.82047323857028342520
+Entity.actNormal.vz=0.17591989660616119684
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003009c
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=75.74840873001686247790
+Entity.actPoint.y=20.97838081473048887915
+Entity.actPoint.z=-75.74840873001687668875
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003009d
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8003009c
+Entity.point[1].v=8003009a
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003009e
+Entity.type=5002
+Entity.construction=0
+Entity.actPoint.x=75.74840873001686247790
+Entity.actPoint.y=20.97838081473048887915
+Entity.actPoint.z=-75.74840873001687668875
+Entity.actNormal.vx=-0.57735026918962562004
+Entity.actNormal.vy=-0.57735026918962584208
+Entity.actNormal.vz=0.57735026918962584208
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8003009f
+Entity.type=5002
+Entity.construction=0
+Entity.actPoint.x=54.77002791528637715146
+Entity.actPoint.z=-54.77002791528637715146
+Entity.actNormal.vx=-0.57735026918962562004
+Entity.actNormal.vy=-0.57735026918962584208
+Entity.actNormal.vz=0.57735026918962584208
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300a1
+Entity.type=3011
+Entity.construction=0
+Entity.point[0].v=800300a2
+Entity.actNormal.w=0.45576803893928241607
+Entity.actNormal.vx=-0.54062509623716215046
+Entity.actNormal.vy=0.70455634261098820659
+Entity.actNormal.vz=0.06000300064686606843
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300a2
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=54.77002791528637715146
+Entity.actPoint.z=-54.77002791528637715146
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300a4
+Entity.type=3011
+Entity.construction=0
+Entity.point[0].v=800300a5
+Entity.actNormal.w=0.36470519963100084260
+Entity.actNormal.vx=-0.11591689595929501044
+Entity.actNormal.vy=0.88047623921714934792
+Entity.actNormal.vz=0.27984814233312149678
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300a5
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=36.51335194352424196040
+Entity.actPoint.y=36.51335194352426327669
+Entity.actPoint.z=-36.51335194352424196040
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300a6
+Entity.type=3011
+Entity.construction=0
+Entity.point[0].v=800300a7
+Entity.actNormal.w=0.36470519963100084260
+Entity.actNormal.vx=-0.11591689595929501044
+Entity.actNormal.vy=0.88047623921714934792
+Entity.actNormal.vz=0.27984814233312149678
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300a7
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=36.51335194352424196040
+Entity.actPoint.y=36.51335194352426327669
+Entity.actPoint.z=-36.51335194352424196040
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300a8
+Entity.type=3011
+Entity.construction=0
+Entity.point[0].v=800300a9
+Entity.actNormal.w=0.36470519963100084260
+Entity.actNormal.vx=-0.11591689595929501044
+Entity.actNormal.vy=0.88047623921714934792
+Entity.actNormal.vz=0.27984814233312149678
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300a9
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=18.25667597176213163834
+Entity.actPoint.y=18.25667597176214229648
+Entity.actPoint.z=-18.25667597176212808563
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300aa
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800300a9
+Entity.point[1].v=800300a7
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300ab
+Entity.type=5002
+Entity.construction=0
+Entity.actPoint.x=18.25667597176213163834
+Entity.actPoint.y=18.25667597176214229648
+Entity.actPoint.z=-18.25667597176212808563
+Entity.actNormal.vx=0.57735026918962562004
+Entity.actNormal.vy=0.57735026918962606413
+Entity.actNormal.vz=-0.57735026918962562004
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300ac
+Entity.type=5002
+Entity.construction=0
+Entity.actPoint.x=36.51335194352424196040
+Entity.actPoint.y=36.51335194352426327669
+Entity.actPoint.z=-36.51335194352424196040
+Entity.actNormal.vx=0.57735026918962562004
+Entity.actNormal.vy=0.57735026918962606413
+Entity.actNormal.vz=-0.57735026918962562004
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300ad
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800300ae
+Entity.point[1].v=800300af
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300ae
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=36.51335194352424196040
+Entity.actPoint.y=36.51335194352426327669
+Entity.actPoint.z=-36.51335194352424196040
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300af
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=36.51335194352420643327
+Entity.actPoint.y=73.02670388704852655337
+Entity.actPoint.z=0.00000000000000710543
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300b0
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800300b1
+Entity.point[1].v=800300b2
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300b1
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=18.25667597176213163834
+Entity.actPoint.y=18.25667597176214229648
+Entity.actPoint.z=-18.25667597176212808563
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300b2
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=18.25667597176209611121
+Entity.actPoint.y=54.77002791528640557317
+Entity.actPoint.z=18.25667597176212098020
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300b3
+Entity.type=5002
+Entity.construction=0
+Entity.actPoint.x=36.51335194352424196040
+Entity.actPoint.y=36.51335194352426327669
+Entity.actPoint.z=-36.51335194352424196040
+Entity.actNormal.vx=-0.81649658092772625650
+Entity.actNormal.vy=0.40824829046386251763
+Entity.actNormal.vz=-0.40824829046386346132
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300b4
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800300b1
+Entity.point[1].v=800300ae
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300b5
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800300b2
+Entity.point[1].v=800300af
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300b6
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800300b7
+Entity.point[1].v=800300b8
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300b7
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=36.51335194352424196040
+Entity.actPoint.y=36.51335194352426327669
+Entity.actPoint.z=-36.51335194352424196040
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300b8
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=73.02670388704851234252
+Entity.actPoint.y=36.51335194352424196040
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300b9
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800300ba
+Entity.point[1].v=800300bb
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300ba
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=18.25667597176213163834
+Entity.actPoint.y=18.25667597176214229648
+Entity.actPoint.z=-18.25667597176212808563
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300bb
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=54.77002791528639136232
+Entity.actPoint.y=18.25667597176211742749
+Entity.actPoint.z=18.25667597176211387477
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300bc
+Entity.type=5002
+Entity.construction=0
+Entity.actPoint.x=36.51335194352424196040
+Entity.actPoint.y=36.51335194352426327669
+Entity.actPoint.z=-36.51335194352424196040
+Entity.actNormal.vx=-0.40824829046386273967
+Entity.actNormal.vy=0.81649658092772592344
+Entity.actNormal.vz=0.40824829046386351683
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300bd
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800300ba
+Entity.point[1].v=800300b7
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300be
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800300bb
+Entity.point[1].v=800300b8
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300bf
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800300c0
+Entity.point[1].v=800300c1
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300c0
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=73.02670388704851234252
+Entity.actPoint.y=36.51335194352424196040
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300c1
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=36.51335194352420643327
+Entity.actPoint.y=73.02670388704852655337
+Entity.actPoint.z=0.00000000000000710543
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300c2
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800300c3
+Entity.point[1].v=800300c4
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300c3
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=54.77002791528639136232
+Entity.actPoint.y=18.25667597176211742749
+Entity.actPoint.z=18.25667597176211387477
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300c4
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=18.25667597176209611121
+Entity.actPoint.y=54.77002791528640557317
+Entity.actPoint.z=18.25667597176212098020
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300c5
+Entity.type=5002
+Entity.construction=0
+Entity.actPoint.x=73.02670388704851234252
+Entity.actPoint.y=36.51335194352424196040
+Entity.actNormal.vx=-0.40824829046386301723
+Entity.actNormal.vy=-0.40824829046386301723
+Entity.actNormal.vz=-0.81649658092772603446
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300c6
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800300c3
+Entity.point[1].v=800300c0
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300c7
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800300c4
+Entity.point[1].v=800300c1
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300c8
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800300c9
+Entity.point[1].v=800300ca
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300c9
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=36.51335194352424196040
+Entity.actPoint.y=36.51335194352426327669
+Entity.actPoint.z=-36.51335194352424196040
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300ca
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=0.00000000000000710543
+Entity.actPoint.y=73.02670388704851234252
+Entity.actPoint.z=-36.51335194352421353869
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300cb
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800300cc
+Entity.point[1].v=800300cd
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300cc
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=18.25667597176213163834
+Entity.actPoint.y=18.25667597176214229648
+Entity.actPoint.z=-18.25667597176212808563
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300cd
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=-18.25667597176209966392
+Entity.actPoint.y=54.77002791528639136232
+Entity.actPoint.z=-18.25667597176209611121
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300ce
+Entity.type=5002
+Entity.construction=0
+Entity.actPoint.x=36.51335194352424196040
+Entity.actPoint.y=36.51335194352426327669
+Entity.actPoint.z=-36.51335194352424196040
+Entity.actNormal.vx=-0.40824829046386346132
+Entity.actNormal.vy=-0.40824829046386262865
+Entity.actNormal.vz=-0.81649658092772603446
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300cf
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800300cc
+Entity.point[1].v=800300c9
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300d0
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800300cd
+Entity.point[1].v=800300ca
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300d1
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800300d2
+Entity.point[1].v=800300d3
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300d2
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=0.00000000000000710543
+Entity.actPoint.y=73.02670388704851234252
+Entity.actPoint.z=-36.51335194352421353869
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300d3
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=-0.00000000000000710543
+Entity.actPoint.y=36.51335194352428459297
+Entity.actPoint.z=-73.02670388704848392081
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300d4
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800300d5
+Entity.point[1].v=800300d6
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300d5
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=-18.25667597176209966392
+Entity.actPoint.y=54.77002791528639136232
+Entity.actPoint.z=-18.25667597176209611121
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300d6
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=-18.25667597176211387477
+Entity.actPoint.y=18.25667597176216716548
+Entity.actPoint.z=-54.77002791528636294061
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300d7
+Entity.type=5002
+Entity.construction=0
+Entity.actPoint.x=0.00000000000000710543
+Entity.actPoint.y=73.02670388704851234252
+Entity.actPoint.z=-36.51335194352421353869
+Entity.actNormal.vx=0.81649658092772625650
+Entity.actNormal.vy=-0.40824829046386335030
+Entity.actNormal.vz=0.40824829046386257314
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300d8
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800300d5
+Entity.point[1].v=800300d2
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300d9
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800300d6
+Entity.point[1].v=800300d3
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300da
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800300db
+Entity.point[1].v=800300dc
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300db
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=-0.00000000000000710543
+Entity.actPoint.y=36.51335194352428459297
+Entity.actPoint.z=-73.02670388704848392081
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300dc
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=36.51335194352424196040
+Entity.actPoint.y=36.51335194352426327669
+Entity.actPoint.z=-36.51335194352424196040
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300dd
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800300de
+Entity.point[1].v=800300df
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300de
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=-18.25667597176211387477
+Entity.actPoint.y=18.25667597176216716548
+Entity.actPoint.z=-54.77002791528636294061
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300df
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=18.25667597176213163834
+Entity.actPoint.y=18.25667597176214229648
+Entity.actPoint.z=-18.25667597176212808563
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300e0
+Entity.type=5002
+Entity.construction=0
+Entity.actPoint.x=-0.00000000000000710543
+Entity.actPoint.y=36.51335194352428459297
+Entity.actPoint.z=-73.02670388704848392081
+Entity.actNormal.vx=-0.40824829046386285070
+Entity.actNormal.vy=0.81649658092772592344
+Entity.actNormal.vz=0.40824829046386351683
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300e1
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800300de
+Entity.point[1].v=800300db
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300e2
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800300df
+Entity.point[1].v=800300dc
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300e3
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800300e4
+Entity.point[1].v=800300e5
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300e4
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=36.51335194352424196040
+Entity.actPoint.y=36.51335194352426327669
+Entity.actPoint.z=-36.51335194352424196040
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300e5
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=73.02670388704848392081
+Entity.actPoint.z=-36.51335194352427038211
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300e6
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800300e7
+Entity.point[1].v=800300e8
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300e7
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=18.25667597176213163834
+Entity.actPoint.y=18.25667597176214229648
+Entity.actPoint.z=-18.25667597176212808563
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300e8
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=54.77002791528637715146
+Entity.actPoint.y=-18.25667597176212098020
+Entity.actPoint.z=-18.25667597176215650734
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300e9
+Entity.type=5002
+Entity.construction=0
+Entity.actPoint.x=36.51335194352424196040
+Entity.actPoint.y=36.51335194352426327669
+Entity.actPoint.z=-36.51335194352424196040
+Entity.actNormal.vx=0.40824829046386357234
+Entity.actNormal.vy=0.40824829046386262865
+Entity.actNormal.vz=0.81649658092772625650
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300ea
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800300e7
+Entity.point[1].v=800300e4
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300eb
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800300e8
+Entity.point[1].v=800300e5
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300ec
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800300ed
+Entity.point[1].v=800300ee
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300ed
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=73.02670388704848392081
+Entity.actPoint.z=-36.51335194352427038211
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300ee
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=36.51335194352427748754
+Entity.actPoint.z=-73.02670388704848392081
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300ef
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800300f0
+Entity.point[1].v=800300f1
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300f0
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=54.77002791528637715146
+Entity.actPoint.y=-18.25667597176212098020
+Entity.actPoint.z=-18.25667597176215650734
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300f1
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=18.25667597176216716548
+Entity.actPoint.y=-18.25667597176212098020
+Entity.actPoint.z=-54.77002791528637004603
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300f2
+Entity.type=5002
+Entity.construction=0
+Entity.actPoint.x=73.02670388704848392081
+Entity.actPoint.z=-36.51335194352427038211
+Entity.actNormal.vx=0.40824829046386323927
+Entity.actNormal.vy=-0.81649658092772603446
+Entity.actNormal.vz=-0.40824829046386318376
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300f3
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800300f0
+Entity.point[1].v=800300ed
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300f4
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800300f1
+Entity.point[1].v=800300ee
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300f5
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800300f6
+Entity.point[1].v=800300f7
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300f6
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=36.51335194352427748754
+Entity.actPoint.z=-73.02670388704848392081
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300f7
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=36.51335194352424196040
+Entity.actPoint.y=36.51335194352426327669
+Entity.actPoint.z=-36.51335194352424196040
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300f8
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800300f9
+Entity.point[1].v=800300fa
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300f9
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=18.25667597176216716548
+Entity.actPoint.y=-18.25667597176212098020
+Entity.actPoint.z=-54.77002791528637004603
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300fa
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=18.25667597176213163834
+Entity.actPoint.y=18.25667597176214229648
+Entity.actPoint.z=-18.25667597176212808563
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300fb
+Entity.type=5002
+Entity.construction=0
+Entity.actPoint.x=36.51335194352427748754
+Entity.actPoint.z=-73.02670388704848392081
+Entity.actNormal.vx=-0.81649658092772625650
+Entity.actNormal.vy=0.40824829046386251763
+Entity.actNormal.vz=-0.40824829046386357234
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300fc
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800300f9
+Entity.point[1].v=800300f6
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800300fd
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800300fa
+Entity.point[1].v=800300f7
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040002
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=38.34836292330658125138
+Entity.actPoint.y=38.34836292330658125138
+Entity.actPoint.z=-38.34836292330655993510
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040003
+Entity.type=3011
+Entity.construction=0
+Entity.point[0].v=80040002
+Entity.actNormal.w=-0.00000000000000000207
+Entity.actNormal.vx=-0.70710678118654746172
+Entity.actNormal.vy=0.70710678118654746172
+Entity.actNormal.vz=0.00000000000000000121
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040005
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=38.34836292330658125138
+Entity.actPoint.y=38.34836292330658125138
+Entity.actPoint.z=-38.34836292330655993510
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040006
+Entity.type=3011
+Entity.construction=0
+Entity.point[0].v=80040005
+Entity.actNormal.w=-0.00000000000000000164
+Entity.actNormal.vx=-0.00000000000000000104
+Entity.actNormal.vy=0.70710678118654746172
+Entity.actNormal.vz=-0.70710678118654746172
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040008
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=38.34836292330658125138
+Entity.actPoint.y=38.34836292330658125138
+Entity.actPoint.z=-38.34836292330655993510
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040009
+Entity.type=3011
+Entity.construction=0
+Entity.point[0].v=80040008
+Entity.actNormal.w=-0.00000000000000000043
+Entity.actNormal.vx=-0.70710678118654746172
+Entity.actNormal.vy=0.00000000000000000104
+Entity.actNormal.vz=0.70710678118654746172
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004000a
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8004000b
+Entity.point[1].v=8004000c
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004000b
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=10.96334896566339978108
+Entity.actPoint.y=65.73337688094976272168
+Entity.actPoint.z=-38.34836292330655993510
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004000c
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=10.96334896566339978108
+Entity.actPoint.y=10.96334896566339978108
+Entity.actPoint.z=-38.34836292330655993510
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004000d
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8004000e
+Entity.point[1].v=8004000f
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004000e
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=10.96334896566339978108
+Entity.actPoint.y=10.96334896566339978108
+Entity.actPoint.z=-38.34836292330655993510
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004000f
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=65.73337688094976272168
+Entity.actPoint.y=10.96334896566339978108
+Entity.actPoint.z=-38.34836292330655993510
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040010
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80040011
+Entity.point[1].v=80040012
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040011
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=65.73337688094976272168
+Entity.actPoint.y=10.96334896566339978108
+Entity.actPoint.z=-38.34836292330655993510
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040012
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=65.73337688094976272168
+Entity.actPoint.y=65.73337688094976272168
+Entity.actPoint.z=-38.34836292330655993510
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040013
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80040014
+Entity.point[1].v=80040015
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040014
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=65.73337688094976272168
+Entity.actPoint.y=65.73337688094976272168
+Entity.actPoint.z=-38.34836292330655993510
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040015
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=10.96334896566339978108
+Entity.actPoint.y=65.73337688094976272168
+Entity.actPoint.z=-38.34836292330655993510
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040016
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=80040017
+Entity.point[1].v=80040018
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040017
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=10.96334896566339978108
+Entity.actPoint.y=10.96334896566339978108
+Entity.actPoint.z=-65.73337688094974851083
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040018
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=10.96334896566339978108
+Entity.actPoint.y=65.73337688094976272168
+Entity.actPoint.z=-10.96334896566337846480
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040019
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=8004001a
+Entity.point[1].v=8004001b
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004001a
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=10.96334896566339978108
+Entity.actPoint.y=65.73337688094976272168
+Entity.actPoint.z=-10.96334896566337846480
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004001b
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=65.73337688094976272168
+Entity.actPoint.y=10.96334896566339978108
+Entity.actPoint.z=-10.96334896566337846480
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004001c
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=8004001d
+Entity.point[1].v=8004001e
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004001d
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=65.73337688094976272168
+Entity.actPoint.y=10.96334896566339978108
+Entity.actPoint.z=-10.96334896566337846480
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004001e
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=10.96334896566339978108
+Entity.actPoint.y=10.96334896566339978108
+Entity.actPoint.z=-65.73337688094974851083
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004001f
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80040020
+Entity.point[1].v=80040021
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040020
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=10.96334896566338557022
+Entity.actPoint.y=10.96334896566339978108
+Entity.actPoint.z=-65.73337688094974851083
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040021
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=10.96334896566339267565
+Entity.actPoint.y=65.73337688094977693254
+Entity.actPoint.z=-10.96334896566338557022
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040022
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80040023
+Entity.point[1].v=80040024
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040023
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=10.96334896566339267565
+Entity.actPoint.y=65.73337688094977693254
+Entity.actPoint.z=-10.96334896566338557022
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040024
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=65.73337688094976272168
+Entity.actPoint.y=10.96334896566339978108
+Entity.actPoint.z=-10.96334896566337846480
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040025
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80040026
+Entity.point[1].v=80040027
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040026
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=65.73337688094976272168
+Entity.actPoint.y=10.96334896566339978108
+Entity.actPoint.z=-10.96334896566337846480
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040027
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=10.96334896566338557022
+Entity.actPoint.y=10.96334896566339978108
+Entity.actPoint.z=-65.73337688094974851083
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040028
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=80040029
+Entity.point[1].v=8004002a
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040029
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=29.22002493742551365585
+Entity.actPoint.y=10.96334896566338912294
+Entity.actPoint.z=-47.47670090918764174148
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004002a
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=29.22002493742549233957
+Entity.actPoint.y=47.47670090918767726862
+Entity.actPoint.z=-10.96334896566338557022
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004002b
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=8004002c
+Entity.point[1].v=8004002d
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004002c
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=10.96334896566337135937
+Entity.actPoint.y=29.22002493742554207756
+Entity.actPoint.z=-47.47670090918763463606
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004002d
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=47.47670090918764884691
+Entity.actPoint.y=29.22002493742551365585
+Entity.actPoint.z=-10.96334896566338201751
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004002e
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=8004002f
+Entity.point[1].v=80040030
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004002f
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=10.96334896566337135937
+Entity.actPoint.y=47.47670090918766305776
+Entity.actPoint.z=-29.22002493742552076128
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040030
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=47.47670090918764174148
+Entity.actPoint.y=10.96334896566340333379
+Entity.actPoint.z=-29.22002493742549233957
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040031
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=29.22002493742550655043
+Entity.actPoint.y=29.22002493742552786671
+Entity.actPoint.z=-29.22002493742550655043
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040032
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80040033
+Entity.point[1].v=80040034
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040033
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=29.22002493742550655043
+Entity.actPoint.y=29.22002493742552786671
+Entity.actPoint.z=-29.22002493742550655043
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040034
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=-7.29332700609874962083
+Entity.actPoint.y=29.22002493742555628842
+Entity.actPoint.z=-65.73337688094972008912
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040035
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80040036
+Entity.point[1].v=80040037
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040036
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=29.22002493742550655043
+Entity.actPoint.y=29.22002493742552786671
+Entity.actPoint.z=-29.22002493742550655043
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040037
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=29.22002493742552076128
+Entity.actPoint.y=-7.29332700609872119912
+Entity.actPoint.z=-65.73337688094972008912
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040038
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80040039
+Entity.point[1].v=8004003a
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040039
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=29.22002493742552076128
+Entity.actPoint.y=-7.29332700609872119912
+Entity.actPoint.z=-65.73337688094972008912
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004003a
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=-7.29332700609874962083
+Entity.actPoint.y=29.22002493742555628842
+Entity.actPoint.z=-65.73337688094972008912
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004003b
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8004003c
+Entity.point[1].v=8004003d
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004003c
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=29.22002493742550655043
+Entity.actPoint.y=29.22002493742552786671
+Entity.actPoint.z=-29.22002493742550655043
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004003d
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=-7.29332700609872119912
+Entity.actPoint.y=65.73337688094973429997
+Entity.actPoint.z=-29.22002493742554207756
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004003e
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8004003f
+Entity.point[1].v=80040040
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004003f
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=-7.29332700609872119912
+Entity.actPoint.y=65.73337688094973429997
+Entity.actPoint.z=-29.22002493742554207756
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040040
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=29.22002493742547812872
+Entity.actPoint.y=65.73337688094977693254
+Entity.actPoint.z=7.29332700609868567199
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040041
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80040042
+Entity.point[1].v=80040043
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040042
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=29.22002493742547812872
+Entity.actPoint.y=65.73337688094977693254
+Entity.actPoint.z=7.29332700609868567199
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040043
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=29.22002493742550655043
+Entity.actPoint.y=29.22002493742552786671
+Entity.actPoint.z=-29.22002493742550655043
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040044
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80040045
+Entity.point[1].v=80040046
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040045
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=29.22002493742550655043
+Entity.actPoint.y=29.22002493742552786671
+Entity.actPoint.z=-29.22002493742550655043
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040046
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=65.73337688094974851083
+Entity.actPoint.y=-7.29332700609869277741
+Entity.actPoint.z=-29.22002493742547812872
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040047
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80040048
+Entity.point[1].v=80040049
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040048
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=65.73337688094974851083
+Entity.actPoint.y=-7.29332700609869277741
+Entity.actPoint.z=-29.22002493742547812872
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040049
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=65.73337688094974851083
+Entity.actPoint.y=29.22002493742549944500
+Entity.actPoint.z=7.29332700609869988284
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004004a
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8004004b
+Entity.point[1].v=8004004c
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004004b
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=65.73337688094974851083
+Entity.actPoint.y=29.22002493742549944500
+Entity.actPoint.z=7.29332700609869988284
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004004c
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=29.22002493742550655043
+Entity.actPoint.y=29.22002493742552786671
+Entity.actPoint.z=-29.22002493742550655043
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004004e
+Entity.type=3011
+Entity.construction=0
+Entity.point[0].v=8004004f
+Entity.actNormal.w=-0.00000000000000000207
+Entity.actNormal.vx=-0.70710678118654746172
+Entity.actNormal.vy=0.70710678118654746172
+Entity.actNormal.vz=0.00000000000000000121
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004004f
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=38.34836292330658125138
+Entity.actPoint.y=38.34836292330658125138
+Entity.actPoint.z=-38.34836292330655993510
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040050
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80040051
+Entity.point[1].v=80040052
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040051
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=10.96334896566339978108
+Entity.actPoint.y=65.73337688094976272168
+Entity.actPoint.z=-10.96334896566337846480
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040052
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=10.96334896566339978108
+Entity.actPoint.y=10.96334896566339978108
+Entity.actPoint.z=-10.96334896566337846480
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040053
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80040054
+Entity.point[1].v=80040055
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040054
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=10.96334896566339978108
+Entity.actPoint.y=65.73337688094976272168
+Entity.actPoint.z=-65.73337688094974851083
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040055
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=10.96334896566339978108
+Entity.actPoint.y=10.96334896566339978108
+Entity.actPoint.z=-65.73337688094974851083
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040056
+Entity.type=5002
+Entity.construction=0
+Entity.actPoint.x=10.96334896566339978108
+Entity.actPoint.y=65.73337688094976272168
+Entity.actPoint.z=-38.34836292330655993510
+Entity.actNormal.vx=-1.00000000000000000000
+Entity.actNormal.vy=-0.00000000000000000000
+Entity.actNormal.vz=0.00000000000000000464
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040057
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80040054
+Entity.point[1].v=80040051
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040058
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80040055
+Entity.point[1].v=80040052
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040059
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8004005a
+Entity.point[1].v=8004005b
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004005a
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=10.96334896566339978108
+Entity.actPoint.y=10.96334896566339978108
+Entity.actPoint.z=-10.96334896566337846480
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004005b
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=65.73337688094976272168
+Entity.actPoint.y=10.96334896566339978108
+Entity.actPoint.z=-10.96334896566337846480
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004005c
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8004005d
+Entity.point[1].v=8004005e
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004005d
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=10.96334896566339978108
+Entity.actPoint.y=10.96334896566339978108
+Entity.actPoint.z=-65.73337688094974851083
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004005e
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=65.73337688094976272168
+Entity.actPoint.y=10.96334896566339978108
+Entity.actPoint.z=-65.73337688094974851083
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004005f
+Entity.type=5002
+Entity.construction=0
+Entity.actPoint.x=10.96334896566339978108
+Entity.actPoint.y=10.96334896566339978108
+Entity.actPoint.z=-38.34836292330655993510
+Entity.actNormal.vx=-0.00000000000000000000
+Entity.actNormal.vy=-1.00000000000000000000
+Entity.actNormal.vz=0.00000000000000000122
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040060
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8004005d
+Entity.point[1].v=8004005a
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040061
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8004005e
+Entity.point[1].v=8004005b
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040062
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80040063
+Entity.point[1].v=80040064
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040063
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=65.73337688094976272168
+Entity.actPoint.y=10.96334896566339978108
+Entity.actPoint.z=-10.96334896566337846480
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040064
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=65.73337688094976272168
+Entity.actPoint.y=65.73337688094976272168
+Entity.actPoint.z=-10.96334896566337846480
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040065
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80040066
+Entity.point[1].v=80040067
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040066
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=65.73337688094976272168
+Entity.actPoint.y=10.96334896566339978108
+Entity.actPoint.z=-65.73337688094974851083
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040067
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=65.73337688094976272168
+Entity.actPoint.y=65.73337688094976272168
+Entity.actPoint.z=-65.73337688094974851083
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040068
+Entity.type=5002
+Entity.construction=0
+Entity.actPoint.x=65.73337688094976272168
+Entity.actPoint.y=10.96334896566339978108
+Entity.actPoint.z=-38.34836292330655993510
+Entity.actNormal.vx=1.00000000000000000000
+Entity.actNormal.vy=0.00000000000000000000
+Entity.actNormal.vz=-0.00000000000000000464
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040069
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80040066
+Entity.point[1].v=80040063
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004006a
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80040067
+Entity.point[1].v=80040064
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004006b
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8004006c
+Entity.point[1].v=8004006d
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004006c
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=65.73337688094976272168
+Entity.actPoint.y=65.73337688094976272168
+Entity.actPoint.z=-10.96334896566337846480
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004006d
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=10.96334896566339978108
+Entity.actPoint.y=65.73337688094976272168
+Entity.actPoint.z=-10.96334896566337846480
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004006e
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8004006f
+Entity.point[1].v=80040070
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004006f
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=65.73337688094976272168
+Entity.actPoint.y=65.73337688094976272168
+Entity.actPoint.z=-65.73337688094974851083
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040070
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=10.96334896566339978108
+Entity.actPoint.y=65.73337688094976272168
+Entity.actPoint.z=-65.73337688094974851083
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040071
+Entity.type=5002
+Entity.construction=0
+Entity.actPoint.x=65.73337688094976272168
+Entity.actPoint.y=65.73337688094976272168
+Entity.actPoint.z=-38.34836292330655993510
+Entity.actNormal.vx=0.00000000000000000000
+Entity.actNormal.vy=1.00000000000000000000
+Entity.actNormal.vz=-0.00000000000000000122
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040072
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8004006f
+Entity.point[1].v=8004006c
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040073
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80040070
+Entity.point[1].v=8004006d
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040074
+Entity.type=3011
+Entity.construction=0
+Entity.point[0].v=80040075
+Entity.actNormal.w=-0.00000000000000000207
+Entity.actNormal.vx=-0.70710678118654746172
+Entity.actNormal.vy=0.70710678118654746172
+Entity.actNormal.vz=0.00000000000000000121
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040075
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=38.34836292330658125138
+Entity.actPoint.y=38.34836292330658125138
+Entity.actPoint.z=-10.96334896566337846480
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040076
+Entity.type=3011
+Entity.construction=0
+Entity.point[0].v=80040077
+Entity.actNormal.w=-0.00000000000000000207
+Entity.actNormal.vx=-0.70710678118654746172
+Entity.actNormal.vy=0.70710678118654746172
+Entity.actNormal.vz=0.00000000000000000121
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040077
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=38.34836292330658125138
+Entity.actPoint.y=38.34836292330658125138
+Entity.actPoint.z=-65.73337688094974851083
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040078
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80040077
+Entity.point[1].v=80040075
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040079
+Entity.type=5002
+Entity.construction=0
+Entity.actPoint.x=38.34836292330658125138
+Entity.actPoint.y=38.34836292330658125138
+Entity.actPoint.z=-65.73337688094974851083
+Entity.actNormal.vx=0.00000000000000000464
+Entity.actNormal.vy=0.00000000000000000122
+Entity.actNormal.vz=1.00000000000000000000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004007a
+Entity.type=5002
+Entity.construction=0
+Entity.actPoint.x=38.34836292330658125138
+Entity.actPoint.y=38.34836292330658125138
+Entity.actPoint.z=-10.96334896566337846480
+Entity.actNormal.vx=0.00000000000000000464
+Entity.actNormal.vy=0.00000000000000000122
+Entity.actNormal.vz=1.00000000000000000000
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004007c
+Entity.type=3011
+Entity.construction=0
+Entity.point[0].v=8004007d
+Entity.actNormal.w=-0.82047323857028331417
+Entity.actNormal.vx=-0.17591989660616108582
+Entity.actNormal.vy=0.42470820027786687634
+Entity.actNormal.vz=-0.33985114297998730848
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004007d
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=65.73337688094976272168
+Entity.actPoint.y=10.96334896566339978108
+Entity.actPoint.z=-10.96334896566337846480
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004007e
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8004007f
+Entity.point[1].v=80040080
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004007f
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=10.96334896566338557022
+Entity.actPoint.y=10.96334896566339978108
+Entity.actPoint.z=-65.73337688094974851083
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040080
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=10.96334896566339267565
+Entity.actPoint.y=65.73337688094977693254
+Entity.actPoint.z=-10.96334896566338557022
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040081
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80040082
+Entity.point[1].v=80040083
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040082
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=-10.01503184906709975621
+Entity.actPoint.y=-10.01503184906707843993
+Entity.actPoint.z=-44.75499606621927028982
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040083
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=-10.01503184906708554536
+Entity.actPoint.y=44.75499606621929871153
+Entity.actPoint.z=10.01503184906709265078
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040084
+Entity.type=5002
+Entity.construction=0
+Entity.actPoint.x=10.96334896566338557022
+Entity.actPoint.y=10.96334896566339978108
+Entity.actPoint.z=-65.73337688094974851083
+Entity.actNormal.vx=-0.81649658092772603446
+Entity.actNormal.vy=0.40824829046386312825
+Entity.actNormal.vz=-0.40824829046386301723
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040085
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80040082
+Entity.point[1].v=8004007f
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040086
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80040083
+Entity.point[1].v=80040080
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040087
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80040088
+Entity.point[1].v=80040089
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040088
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=10.96334896566339267565
+Entity.actPoint.y=65.73337688094977693254
+Entity.actPoint.z=-10.96334896566338557022
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040089
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=65.73337688094976272168
+Entity.actPoint.y=10.96334896566339978108
+Entity.actPoint.z=-10.96334896566337846480
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004008a
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8004008b
+Entity.point[1].v=8004008c
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004008b
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=-10.01503184906708554536
+Entity.actPoint.y=44.75499606621929871153
+Entity.actPoint.z=10.01503184906709265078
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004008c
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=44.75499606621927739525
+Entity.actPoint.y=-10.01503184906707843993
+Entity.actPoint.z=10.01503184906710686164
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004008d
+Entity.type=5002
+Entity.construction=0
+Entity.actPoint.x=10.96334896566339267565
+Entity.actPoint.y=65.73337688094977693254
+Entity.actPoint.z=-10.96334896566338557022
+Entity.actNormal.vx=0.40824829046386301723
+Entity.actNormal.vy=0.40824829046386312825
+Entity.actNormal.vz=0.81649658092772603446
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004008e
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8004008b
+Entity.point[1].v=80040088
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004008f
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8004008c
+Entity.point[1].v=80040089
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040090
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80040091
+Entity.point[1].v=80040092
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040091
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=65.73337688094976272168
+Entity.actPoint.y=10.96334896566339978108
+Entity.actPoint.z=-10.96334896566337846480
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040092
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=10.96334896566338557022
+Entity.actPoint.y=10.96334896566339978108
+Entity.actPoint.z=-65.73337688094974851083
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040093
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80040094
+Entity.point[1].v=80040095
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040094
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=44.75499606621927739525
+Entity.actPoint.y=-10.01503184906707843993
+Entity.actPoint.z=10.01503184906710686164
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040095
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=-10.01503184906709975621
+Entity.actPoint.y=-10.01503184906707843993
+Entity.actPoint.z=-44.75499606621927028982
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040096
+Entity.type=5002
+Entity.construction=0
+Entity.actPoint.x=65.73337688094976272168
+Entity.actPoint.y=10.96334896566339978108
+Entity.actPoint.z=-10.96334896566337846480
+Entity.actNormal.vx=0.40824829046386296172
+Entity.actNormal.vy=-0.81649658092772614548
+Entity.actNormal.vz=-0.40824829046386296172
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040097
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80040094
+Entity.point[1].v=80040091
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040098
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80040095
+Entity.point[1].v=80040092
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80040099
+Entity.type=3011
+Entity.construction=0
+Entity.point[0].v=8004009a
+Entity.actNormal.w=-0.82047323857028331417
+Entity.actNormal.vx=-0.17591989660616108582
+Entity.actNormal.vy=0.42470820027786687634
+Entity.actNormal.vz=-0.33985114297998730848
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004009a
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=65.73337688094976272168
+Entity.actPoint.y=10.96334896566339978108
+Entity.actPoint.z=-10.96334896566337846480
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004009b
+Entity.type=3011
+Entity.construction=0
+Entity.point[0].v=8004009c
+Entity.actNormal.w=-0.82047323857028331417
+Entity.actNormal.vx=-0.17591989660616108582
+Entity.actNormal.vy=0.42470820027786687634
+Entity.actNormal.vz=-0.33985114297998730848
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004009c
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=44.75499606621927739525
+Entity.actPoint.y=-10.01503184906707843993
+Entity.actPoint.z=10.01503184906710686164
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004009d
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8004009c
+Entity.point[1].v=8004009a
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004009e
+Entity.type=5002
+Entity.construction=0
+Entity.actPoint.x=44.75499606621927739525
+Entity.actPoint.y=-10.01503184906707843993
+Entity.actPoint.z=10.01503184906710686164
+Entity.actNormal.vx=0.57735026918962584208
+Entity.actNormal.vy=0.57735026918962562004
+Entity.actNormal.vz=-0.57735026918962584208
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=8004009f
+Entity.type=5002
+Entity.construction=0
+Entity.actPoint.x=65.73337688094976272168
+Entity.actPoint.y=10.96334896566339978108
+Entity.actPoint.z=-10.96334896566337846480
+Entity.actNormal.vx=0.57735026918962584208
+Entity.actNormal.vy=0.57735026918962562004
+Entity.actNormal.vz=-0.57735026918962584208
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400a1
+Entity.type=3011
+Entity.construction=0
+Entity.point[0].v=800400a2
+Entity.actNormal.w=-0.88047623921714945894
+Entity.actNormal.vx=-0.27984814233312121923
+Entity.actNormal.vy=0.36470519963100084260
+Entity.actNormal.vz=-0.11591689595929505208
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400a2
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=65.73337688094976272168
+Entity.actPoint.y=10.96334896566339978108
+Entity.actPoint.z=-10.96334896566337846480
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400a4
+Entity.type=3011
+Entity.construction=0
+Entity.point[0].v=800400a5
+Entity.actNormal.w=-0.70455634261098798454
+Entity.actNormal.vx=-0.06000300064686586721
+Entity.actNormal.vy=0.45576803893928236056
+Entity.actNormal.vz=-0.54062509623716215046
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400a5
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=29.22002493742550655043
+Entity.actPoint.y=29.22002493742552786671
+Entity.actPoint.z=-29.22002493742550655043
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400a6
+Entity.type=3011
+Entity.construction=0
+Entity.point[0].v=800400a7
+Entity.actNormal.w=-0.70455634261098798454
+Entity.actNormal.vx=-0.06000300064686586721
+Entity.actNormal.vy=0.45576803893928236056
+Entity.actNormal.vz=-0.54062509623716215046
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400a7
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=29.22002493742550655043
+Entity.actPoint.y=29.22002493742552786671
+Entity.actPoint.z=-29.22002493742550655043
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400a8
+Entity.type=3011
+Entity.construction=0
+Entity.point[0].v=800400a9
+Entity.actNormal.w=-0.70455634261098798454
+Entity.actNormal.vx=-0.06000300064686586721
+Entity.actNormal.vy=0.45576803893928236056
+Entity.actNormal.vz=-0.54062509623716215046
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400a9
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=47.47670090918762753063
+Entity.actPoint.y=47.47670090918763463606
+Entity.actPoint.z=-47.47670090918763463606
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400aa
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800400a9
+Entity.point[1].v=800400a7
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400ab
+Entity.type=5002
+Entity.construction=0
+Entity.actPoint.x=47.47670090918762753063
+Entity.actPoint.y=47.47670090918763463606
+Entity.actPoint.z=-47.47670090918763463606
+Entity.actNormal.vx=-0.57735026918962584208
+Entity.actNormal.vy=-0.57735026918962550901
+Entity.actNormal.vz=0.57735026918962584208
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400ac
+Entity.type=5002
+Entity.construction=0
+Entity.actPoint.x=29.22002493742550655043
+Entity.actPoint.y=29.22002493742552786671
+Entity.actPoint.z=-29.22002493742550655043
+Entity.actNormal.vx=-0.57735026918962584208
+Entity.actNormal.vy=-0.57735026918962550901
+Entity.actNormal.vz=0.57735026918962584208
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400ad
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800400ae
+Entity.point[1].v=800400af
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400ae
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=29.22002493742550655043
+Entity.actPoint.y=29.22002493742552786671
+Entity.actPoint.z=-29.22002493742550655043
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400af
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=-7.29332700609874962083
+Entity.actPoint.y=29.22002493742555628842
+Entity.actPoint.z=-65.73337688094972008912
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400b0
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800400b1
+Entity.point[1].v=800400b2
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400b1
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=47.47670090918762753063
+Entity.actPoint.y=47.47670090918763463606
+Entity.actPoint.z=-47.47670090918763463606
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400b2
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=10.96334896566337135937
+Entity.actPoint.y=47.47670090918766305776
+Entity.actPoint.z=-83.99005285271185528018
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400b3
+Entity.type=5002
+Entity.construction=0
+Entity.actPoint.x=29.22002493742550655043
+Entity.actPoint.y=29.22002493742552786671
+Entity.actPoint.z=-29.22002493742550655043
+Entity.actNormal.vx=-0.40824829046386224007
+Entity.actNormal.vy=0.81649658092772625650
+Entity.actNormal.vz=0.40824829046386335030
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400b4
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800400b1
+Entity.point[1].v=800400ae
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400b5
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800400b2
+Entity.point[1].v=800400af
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400b6
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800400b7
+Entity.point[1].v=800400b8
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400b7
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=29.22002493742550655043
+Entity.actPoint.y=29.22002493742552786671
+Entity.actPoint.z=-29.22002493742550655043
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400b8
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=29.22002493742552076128
+Entity.actPoint.y=-7.29332700609872119912
+Entity.actPoint.z=-65.73337688094972008912
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400b9
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800400ba
+Entity.point[1].v=800400bb
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400ba
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=47.47670090918762753063
+Entity.actPoint.y=47.47670090918763463606
+Entity.actPoint.z=-47.47670090918763463606
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400bb
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=47.47670090918763463606
+Entity.actPoint.y=10.96334896566338912294
+Entity.actPoint.z=-83.99005285271184106932
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400bc
+Entity.type=5002
+Entity.construction=0
+Entity.actPoint.x=29.22002493742550655043
+Entity.actPoint.y=29.22002493742552786671
+Entity.actPoint.z=-29.22002493742550655043
+Entity.actNormal.vx=-0.81649658092772603446
+Entity.actNormal.vy=0.40824829046386273967
+Entity.actNormal.vz=-0.40824829046386335030
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400bd
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800400ba
+Entity.point[1].v=800400b7
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400be
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800400bb
+Entity.point[1].v=800400b8
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400bf
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800400c0
+Entity.point[1].v=800400c1
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400c0
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=29.22002493742552076128
+Entity.actPoint.y=-7.29332700609872119912
+Entity.actPoint.z=-65.73337688094972008912
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400c1
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=-7.29332700609874962083
+Entity.actPoint.y=29.22002493742555628842
+Entity.actPoint.z=-65.73337688094972008912
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400c2
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800400c3
+Entity.point[1].v=800400c4
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400c3
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=47.47670090918763463606
+Entity.actPoint.y=10.96334896566338912294
+Entity.actPoint.z=-83.99005285271184106932
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400c4
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=10.96334896566337135937
+Entity.actPoint.y=47.47670090918766305776
+Entity.actPoint.z=-83.99005285271185528018
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400c5
+Entity.type=5002
+Entity.construction=0
+Entity.actPoint.x=29.22002493742552076128
+Entity.actPoint.y=-7.29332700609872119912
+Entity.actPoint.z=-65.73337688094972008912
+Entity.actNormal.vx=0.40824829046386323927
+Entity.actNormal.vy=0.40824829046386323927
+Entity.actNormal.vz=0.81649658092772592344
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400c6
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800400c3
+Entity.point[1].v=800400c0
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400c7
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800400c4
+Entity.point[1].v=800400c1
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400c8
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800400c9
+Entity.point[1].v=800400ca
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400c9
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=29.22002493742550655043
+Entity.actPoint.y=29.22002493742552786671
+Entity.actPoint.z=-29.22002493742550655043
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400ca
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=-7.29332700609872119912
+Entity.actPoint.y=65.73337688094973429997
+Entity.actPoint.z=-29.22002493742554207756
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400cb
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800400cc
+Entity.point[1].v=800400cd
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400cc
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=47.47670090918762753063
+Entity.actPoint.y=47.47670090918763463606
+Entity.actPoint.z=-47.47670090918763463606
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400cd
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=10.96334896566339978108
+Entity.actPoint.y=83.99005285271184106932
+Entity.actPoint.z=-47.47670090918766305776
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400ce
+Entity.type=5002
+Entity.construction=0
+Entity.actPoint.x=29.22002493742550655043
+Entity.actPoint.y=29.22002493742552786671
+Entity.actPoint.z=-29.22002493742550655043
+Entity.actNormal.vx=0.40824829046386279519
+Entity.actNormal.vy=0.40824829046386373888
+Entity.actNormal.vz=0.81649658092772592344
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400cf
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800400cc
+Entity.point[1].v=800400c9
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400d0
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800400cd
+Entity.point[1].v=800400ca
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400d1
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800400d2
+Entity.point[1].v=800400d3
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400d2
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=-7.29332700609872119912
+Entity.actPoint.y=65.73337688094973429997
+Entity.actPoint.z=-29.22002493742554207756
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400d3
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=29.22002493742547812872
+Entity.actPoint.y=65.73337688094977693254
+Entity.actPoint.z=7.29332700609868567199
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400d4
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800400d5
+Entity.point[1].v=800400d6
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400d5
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=10.96334896566339978108
+Entity.actPoint.y=83.99005285271184106932
+Entity.actPoint.z=-47.47670090918766305776
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400d6
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=47.47670090918759910892
+Entity.actPoint.y=83.99005285271186949103
+Entity.actPoint.z=-10.96334896566344241364
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400d7
+Entity.type=5002
+Entity.construction=0
+Entity.actPoint.x=-7.29332700609872119912
+Entity.actPoint.y=65.73337688094973429997
+Entity.actPoint.z=-29.22002493742554207756
+Entity.actNormal.vx=0.40824829046386329479
+Entity.actNormal.vy=-0.81649658092772636753
+Entity.actNormal.vz=-0.40824829046386224007
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400d8
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800400d5
+Entity.point[1].v=800400d2
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400d9
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800400d6
+Entity.point[1].v=800400d3
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400da
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800400db
+Entity.point[1].v=800400dc
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400db
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=29.22002493742547812872
+Entity.actPoint.y=65.73337688094977693254
+Entity.actPoint.z=7.29332700609868567199
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400dc
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=29.22002493742550655043
+Entity.actPoint.y=29.22002493742552786671
+Entity.actPoint.z=-29.22002493742550655043
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400dd
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800400de
+Entity.point[1].v=800400df
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400de
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=47.47670090918759910892
+Entity.actPoint.y=83.99005285271186949103
+Entity.actPoint.z=-10.96334896566344241364
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400df
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=47.47670090918762753063
+Entity.actPoint.y=47.47670090918763463606
+Entity.actPoint.z=-47.47670090918763463606
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400e0
+Entity.type=5002
+Entity.construction=0
+Entity.actPoint.x=29.22002493742547812872
+Entity.actPoint.y=65.73337688094977693254
+Entity.actPoint.z=7.29332700609868567199
+Entity.actNormal.vx=-0.81649658092772603446
+Entity.actNormal.vy=0.40824829046386246212
+Entity.actNormal.vz=-0.40824829046386373888
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400e1
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800400de
+Entity.point[1].v=800400db
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400e2
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800400df
+Entity.point[1].v=800400dc
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400e3
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800400e4
+Entity.point[1].v=800400e5
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400e4
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=29.22002493742550655043
+Entity.actPoint.y=29.22002493742552786671
+Entity.actPoint.z=-29.22002493742550655043
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400e5
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=65.73337688094974851083
+Entity.actPoint.y=-7.29332700609869277741
+Entity.actPoint.z=-29.22002493742547812872
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400e6
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800400e7
+Entity.point[1].v=800400e8
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400e7
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=47.47670090918762753063
+Entity.actPoint.y=47.47670090918763463606
+Entity.actPoint.z=-47.47670090918763463606
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400e8
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=83.99005285271186949103
+Entity.actPoint.y=10.96334896566341754465
+Entity.actPoint.z=-47.47670090918759910892
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400e9
+Entity.type=5002
+Entity.construction=0
+Entity.actPoint.x=29.22002493742550655043
+Entity.actPoint.y=29.22002493742552786671
+Entity.actPoint.z=-29.22002493742550655043
+Entity.actNormal.vx=-0.40824829046386279519
+Entity.actNormal.vy=-0.40824829046386362785
+Entity.actNormal.vz=-0.81649658092772603446
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400ea
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800400e7
+Entity.point[1].v=800400e4
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400eb
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800400e8
+Entity.point[1].v=800400e5
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400ec
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800400ed
+Entity.point[1].v=800400ee
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400ed
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=65.73337688094974851083
+Entity.actPoint.y=-7.29332700609869277741
+Entity.actPoint.z=-29.22002493742547812872
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400ee
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=65.73337688094974851083
+Entity.actPoint.y=29.22002493742549944500
+Entity.actPoint.z=7.29332700609869988284
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400ef
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800400f0
+Entity.point[1].v=800400f1
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400f0
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=83.99005285271186949103
+Entity.actPoint.y=10.96334896566341754465
+Entity.actPoint.z=-47.47670090918759910892
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400f1
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=83.99005285271186949103
+Entity.actPoint.y=47.47670090918760621435
+Entity.actPoint.z=-10.96334896566342820279
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400f2
+Entity.type=5002
+Entity.construction=0
+Entity.actPoint.x=65.73337688094974851083
+Entity.actPoint.y=-7.29332700609869277741
+Entity.actPoint.z=-29.22002493742547812872
+Entity.actNormal.vx=0.81649658092772614548
+Entity.actNormal.vy=-0.40824829046386312825
+Entity.actNormal.vz=0.40824829046386312825
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400f3
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800400f0
+Entity.point[1].v=800400ed
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400f4
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800400f1
+Entity.point[1].v=800400ee
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400f5
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800400f6
+Entity.point[1].v=800400f7
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400f6
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=65.73337688094974851083
+Entity.actPoint.y=29.22002493742549944500
+Entity.actPoint.z=7.29332700609869988284
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400f7
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=29.22002493742550655043
+Entity.actPoint.y=29.22002493742552786671
+Entity.actPoint.z=-29.22002493742550655043
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400f8
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800400f9
+Entity.point[1].v=800400fa
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400f9
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=83.99005285271186949103
+Entity.actPoint.y=47.47670090918760621435
+Entity.actPoint.z=-10.96334896566342820279
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400fa
+Entity.type=2011
+Entity.construction=0
+Entity.actPoint.x=47.47670090918762753063
+Entity.actPoint.y=47.47670090918763463606
+Entity.actPoint.z=-47.47670090918763463606
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400fb
+Entity.type=5002
+Entity.construction=0
+Entity.actPoint.x=65.73337688094974851083
+Entity.actPoint.y=29.22002493742549944500
+Entity.actPoint.z=7.29332700609869988284
+Entity.actNormal.vx=-0.40824829046386229559
+Entity.actNormal.vy=0.81649658092772625650
+Entity.actNormal.vz=0.40824829046386340581
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400fc
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800400f9
+Entity.point[1].v=800400f6
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=800400fd
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=800400fa
+Entity.point[1].v=800400f7
+Entity.actVisible=0
+AddEntity
+
+Constraint.h.v=00000001
+Constraint.type=110
+Constraint.group.v=00000003
+Constraint.entityA.v=80030006
+Constraint.entityB.v=00020020
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=00000002
+Constraint.type=20
+Constraint.group.v=00000003
+Constraint.ptA.v=8003006f
+Constraint.ptB.v=80020002
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=00000003
+Constraint.type=110
+Constraint.group.v=00000004
+Constraint.entityA.v=80040006
+Constraint.entityB.v=80030009
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=00000004
+Constraint.type=20
+Constraint.group.v=00000005
+Constraint.ptA.v=8003006f
+Constraint.ptB.v=00040001
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=00000005
+Constraint.type=20
+Constraint.group.v=00000005
+Constraint.ptA.v=8003005a
+Constraint.ptB.v=00040002
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=00000007
+Constraint.type=42
+Constraint.group.v=00000005
+Constraint.ptA.v=00050000
+Constraint.entityA.v=00040000
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=00000008
+Constraint.type=20
+Constraint.group.v=00000004
+Constraint.ptA.v=8004006f
+Constraint.ptB.v=00050000
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Triangle 80040071 00ff66e5 65.73337688094976272168 65.73337688094976272168 -65.73337688094974851083  47.47670090918760621435 65.73337688094976272168 -29.22002493742553497214  65.73337688094976272168 65.73337688094976272168 -10.96334896566337846480
+Triangle 8004007a 00ff66e5 38.34836292330652440796 65.73337688094976272168 -10.96334896566337846480  35.30558359467952556088 59.64781822369575081666 -10.96334896566337846480  65.73337688094976272168 38.34836292330655282967 -10.96334896566337846480
+Triangle 8004007a 00ff66e5 35.30558359467952556088 59.64781822369575081666 -10.96334896566337846480  32.87136013177791937778 54.77937129789252423961 -10.96334896566338201751  65.73337688094976272168 38.34836292330655282967 -10.96334896566337846480
+Triangle 80040068 00ff66e5 65.73337688094976272168 65.73337688094976272168 -65.73337688094974851083  65.73337688094976272168 65.73337688094976272168 -10.96334896566337846480  65.73337688094976272168 47.47670090918762753063 -29.22002493742550655043
+Triangle 80040071 00ff66e5 38.34836292330652440796 65.73337688094976272168 -10.96334896566337846480  65.73337688094976272168 65.73337688094976272168 -10.96334896566337846480  47.47670090918760621435 65.73337688094976272168 -29.22002493742553497214
+Triangle 80040068 00ff66e5 65.73337688094976272168 38.34836292330655282967 -10.96334896566337846480  65.73337688094976272168 47.47670090918762753063 -29.22002493742550655043  65.73337688094976272168 65.73337688094976272168 -10.96334896566337846480
+Triangle 8004007a 00ff66e5 65.73337688094976272168 38.34836292330655282967 -10.96334896566337846480  65.73337688094976272168 65.73337688094976272168 -10.96334896566337846480  38.34836292330652440796 65.73337688094976272168 -10.96334896566337846480
+Triangle 8004007a 00ff66e5 65.73337688094976272168 38.34836292330655282967 -10.96334896566337846480  32.87136013177791937778 54.77937129789252423961 -10.96334896566338201751  29.22002493742549233957 47.47670090918767016319 -10.96334896566337846480
+Triangle 800400bc 00e5ff66 47.47670090918760621435 65.73337688094976272168 -29.22002493742553497214  47.47670090918762753063 47.47670090918763463606 -47.47670090918763463606  35.30558359467952556088 59.64781822369575081666 -10.96334896566337846480
+Triangle 800400bc 00e5ff66 35.30558359467952556088 59.64781822369575081666 -10.96334896566337846480  47.47670090918762753063 47.47670090918763463606 -47.47670090918763463606  47.47670090918764174148 29.22002493742551365585 -65.73337688094974851083
+Triangle 800400bc 00e5ff66 47.47670090918760621435 65.73337688094976272168 -29.22002493742553497214  35.30558359467952556088 59.64781822369575081666 -10.96334896566337846480  38.34836292330652440796 65.73337688094976272168 -10.96334896566337846480
+Triangle 800400bc 00e5ff66 35.30558359467952556088 59.64781822369575081666 -10.96334896566337846480  47.47670090918764174148 29.22002493742551365585 -65.73337688094974851083  43.82536571483520759784 21.91735454872066313214 -65.73337688094974851083
+Triangle 800300ce 0066ff66 54.77002791528637004603 18.25667597176212453292 -36.51335194352425617126  -0.00000000000000355271 48.68446925803235814101 -24.34223462901613999065  36.51335194352424196040 36.51335194352427038211 -36.51335194352424906583
+Triangle 800300ce 0066ff66 54.77002791528637004603 18.25667597176212453292 -36.51335194352425617126  -0.00000000000000355271 43.81602233222912445854 -21.90801116611453025484  -0.00000000000000355271 48.68446925803235814101 -24.34223462901613999065
+Triangle 8004007a 00ff66e5 47.47670090918764884691 29.22002493742551365585 -10.96334896566337491208  59.64781822369572239495 35.30558359467953266631 -10.96334896566337846480  29.22002493742549233957 47.47670090918767016319 -10.96334896566337846480
+Triangle 800400b3 00e5ff66 36.51335194352424196040 36.51335194352427038211 -36.51335194352424906583  47.47670090918762753063 47.47670090918763463606 -47.47670090918763463606  59.64781822369572239495 35.30558359467953266631 -10.96334896566337846480
+Triangle 800400b3 00e5ff66 59.64781822369572239495 35.30558359467953266631 -10.96334896566337846480  65.73337688094976272168 47.47670090918762753063 -29.22002493742550655043  65.73337688094976272168 38.34836292330655282967 -10.96334896566337846480
+Triangle 8004007a 00ff66e5 65.73337688094976272168 38.34836292330655282967 -10.96334896566337846480  29.22002493742549233957 47.47670090918767016319 -10.96334896566337846480  59.64781822369572239495 35.30558359467953266631 -10.96334896566337846480
+Triangle 800400b3 00e5ff66 59.64781822369572239495 35.30558359467953266631 -10.96334896566337846480  47.47670090918762753063 47.47670090918763463606 -47.47670090918763463606  65.73337688094976272168 47.47670090918762753063 -29.22002493742550655043
+Triangle 8004009f 00e5ff66 29.22002493742549944500 29.22002493742552786671 -29.22002493742550655043  47.47670090918764884691 29.22002493742551365585 -10.96334896566337491208  29.22002493742549233957 47.47670090918767016319 -10.96334896566337846480
+Triangle 800300ce 0066ff66 54.77002791528637715146 6.08555865725404743216 -30.42779328627023716081  0.00000000000000000000 36.51335194352427038211 -18.25667597176210676935  -0.00000000000000355271 43.81602233222912445854 -21.90801116611453025484
+Triangle 800300ce 0066ff66 54.77002791528637715146 6.08555865725404743216 -30.42779328627023716081  -0.00000000000000355271 43.81602233222912445854 -21.90801116611453025484  54.77002791528637715146 10.95400558305727400921 -32.86201674917184334390
+Triangle 800300ce 0066ff66 54.77002791528637004603 18.25667597176212453292 -36.51335194352425617126  54.77002791528637715146 10.95400558305727400921 -32.86201674917184334390  -0.00000000000000355271 43.81602233222912445854 -21.90801116611453025484
+Triangle 800400bc 00e5ff66 29.22002493742549233957 47.47670090918767016319 -10.96334896566337846480  43.82536571483520759784 21.91735454872066313214 -65.73337688094974851083  41.39114225193359430932 17.04890762291744010781 -65.73337688094974851083
+Triangle 800400bc 00e5ff66 29.22002493742549233957 47.47670090918767016319 -10.96334896566337846480  41.39114225193359430932 17.04890762291744010781 -65.73337688094974851083  29.22002493742549944500 29.22002493742552786671 -29.22002493742550655043
+Triangle 800400bc 00e5ff66 35.30558359467952556088 59.64781822369575081666 -10.96334896566337846480  43.82536571483520759784 21.91735454872066313214 -65.73337688094974851083  32.87136013177791937778 54.77937129789252423961 -10.96334896566338201751
+Triangle 800400bc 00e5ff66 29.22002493742549233957 47.47670090918767016319 -10.96334896566337846480  32.87136013177791937778 54.77937129789252423961 -10.96334896566338201751  43.82536571483520759784 21.91735454872066313214 -65.73337688094974851083
+Triangle 80030056 0066e5ff 36.51335194352422774955 54.77002791528639136232 -18.25667597176213519106  0.00000000000000000000 54.77002791528637715146 0.00000000000000000000  27.38501395764314594317 54.77002791528637715146 0.00000000000000000000
+Triangle 8003009f 0066ff66 36.51335194352422774955 54.77002791528639136232 -18.25667597176213519106  36.51335194352424196040 36.51335194352427038211 -36.51335194352424906583  18.25667597176213519106 54.77002791528638425689 -36.51335194352422774955
+Triangle 80030056 0066e5ff 36.51335194352422774955 54.77002791528639136232 -18.25667597176213519106  18.25667597176213519106 54.77002791528638425689 -36.51335194352422774955  0.00000000000000000000 54.77002791528637715146 -27.38501395764315304859
+Triangle 800300b3 0066ff66 36.51335194352424196040 36.51335194352427038211 -36.51335194352424906583  36.51335194352422774955 54.77002791528639136232 -18.25667597176213519106  27.38501395764314594317 54.77002791528637715146 0.00000000000000000000
+Triangle 80030056 0066e5ff 36.51335194352422774955 54.77002791528639136232 -18.25667597176213519106  0.00000000000000000000 54.77002791528637715146 -27.38501395764315304859  0.00000000000000000000 54.77002791528637715146 0.00000000000000000000
+Triangle 800300b3 0066ff66 29.22002493742549944500 29.22002493742552786671 -29.22002493742550655043  36.51335194352424196040 36.51335194352427038211 -36.51335194352424906583  24.34223462901614709608 48.68446925803235814101 0.00000000000000000000
+Triangle 800300b3 0066ff66 36.51335194352424196040 36.51335194352427038211 -36.51335194352424906583  27.38501395764314594317 54.77002791528637715146 0.00000000000000000000  24.34223462901614709608 48.68446925803235814101 0.00000000000000000000
+Triangle 800300ce 0066ff66 18.25667597176213519106 54.77002791528638425689 -36.51335194352422774955  36.51335194352424196040 36.51335194352427038211 -36.51335194352424906583  -0.00000000000000355271 48.68446925803235814101 -24.34223462901613999065
+Triangle 80040068 00ff66e5 65.73337688094976272168 65.73337688094976272168 -65.73337688094974851083  65.73337688094976272168 47.47670090918762753063 -29.22002493742550655043  65.73337688094976272168 38.34836292330657414595 -38.34836292330655282967
+Triangle 80040071 00ff66e5 29.22002493742548523414 65.73337688094976272168 -47.47670090918765595234  47.47670090918760621435 65.73337688094976272168 -29.22002493742553497214  65.73337688094976272168 65.73337688094976272168 -65.73337688094974851083
+Triangle 800400ce 00e5ff66 47.47670090918764174148 10.96334896566340688651 -29.22002493742549233957  54.77937129789248160705 10.96334896566339978108 -32.87136013177790516693  21.91735454872064536858 65.73337688094976272168 -43.82536571483522891413
+Triangle 800400ab 00e5ff66 47.47670090918760621435 65.73337688094976272168 -29.22002493742553497214  29.22002493742548523414 65.73337688094976272168 -47.47670090918765595234  47.47670090918762753063 47.47670090918763463606 -47.47670090918763463606
+Triangle 800400ce 00e5ff66 47.47670090918764174148 10.96334896566340688651 -29.22002493742549233957  21.91735454872064536858 65.73337688094976272168 -43.82536571483522891413  17.04890762291742234424 65.73337688094976272168 -41.39114225193362273103
+Triangle 800400ce 00e5ff66 47.47670090918764174148 10.96334896566340688651 -29.22002493742549233957  17.04890762291742234424 65.73337688094976272168 -41.39114225193362273103  29.22002493742549944500 29.22002493742552786671 -29.22002493742550655043
+Triangle 800400ab 00e5ff66 65.73337688094976272168 38.34836292330657414595 -38.34836292330655282967  65.73337688094976272168 47.47670090918762753063 -29.22002493742550655043  47.47670090918762753063 47.47670090918763463606 -47.47670090918763463606
+Triangle 800400b3 00e5ff66 36.51335194352424196040 36.51335194352427038211 -36.51335194352424906583  29.22002493742549944500 29.22002493742552786671 -29.22002493742550655043  17.04890762291740813339 41.39114225193362273103 -65.73337688094974851083
+Triangle 800400b3 00e5ff66 29.22002493742549944500 29.22002493742552786671 -29.22002493742550655043  36.51335194352424196040 36.51335194352427038211 -36.51335194352424906583  59.64781822369572239495 35.30558359467953266631 -10.96334896566337846480
+Triangle 800300bc 0066ff66 36.51335194352424196040 36.51335194352427038211 -36.51335194352424906583  54.77002791528637715146 27.38501395764318147030 0.00000000000000000000  54.77002791528637715146 36.51335194352425617126 -18.25667597176212453292
+Triangle 800300bc 0066ff66 18.25667597176209966392 36.51335194352427748754 -54.77002791528637715146  48.68446925803234393015 24.34223462901616841236 0.00000000000000000000  36.51335194352424196040 36.51335194352427038211 -36.51335194352424906583
+Triangle 8003009f 0066ff66 54.77002791528637715146 36.51335194352425617126 -18.25667597176212453292  54.77002791528637004603 18.25667597176212453292 -36.51335194352425617126  36.51335194352424196040 36.51335194352427038211 -36.51335194352424906583
+Triangle 800300bc 0066ff66 18.25667597176209966392 36.51335194352427748754 -54.77002791528637715146  43.81602233222911735311 21.90801116611455512384 0.00000000000000000000  48.68446925803234393015 24.34223462901616841236 0.00000000000000000000
+Triangle 800300bc 0066ff66 36.51335194352424196040 36.51335194352427038211 -36.51335194352424906583  48.68446925803234393015 24.34223462901616841236 0.00000000000000000000  54.77002791528637715146 27.38501395764318147030 0.00000000000000000000
+Triangle 800300ce 0066ff66 54.77002791528637715146 6.08555865725404743216 -30.42779328627023716081  18.25667597176213163834 18.25667597176214229648 -18.25667597176212808563  0.00000000000000000000 36.51335194352427038211 -18.25667597176210676935
+Triangle 800300bc 0066ff66 18.25667597176209966392 36.51335194352427748754 -54.77002791528637715146  10.95400558305726690378 32.86201674917186466018 -54.77002791528637715146  43.81602233222911735311 21.90801116611455512384 0.00000000000000000000
+Triangle 800400b3 00e5ff66 29.22002493742549944500 29.22002493742552786671 -29.22002493742550655043  59.64781822369572239495 35.30558359467953266631 -10.96334896566337846480  47.47670090918764884691 29.22002493742551365585 -10.96334896566337491208
+Triangle 8003005f 0066e5ff 54.77002791528637715146 27.38501395764318147030 0.00000000000000000000  54.77002791528637004603 18.25667597176212453292 -36.51335194352425617126  54.77002791528637715146 36.51335194352425617126 -18.25667597176212453292
+Triangle 800300bc 0066ff66 6.08555865725404032673 30.42779328627025492437 -54.77002791528637715146  43.81602233222911735311 21.90801116611455512384 0.00000000000000000000  10.95400558305726690378 32.86201674917186466018 -54.77002791528637715146
+Triangle 800300b3 0066ff66 29.22002493742549944500 29.22002493742552786671 -29.22002493742550655043  18.25667597176213163834 18.25667597176214229648 -18.25667597176212808563  30.42779328627023360809 6.08555865725405453759 -54.77002791528637715146
+Triangle 800300b3 0066ff66 36.51335194352424196040 36.51335194352427038211 -36.51335194352424906583  29.22002493742549944500 29.22002493742552786671 -29.22002493742550655043  30.42779328627023360809 6.08555865725405453759 -54.77002791528637715146
+Triangle 800300b3 0066ff66 18.25667597176213163834 18.25667597176214229648 -18.25667597176212808563  29.22002493742549944500 29.22002493742552786671 -29.22002493742550655043  24.34223462901614709608 48.68446925803235814101 0.00000000000000000000
+Triangle 800300b3 0066ff66 18.25667597176213163834 18.25667597176214229648 -18.25667597176212808563  24.34223462901614709608 48.68446925803235814101 0.00000000000000000000  18.25667597176211387477 36.51335194352429169840 0.00000000000000000000
+Triangle 80030079 0066e5ff 0.00000000000000000000 54.77002791528637715146 0.00000000000000000000  24.34223462901614709608 48.68446925803235814101 0.00000000000000000000  27.38501395764314594317 54.77002791528637715146 0.00000000000000000000
+Triangle 80030079 0066e5ff 18.25667597176211387477 36.51335194352429169840 0.00000000000000000000  24.34223462901614709608 48.68446925803235814101 0.00000000000000000000  0.00000000000000000000 54.77002791528637715146 0.00000000000000000000
+Triangle 80030079 0066e5ff 0.00000000000000000000 0.00000000000000000000 0.00000000000000000000  18.25667597176211387477 36.51335194352429169840 0.00000000000000000000  0.00000000000000000000 54.77002791528637715146 0.00000000000000000000
+Triangle 80030071 0066e5ff 0.00000000000000000000 54.77002791528637715146 0.00000000000000000000  -0.00000000000000355271 43.81602233222912445854 -21.90801116611453025484  0.00000000000000000000 36.51335194352427038211 -18.25667597176210676935
+Triangle 80030071 0066e5ff 0.00000000000000000000 54.77002791528637715146 -27.38501395764315304859  -0.00000000000000355271 48.68446925803235814101 -24.34223462901613999065  0.00000000000000000000 54.77002791528637715146 0.00000000000000000000
+Triangle 80030071 0066e5ff 0.00000000000000000000 54.77002791528637715146 0.00000000000000000000  0.00000000000000000000 36.51335194352427038211 -18.25667597176210676935  0.00000000000000000000 0.00000000000000000000 0.00000000000000000000
+Triangle 80030071 0066e5ff -0.00000000000000355271 48.68446925803235814101 -24.34223462901613999065  -0.00000000000000355271 43.81602233222912445854 -21.90801116611453025484  0.00000000000000000000 54.77002791528637715146 0.00000000000000000000
+Triangle 800300ce 0066ff66 18.25667597176213519106 54.77002791528638425689 -36.51335194352422774955  -0.00000000000000355271 48.68446925803235814101 -24.34223462901613999065  0.00000000000000000000 54.77002791528637715146 -27.38501395764315304859
+Triangle 800300ab 0066ff66 18.25667597176211387477 36.51335194352429169840 0.00000000000000000000  27.38501395761820234043 27.38501395766820323274 0.00000000000000000000  18.25667597176213163834 18.25667597176214229648 -18.25667597176212808563
+Triangle 80030079 0066e5ff 0.00000000000000000000 0.00000000000000000000 0.00000000000000000000  27.38501395761820234043 27.38501395766820323274 0.00000000000000000000  18.25667597176211387477 36.51335194352429169840 0.00000000000000000000
+Triangle 80030071 0066e5ff 0.00000000000000000000 36.51335194352427038211 -18.25667597176210676935  0.00000000000000000000 18.25667597176214229648 -36.51335194352423485498  0.00000000000000000000 0.00000000000000000000 0.00000000000000000000
+Triangle 800300ab 0066ff66 0.00000000000000000000 18.25667597176214229648 -36.51335194352423485498  0.00000000000000000000 36.51335194352427038211 -18.25667597176210676935  18.25667597176213163834 18.25667597176214229648 -18.25667597176212808563
+Triangle 800400b3 00e5ff66 29.22002493742549944500 29.22002493742552786671 -29.22002493742550655043  10.96334896566339978108 38.34836292330661677852 -65.73337688094974851083  17.04890762291740813339 41.39114225193362273103 -65.73337688094974851083
+Triangle 8004009f 00e5ff66 10.96334896566338912294 29.22002493742554207756 -47.47670090918761331977  29.22002493742549944500 29.22002493742552786671 -29.22002493742550655043  10.96334896566339267565 47.47670090918763463606 -29.22002493742552076128
+Triangle 800400ce 00e5ff66 10.96334896566339267565 47.47670090918763463606 -29.22002493742552076128  29.22002493742549944500 29.22002493742552786671 -29.22002493742550655043  17.04890762291742234424 65.73337688094976272168 -41.39114225193362273103
+Triangle 800400b3 00e5ff66 29.22002493742549944500 29.22002493742552786671 -29.22002493742550655043  10.96334896566338912294 29.22002493742554207756 -47.47670090918761331977  10.96334896566339978108 38.34836292330661677852 -65.73337688094974851083
+Triangle 80040056 00ff66e5 10.96334896566338912294 29.22002493742554207756 -47.47670090918761331977  10.96334896566339267565 47.47670090918763463606 -29.22002493742552076128  10.96334896566339978108 65.73337688094976272168 -38.34836292330660967309
+Triangle 800400ce 00e5ff66 10.96334896566339267565 47.47670090918763463606 -29.22002493742552076128  17.04890762291742234424 65.73337688094976272168 -41.39114225193362273103  10.96334896566339978108 65.73337688094976272168 -38.34836292330660967309
+Triangle 8004009f 00e5ff66 29.22002493742551365585 10.96334896566340688651 -47.47670090918762753063  47.47670090918764174148 10.96334896566340688651 -29.22002493742549233957  29.22002493742549944500 29.22002493742552786671 -29.22002493742550655043
+Triangle 800300bc 0066ff66 6.08555865725404032673 30.42779328627025492437 -54.77002791528637715146  36.51335194352427038211 18.25667597176213163834 0.00000000000000000000  43.81602233222911735311 21.90801116611455512384 0.00000000000000000000
+Triangle 800300bc 0066ff66 6.08555865725404032673 30.42779328627025492437 -54.77002791528637715146  18.25667597176213163834 18.25667597176214229648 -18.25667597176212808563  36.51335194352427038211 18.25667597176213163834 0.00000000000000000000
+Triangle 800400bc 00e5ff66 29.22002493742549944500 29.22002493742552786671 -29.22002493742550655043  41.39114225193359430932 17.04890762291744010781 -65.73337688094974851083  38.34836292330658125138 10.96334896566339978108 -65.73337688094974851083
+Triangle 800400bc 00e5ff66 29.22002493742549944500 29.22002493742552786671 -29.22002493742550655043  38.34836292330658125138 10.96334896566339978108 -65.73337688094974851083  29.22002493742551365585 10.96334896566340688651 -47.47670090918762753063
+Triangle 80030079 0066e5ff 54.77002791528637715146 27.38501395764318147030 0.00000000000000000000  48.68446925803234393015 24.34223462901616841236 0.00000000000000000000  54.77002791528637715146 0.00000000000000000000 0.00000000000000000000
+Triangle 80030079 0066e5ff 48.68446925803234393015 24.34223462901616841236 0.00000000000000000000  43.81602233222911735311 21.90801116611455512384 0.00000000000000000000  54.77002791528637715146 0.00000000000000000000 0.00000000000000000000
+Triangle 8003005f 0066e5ff 54.77002791528637715146 27.38501395764318147030 0.00000000000000000000  54.77002791528637715146 10.95400558305727400921 -32.86201674917184334390  54.77002791528637004603 18.25667597176212453292 -36.51335194352425617126
+Triangle 8003005f 0066e5ff 54.77002791528637715146 0.00000000000000000000 -27.38501395764321344473  54.77002791528637715146 6.08555865725404743216 -30.42779328627023716081  54.77002791528637715146 27.38501395764318147030 0.00000000000000000000
+Triangle 8003005f 0066e5ff 54.77002791528637715146 6.08555865725404743216 -30.42779328627023716081  54.77002791528637715146 10.95400558305727400921 -32.86201674917184334390  54.77002791528637715146 27.38501395764318147030 0.00000000000000000000
+Triangle 8003005f 0066e5ff 54.77002791528637715146 27.38501395764318147030 0.00000000000000000000  54.77002791528637715146 0.00000000000000000000 0.00000000000000000000  54.77002791528637715146 0.00000000000000000000 -27.38501395764321344473
+Triangle 800300ab 0066ff66 27.38501395761820234043 27.38501395766820323274 0.00000000000000000000  36.51335194352427038211 18.25667597176213163834 0.00000000000000000000  18.25667597176213163834 18.25667597176214229648 -18.25667597176212808563
+Triangle 80030079 0066e5ff 0.00000000000000000000 0.00000000000000000000 0.00000000000000000000  36.51335194352427038211 18.25667597176213163834 0.00000000000000000000  27.38501395761820234043 27.38501395766820323274 0.00000000000000000000
+Triangle 80030079 0066e5ff 43.81602233222911735311 21.90801116611455512384 0.00000000000000000000  36.51335194352427038211 18.25667597176213163834 0.00000000000000000000  54.77002791528637715146 0.00000000000000000000 0.00000000000000000000
+Triangle 80030079 0066e5ff 0.00000000000000000000 0.00000000000000000000 0.00000000000000000000  54.77002791528637715146 0.00000000000000000000 0.00000000000000000000  36.51335194352427038211 18.25667597176213163834 0.00000000000000000000
+Triangle 80030068 0066e5ff 0.00000000000000000000 0.00000000000000000000 0.00000000000000000000  36.51335194352426327669 0.00000000000000000000 -18.25667597176214940191  54.77002791528637715146 0.00000000000000000000 0.00000000000000000000
+Triangle 80030068 0066e5ff 54.77002791528637715146 0.00000000000000000000 0.00000000000000000000  36.51335194352426327669 0.00000000000000000000 -18.25667597176214940191  54.77002791528637715146 0.00000000000000000000 -27.38501395764321344473
+Triangle 800300ce 0066ff66 36.51335194352426327669 0.00000000000000000000 -18.25667597176214940191  18.25667597176213163834 18.25667597176214229648 -18.25667597176212808563  54.77002791528637715146 6.08555865725404743216 -30.42779328627023716081
+Triangle 800300ce 0066ff66 36.51335194352426327669 0.00000000000000000000 -18.25667597176214940191  54.77002791528637715146 6.08555865725404743216 -30.42779328627023716081  54.77002791528637715146 0.00000000000000000000 -27.38501395764321344473
+Triangle 800300ab 0066ff66 36.51335194352426327669 0.00000000000000000000 -18.25667597176214940191  27.38501395764319923387 0.00000000000000000000 -27.38501395764319923387  18.25667597176213163834 18.25667597176214229648 -18.25667597176212808563
+Triangle 80030068 0066e5ff 0.00000000000000000000 0.00000000000000000000 0.00000000000000000000  27.38501395764319923387 0.00000000000000000000 -27.38501395764319923387  36.51335194352426327669 0.00000000000000000000 -18.25667597176214940191
+Triangle 8004005f 00ff66e5 38.34836292330658125138 10.96334896566339978108 -65.73337688094974851083  47.47670090918764174148 10.96334896566340688651 -29.22002493742549233957  29.22002493742551365585 10.96334896566340688651 -47.47670090918762753063
+Triangle 8004005f 00ff66e5 38.34836292330658125138 10.96334896566339978108 -65.73337688094974851083  54.77937129789248160705 10.96334896566339978108 -32.87136013177790516693  47.47670090918764174148 10.96334896566340688651 -29.22002493742549233957
+Triangle 800300b3 0066ff66 30.42779328627023360809 6.08555865725405453759 -54.77002791528637715146  18.25667597176213163834 18.25667597176214229648 -18.25667597176212808563  18.25667597176214584920 0.00000000000000000000 -36.51335194352425617126
+Triangle 800300ab 0066ff66 27.38501395764319923387 0.00000000000000000000 -27.38501395764319923387  18.25667597176214584920 0.00000000000000000000 -36.51335194352425617126  18.25667597176213163834 18.25667597176214229648 -18.25667597176212808563
+Triangle 80030068 0066e5ff 0.00000000000000000000 0.00000000000000000000 0.00000000000000000000  18.25667597176214584920 0.00000000000000000000 -36.51335194352425617126  27.38501395764319923387 0.00000000000000000000 -27.38501395764319923387
+Triangle 800300bc 0066ff66 0.00000000000000000000 18.25667597176214229648 -36.51335194352423485498  18.25667597176213163834 18.25667597176214229648 -18.25667597176212808563  6.08555865725404032673 30.42779328627025492437 -54.77002791528637715146
+Triangle 80030071 0066e5ff 0.00000000000000000000 0.00000000000000000000 0.00000000000000000000  0.00000000000000000000 18.25667597176214229648 -36.51335194352423485498  0.00000000000000000000 0.00000000000000000000 -54.77002791528637715146
+Triangle 80030068 0066e5ff 0.00000000000000000000 0.00000000000000000000 0.00000000000000000000  0.00000000000000000000 0.00000000000000000000 -54.77002791528637715146  18.25667597176214584920 0.00000000000000000000 -36.51335194352425617126
+Triangle 800400b3 00e5ff66 47.47670090918762753063 47.47670090918763463606 -47.47670090918763463606  36.51335194352424196040 36.51335194352427038211 -36.51335194352424906583  17.04890762291740813339 41.39114225193362273103 -65.73337688094974851083
+Triangle 800400ab 00e5ff66 65.73337688094976272168 29.22002493742552786671 -47.47670090918760621435  65.73337688094976272168 38.34836292330657414595 -38.34836292330655282967  47.47670090918762753063 47.47670090918763463606 -47.47670090918763463606
+Triangle 800400ce 00e5ff66 65.73337688094976272168 29.22002493742552786671 -47.47670090918760621435  47.47670090918762753063 47.47670090918763463606 -47.47670090918763463606  59.64781822369570818410 10.96334896566339978108 -35.30558359467951845545
+Triangle 800400ce 00e5ff66 59.64781822369570818410 10.96334896566339978108 -35.30558359467951845545  29.22002493742548523414 65.73337688094976272168 -47.47670090918765595234  21.91735454872064536858 65.73337688094976272168 -43.82536571483522891413
+Triangle 800400ce 00e5ff66 59.64781822369570818410 10.96334896566339978108 -35.30558359467951845545  47.47670090918762753063 47.47670090918763463606 -47.47670090918763463606  29.22002493742548523414 65.73337688094976272168 -47.47670090918765595234
+Triangle 80040068 00ff66e5 65.73337688094976272168 65.73337688094976272168 -65.73337688094974851083  65.73337688094976272168 38.34836292330657414595 -38.34836292330655282967  65.73337688094976272168 29.22002493742552786671 -47.47670090918760621435
+Triangle 800400ce 00e5ff66 59.64781822369570818410 10.96334896566339978108 -35.30558359467951845545  21.91735454872064536858 65.73337688094976272168 -43.82536571483522891413  54.77937129789248160705 10.96334896566339978108 -32.87136013177790516693
+Triangle 800300b3 0066ff66 36.51335194352424196040 36.51335194352427038211 -36.51335194352424906583  30.42779328627023360809 6.08555865725405453759 -54.77002791528637715146  36.51335194352425617126 18.25667597176212453292 -54.77002791528637715146
+Triangle 8003009f 0066ff66 36.51335194352424196040 36.51335194352427038211 -36.51335194352424906583  36.51335194352425617126 18.25667597176212453292 -54.77002791528637715146  18.25667597176209966392 36.51335194352427748754 -54.77002791528637715146
+Triangle 80040071 00ff66e5 10.96334896566339978108 65.73337688094976272168 -65.73337688094974851083  29.22002493742548523414 65.73337688094976272168 -47.47670090918765595234  65.73337688094976272168 65.73337688094976272168 -65.73337688094974851083
+Triangle 80040068 00ff66e5 65.73337688094976272168 65.73337688094976272168 -65.73337688094974851083  65.73337688094976272168 29.22002493742552786671 -47.47670090918760621435  65.73337688094976272168 10.96334896566339978108 -65.73337688094974851083
+Triangle 800400b3 00e5ff66 47.47670090918762753063 47.47670090918763463606 -47.47670090918763463606  17.04890762291740813339 41.39114225193362273103 -65.73337688094974851083  29.22002493742549589228 47.47670090918766305776 -65.73337688094974851083
+Triangle 800400ab 00e5ff66 38.34836292328157725251 38.34836292333157814483 -65.73337688094974851083  47.47670090918764174148 29.22002493742551365585 -65.73337688094974851083  47.47670090918762753063 47.47670090918763463606 -47.47670090918763463606
+Triangle 800400ab 00e5ff66 29.22002493742549589228 47.47670090918766305776 -65.73337688094974851083  38.34836292328157725251 38.34836292333157814483 -65.73337688094974851083  47.47670090918762753063 47.47670090918763463606 -47.47670090918763463606
+Triangle 80040079 00ff66e5 65.73337688094976272168 65.73337688094976272168 -65.73337688094974851083  47.47670090918764174148 29.22002493742551365585 -65.73337688094974851083  38.34836292328157725251 38.34836292333157814483 -65.73337688094974851083
+Triangle 80040079 00ff66e5 65.73337688094976272168 65.73337688094976272168 -65.73337688094974851083  29.22002493742549589228 47.47670090918766305776 -65.73337688094974851083  10.96334896566339978108 65.73337688094976272168 -65.73337688094974851083
+Triangle 80040079 00ff66e5 65.73337688094976272168 65.73337688094976272168 -65.73337688094974851083  38.34836292328157725251 38.34836292333157814483 -65.73337688094974851083  29.22002493742549589228 47.47670090918766305776 -65.73337688094974851083
+Triangle 80040079 00ff66e5 65.73337688094976272168 65.73337688094976272168 -65.73337688094974851083  65.73337688094976272168 10.96334896566339978108 -65.73337688094974851083  47.47670090918764174148 29.22002493742551365585 -65.73337688094974851083
+Triangle 8003007a 0066e5ff 36.51335194352425617126 18.25667597176212453292 -54.77002791528637715146  30.42779328627023360809 6.08555865725405453759 -54.77002791528637715146  18.25667597176209966392 36.51335194352427748754 -54.77002791528637715146
+Triangle 80040068 00ff66e5 65.73337688094976272168 10.96334896566339978108 -65.73337688094974851083  65.73337688094976272168 29.22002493742552786671 -47.47670090918760621435  65.73337688094976272168 10.96334896566339978108 -38.34836292330653861882
+Triangle 8004005f 00ff66e5 38.34836292330658125138 10.96334896566339978108 -65.73337688094974851083  65.73337688094976272168 10.96334896566339978108 -65.73337688094974851083  65.73337688094976272168 10.96334896566339978108 -38.34836292330653861882
+Triangle 8004005f 00ff66e5 65.73337688094976272168 10.96334896566339978108 -38.34836292330653861882  59.64781822369570818410 10.96334896566339978108 -35.30558359467951845545  38.34836292330658125138 10.96334896566339978108 -65.73337688094974851083
+Triangle 8004005f 00ff66e5 59.64781822369570818410 10.96334896566339978108 -35.30558359467951845545  54.77937129789248160705 10.96334896566339978108 -32.87136013177790516693  38.34836292330658125138 10.96334896566339978108 -65.73337688094974851083
+Triangle 800400ce 00e5ff66 65.73337688094976272168 29.22002493742552786671 -47.47670090918760621435  59.64781822369570818410 10.96334896566339978108 -35.30558359467951845545  65.73337688094976272168 10.96334896566339978108 -38.34836292330653861882
+Triangle 80040079 00ff66e5 43.82536571483520759784 21.91735454872066313214 -65.73337688094974851083  47.47670090918764174148 29.22002493742551365585 -65.73337688094974851083  65.73337688094976272168 10.96334896566339978108 -65.73337688094974851083
+Triangle 80040079 00ff66e5 41.39114225193359430932 17.04890762291744010781 -65.73337688094974851083  43.82536571483520759784 21.91735454872066313214 -65.73337688094974851083  65.73337688094976272168 10.96334896566339978108 -65.73337688094974851083
+Triangle 80040079 00ff66e5 38.34836292330658125138 10.96334896566339978108 -65.73337688094974851083  41.39114225193359430932 17.04890762291744010781 -65.73337688094974851083  65.73337688094976272168 10.96334896566339978108 -65.73337688094974851083
+Triangle 80040071 00ff66e5 10.96334896566339978108 65.73337688094976272168 -38.34836292330660967309  17.04890762291742234424 65.73337688094976272168 -41.39114225193362273103  10.96334896566339978108 65.73337688094976272168 -65.73337688094974851083
+Triangle 80040056 00ff66e5 10.96334896566338912294 29.22002493742554207756 -47.47670090918761331977  10.96334896566339978108 65.73337688094976272168 -38.34836292330660967309  10.96334896566339978108 65.73337688094976272168 -65.73337688094974851083
+Triangle 80040071 00ff66e5 17.04890762291742234424 65.73337688094976272168 -41.39114225193362273103  21.91735454872064536858 65.73337688094976272168 -43.82536571483522891413  10.96334896566339978108 65.73337688094976272168 -65.73337688094974851083
+Triangle 80040071 00ff66e5 10.96334896566339978108 65.73337688094976272168 -65.73337688094974851083  21.91735454872064536858 65.73337688094976272168 -43.82536571483522891413  29.22002493742548523414 65.73337688094976272168 -47.47670090918765595234
+Triangle 80040079 00ff66e5 29.22002493742549589228 47.47670090918766305776 -65.73337688094974851083  17.04890762291740813339 41.39114225193362273103 -65.73337688094974851083  10.96334896566339978108 65.73337688094976272168 -65.73337688094974851083
+Triangle 80040056 00ff66e5 10.96334896566338912294 29.22002493742554207756 -47.47670090918761331977  10.96334896566339978108 65.73337688094976272168 -65.73337688094974851083  10.96334896566339978108 38.34836292330661677852 -65.73337688094974851083
+Triangle 80040079 00ff66e5 10.96334896566339978108 65.73337688094976272168 -65.73337688094974851083  17.04890762291740813339 41.39114225193362273103 -65.73337688094974851083  10.96334896566339978108 38.34836292330661677852 -65.73337688094974851083
+Triangle 8003007a 0066e5ff 27.38501395764321344473 0.00000000000000000000 -54.77002791528637715146  18.25667597176209966392 36.51335194352427748754 -54.77002791528637715146  30.42779328627023360809 6.08555865725405453759 -54.77002791528637715146
+Triangle 8003007a 0066e5ff 27.38501395764321344473 0.00000000000000000000 -54.77002791528637715146  10.95400558305726690378 32.86201674917186466018 -54.77002791528637715146  18.25667597176209966392 36.51335194352427748754 -54.77002791528637715146
+Triangle 800300b3 0066ff66 30.42779328627023360809 6.08555865725405453759 -54.77002791528637715146  18.25667597176214584920 0.00000000000000000000 -36.51335194352425617126  27.38501395764321344473 0.00000000000000000000 -54.77002791528637715146
+Triangle 80030068 0066e5ff 27.38501395764321344473 0.00000000000000000000 -54.77002791528637715146  18.25667597176214584920 0.00000000000000000000 -36.51335194352425617126  0.00000000000000000000 0.00000000000000000000 -54.77002791528637715146
+Triangle 8003007a 0066e5ff 0.00000000000000355271 27.38501395764322765558 -54.77002791528637715146  6.08555865725404032673 30.42779328627025492437 -54.77002791528637715146  27.38501395764321344473 0.00000000000000000000 -54.77002791528637715146
+Triangle 8003007a 0066e5ff 6.08555865725404032673 30.42779328627025492437 -54.77002791528637715146  10.95400558305726690378 32.86201674917186466018 -54.77002791528637715146  27.38501395764321344473 0.00000000000000000000 -54.77002791528637715146
+Triangle 8003007a 0066e5ff 27.38501395764321344473 0.00000000000000000000 -54.77002791528637715146  0.00000000000000000000 0.00000000000000000000 -54.77002791528637715146  0.00000000000000355271 27.38501395764322765558 -54.77002791528637715146
+Triangle 800300bc 0066ff66 0.00000000000000000000 18.25667597176214229648 -36.51335194352423485498  6.08555865725404032673 30.42779328627025492437 -54.77002791528637715146  0.00000000000000355271 27.38501395764322765558 -54.77002791528637715146
+Triangle 80030071 0066e5ff 0.00000000000000355271 27.38501395764322765558 -54.77002791528637715146  0.00000000000000000000 0.00000000000000000000 -54.77002791528637715146  0.00000000000000000000 18.25667597176214229648 -36.51335194352423485498
