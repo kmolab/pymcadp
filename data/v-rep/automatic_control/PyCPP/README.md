@@ -112,19 +112,21 @@ items = ('apple', 'blueberry', 'cherry', 'date', 'entawak')
 from math import factorial
 print(''.format())
 print('enum items'.format())
-print('{{'.format())
+print('{{'.format())  # }}
 for i, item in enumerate(items):
     if item == items[-1]:
         print('    {} = {}'.format(item, factorial(i+1)))
     else:
         print('    {} = {},'.format(item, factorial(i+1)))
+# {{
 print('}};'.format())
 print(''.format())
 print('int main(int argc, char **argv)'.format())
-print('{{'.format())
+print('{{'.format()) # }}
 for i, item in enumerate(items):
     print('    int {} = {};'.format(item, factorial(i+1)))
 print('    return 0;'.format())
+# {{
 print('}}'.format())
 print(''.format())
 ```
