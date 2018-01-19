@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet type="text/xsl" href="callbacks.xsl"?>
+
+<plugin name="SurfaceReconstruction" short-name="SurfRec" author="federico.ferri.it@gmail.com">
+    <description>API functions for surface reconstruction from point clouds</description>
+    <command name="reconstruct_scale_space">
+        <description>Reconstruct a mesh from the given point cloud</description>
+        <params>
+            <param name="pointCloudHandle" type="int">
+                <description>handle of the point cloud</description>
+            </param>
+            <param name="iterations" type="int" default="4">
+                <description>number of iterations</description>
+            </param>
+            <param name="neighbors" type="int" default="12">
+                <description>number of neighbors a point's neighborhood should contain on average</description>
+            </param>
+            <param name="samples" type="int" default="300">
+                <description>number of points sampled to estimate the neighborhood radius</description>
+            </param>
+            <param name="squared_radius" type="float" default="-1.0">
+                <description>neighborhood squared radius used for principal component analysis. if this is positive, neighbors and samples will be ignored</description>
+            </param>
+        </params>
+        <return>
+            <param name="shapeHandle" type="int">
+                <description>handle of the shape with the reconstructed mesh, or -1 if failed</description>
+            </param>
+        </return>
+    </command>
+</plugin>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet type="text/xsl" href="callbacks.xsl"?>
+
+<plugin name="SDL" short-name="SDL" author="federico.ferri.it@gmail.com">
+    <description>Wrapper for SDL.</description>
+    <command name="init">
+        <description>Initialize SDL.</description>
+        <categories>
+            <category name="general" />
+        </categories>
+        <see-also>
+        </see-also>
+        <params>
+        </params>
+        <return>
+        </return>
+    </command>
+    <command name="quit">
+        <description>Quit SDL.</description>
+        <categories>
+            <category name="general" />
+        </categories>
+        <see-also>
+        </see-also>
+        <params>
+        </params>
+        <return>
+        </return>
+    </command>
+    <command name="gameControllerAddMappingsFromFile">
+        <description>Load game controller mappings.</description>
+        <categories>
+            <category name="input" />
+        </categories>
+        <see-also>
+        </see-also>
+        <params>
+            <param name="filename" type="string">
+                <description>mapping file</description>
+            </param>
+        </params>
+        <return>
+        </return>
+    </command>
+    <command name="numJoysticks">
+        <description>Return number of joysticks.</description>
+        <categories>
+            <category name="input" />
+        </categories>
+        <see-also>
+        </see-also>
+        <params>
+        </params>
+        <return>
+            <param name="num" type="int">
+                <description>number of joysticks</description>
+            </param>
+        </return>
+    </command>
+    <command name="joystickName">
+        <description>Get joystick name.</description>
+        <categories>
+            <category name="input" />
+        </categories>
+        <see-also>
+        </see-also>
+        <params>
+            <param name="index" type="int">
+                <description>zero-based device index</description>
+            </param>
+        </params>
+        <return>
+            <param name="name" type="string">
+                <description>joystick name</description>
+            </param>
+        </return>
+    </command>
+    <command name="joystickOpen">
+        <description>Open joystick device.</description>
+        <categories>
+            <category name="input" />
+        </categories>
+        <see-also>
+        </see-also>
+        <params>
+            <param name="index" type="int">
+                <description>zero-based device index</description>
+            </param>
+        </params>
+        <return>
+            <param name="handle" type="string">
+                <description>joystick device handle</description>
+            </param>
+        </return>
+    </command>
+    <command name="joystickClose">
+        <description>Close joystick device.</description>
+        <categories>
+            <category name="input" />
+        </categories>
+        <see-also>
+        </see-also>
+        <params>
+            <param name="handle" type="string">
+                <description>joystick device handle</description>
+            </param>
+        </params>
+        <return>
+        </return>
+    </command>
+    <command name="pollEvent">
+        <description>Poll for events.</description>
+        <categories>
+            <category name="input" />
+        </categories>
+        <see-also>
+        </see-also>
+        <params>
+        </params>
+        <return>
+            <param name="success" type="bool">
+                <description>true if an event was read</description>
+            </param>
+            <param name="event" type="Event">
+                <description>event data</description>
+            </param>
+        </return>
+    </command>
+    <enum name="EventType" item-prefix="event_type_" base="145200">
+        <item name="joy_axis_motion" />
+    </enum>
+    <struct name="Event">
+        <description>event data</description>
+        <categories>
+            <category name="input" />
+        </categories>
+        <see-also>
+            <enum-ref name="EventType" />
+        </see-also>
+        <param name="type" type="int">
+            <description>event type. see <enum-ref name="EventType"/>.</description>
+        </param>
+        <param name="controller" type="int">
+            <description>which controller</description>
+        </param>
+        <param name="axis" type="int">
+            <description>which axis</description>
+        </param>
+        <param name="value" type="int">
+            <description>value</description>
+        </param>
+    </struct>
+</plugin>
